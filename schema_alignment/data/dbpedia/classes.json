@@ -1,0 +1,4992 @@
+{
+  "NuclearPowerStation": {
+    "title": "NuclearPowerStation",
+    "subClassOf": [
+      "PowerStation"
+    ]
+  },
+  "Bird": {
+    "title": "Bird",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "PoliticalParty": {
+    "title": "PoliticalParty",
+    "subClassOf": [
+      "Organisation"
+    ],
+    "description": "for example: Democratic_Party_(United_States)"
+  },
+  "Family": {
+    "title": "Family",
+    "subClassOf": [
+      "Agent"
+    ],
+    "description": "A group of people related by common descent, a lineage."
+  },
+  "Noble": {
+    "title": "Noble",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Camera": {
+    "title": "Camera",
+    "description": "A camera is the device used to take photos. The most widely used cameras today, for amateur or professional use, can be divided into two main categories: compact cameras and single-lens reflex cameras. Distinguished, depending on their technology, are classic film cameras and digital cameras.",
+    "subClassOf": [
+      "Device"
+    ]
+  },
+  "Earthquake": {
+    "title": "Earthquake",
+    "subClassOf": [
+      "NaturalEvent"
+    ],
+    "description": "the result of a sudden release of energy in the Earth's crust that creates seismic waves"
+  },
+  "Company": {
+    "title": "Company",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "LaunchPad": {
+    "title": "LaunchPad",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "Resume": {
+    "title": "Resume",
+    "description": "A Resume describes a persons work experience and skill set.",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "Skyscraper": {
+    "title": "Skyscraper",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "SportsSeason": {
+    "title": "SportsSeason",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "MovieDirector": {
+    "title": "MovieDirector",
+    "description": "a person who oversees making of film.",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Artery": {
+    "title": "Artery",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "SubMunicipality": {
+    "title": "SubMunicipality",
+    "description": "An administrative body governing a territorial unity on the lowest level, administering part of a municipality",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "Population": {
+    "title": "Population",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "ArtificialSatellite": {
+    "title": "ArtificialSatellite",
+    "description": "Satellite (space travel), an artificial spacecraft that orbits a celestial body in a fixed orbit",
+    "subClassOf": [
+      "Satellite"
+    ]
+  },
+  "Database": {
+    "title": "Database",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "AmericanFootballLeague": {
+    "title": "AmericanFootballLeague",
+    "description": "A set of sports teams that compete against each other in American football.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Song": {
+    "title": "Song",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "BaseballLeague": {
+    "title": "BaseballLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in Baseball."
+  },
+  "Activity": {
+    "title": "Activity",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "BaseballPlayer": {
+    "title": "BaseballPlayer",
+    "description": "The athlete (male or female) who participates in a baseball team.",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Racecourse": {
+    "title": "Racecourse",
+    "description": "The racetrack, an alternative term for the racetrack between horses, is found in countries such as England, Australia, Hong Kong and the United Arab Emirates.",
+    "subClassOf": [
+      "RaceTrack"
+    ]
+  },
+  "Unknown": {
+    "title": "Unknown",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "RugbyLeague": {
+    "title": "RugbyLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "A group of sports teams that compete against each other in rugby."
+  },
+  "Casino": {
+    "title": "Casino",
+    "description": "A casino is a place where we can play games of chance by betting money.",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "Canoeist": {
+    "title": "Canoeist",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Cat": {
+    "title": "Cat",
+    "subClassOf": [
+      "Mammal"
+    ]
+  },
+  "Year": {
+    "title": "Year",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "SportsEvent": {
+    "title": "SportsEvent",
+    "description": "a event of competitive physical activity",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "Region": {
+    "title": "Region",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "Annotation": {
+    "title": "Annotation",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "BasketballPlayer": {
+    "title": "BasketballPlayer",
+    "subClassOf": [
+      "Athlete"
+    ],
+    "description": "An athlete (male or female) who plays the sport of basketball."
+  },
+  "Philosopher": {
+    "title": "Philosopher",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Holiday": {
+    "title": "Holiday",
+    "description": "A public holiday is a day of civil or religious celebration, or commemorating an event.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Train": {
+    "title": "Train",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Organisation": {
+    "title": "Organisation",
+    "subClassOf": [
+      "Agent"
+    ]
+  },
+  "MilitaryConflict": {
+    "title": "MilitaryConflict",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "Opera": {
+    "title": "Opera",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "VideoGame": {
+    "title": "VideoGame",
+    "description": "A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a video device.",
+    "subClassOf": [
+      "Software"
+    ]
+  },
+  "Planet": {
+    "title": "Planet",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "OlympicEvent": {
+    "title": "OlympicEvent",
+    "subClassOf": [
+      "Olympics"
+    ]
+  },
+  "SnookerChamp": {
+    "title": "SnookerChamp",
+    "subClassOf": [
+      "SnookerPlayer"
+    ],
+    "description": "An athlete that plays snooker and won the world championship at least once"
+  },
+  "Letter": {
+    "title": "Letter",
+    "subClassOf": [
+      "WrittenWork"
+    ],
+    "description": "A letter of the alphabet."
+  },
+  "Software": {
+    "title": "Software",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "ArtistDiscography": {
+    "title": "ArtistDiscography",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "SpeedwayTeam": {
+    "title": "SpeedwayTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "Cave": {
+    "title": "Cave",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "MotorcycleRider": {
+    "title": "MotorcycleRider",
+    "subClassOf": [
+      "MotorsportRacer"
+    ]
+  },
+  "DigitalCamera": {
+    "title": "DigitalCamera",
+    "description": "A digital camera is a device that captures images electronically, as opposed to a conventional camera, which captures images through chemical and mechanical processes.",
+    "subClassOf": [
+      "Camera"
+    ]
+  },
+  "Disease": {
+    "title": "Disease",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Mammal": {
+    "title": "Mammal",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "University": {
+    "title": "University",
+    "subClassOf": [
+      "EducationalInstitution"
+    ]
+  },
+  "Birth": {
+    "title": "Birth",
+    "description": "someone's birth as a type of personal event",
+    "subClassOf": [
+      "PersonalEvent"
+    ]
+  },
+  "Regency": {
+    "title": "Regency",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ],
+    "description": "administrative area under a province"
+  },
+  "Taxon": {
+    "title": "Taxon",
+    "subClassOf": [
+      "TopicalConcept"
+    ],
+    "description": "a category within a classification system for Species"
+  },
+  "Lighthouse": {
+    "title": "Lighthouse",
+    "subClassOf": [
+      "Tower"
+    ]
+  },
+  "List": {
+    "title": "List",
+    "description": "A general list of items.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Canal": {
+    "title": "Canal",
+    "description": "a man-made water channel",
+    "subClassOf": [
+      "Stream"
+    ]
+  },
+  "TeamSport": {
+    "title": "TeamSport",
+    "subClassOf": [
+      "Sport"
+    ],
+    "description": "A team sport is commonly defined as a sport that is being played by competing teams"
+  },
+  "CardinalDirection": {
+    "title": "CardinalDirection",
+    "subClassOf": [
+      "TopicalConcept"
+    ],
+    "description": "One of the four main directions on a compass or any other system to determine a geographical position"
+  },
+  "CyclingRace": {
+    "title": "CyclingRace",
+    "subClassOf": [
+      "Race"
+    ]
+  },
+  "BasketballLeague": {
+    "title": "BasketballLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in Basketball"
+  },
+  "TimePeriod": {
+    "title": "TimePeriod",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Tower": {
+    "title": "Tower",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ],
+    "description": "A Tower is a kind of structure (not necessarily a building) that is higher than the rest"
+  },
+  "ElectricalSubstation": {
+    "title": "ElectricalSubstation",
+    "subClassOf": [
+      "Station"
+    ]
+  },
+  "Magazine": {
+    "title": "Magazine",
+    "description": "A popular magazine is a type of magazine that is aimed at a very broad target group and does not require any specialist knowledge or other specific characteristics. Popular magazines are intended to provide entertainment and information and are intended to be easy to read.",
+    "subClassOf": [
+      "PeriodicalLiterature"
+    ]
+  },
+  "Politician": {
+    "title": "Politician",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "NobelPrize": {
+    "title": "NobelPrize",
+    "subClassOf": [
+      "Award"
+    ]
+  },
+  "Arena": {
+    "title": "Arena",
+    "description": "An arena is an enclosed area, often circular or oval-shaped, designed to showcase theater, musical performances, or sporting events. (http://en.wikipedia.org/wiki/Arena)",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Bridge": {
+    "title": "Bridge",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ],
+    "description": "A bridge is a structure built to span physical obstacles such as a body of water, valley, or road, for the purpose of providing passage over the obstacle (http://en.wikipedia.org/wiki/Bridge)."
+  },
+  "ChemicalSubstance": {
+    "title": "ChemicalSubstance",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Law": {
+    "title": "Law",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "BadmintonPlayer": {
+    "title": "BadmintonPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "College": {
+    "title": "College",
+    "subClassOf": [
+      "EducationalInstitution"
+    ]
+  },
+  "Swimmer": {
+    "title": "Swimmer",
+    "description": "a trained athlete who participates in swimming meets",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Brain": {
+    "title": "Brain",
+    "description": "The basic organ of the nervous system of animals, which determines unconscious and conscious functions. The term is now also used to describe the most defining elements of a machine or a set of things.",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "Painting": {
+    "title": "Painting",
+    "description": "Describes a painting to assign picture entries in wikipedia to artists.",
+    "subClassOf": [
+      "Artwork"
+    ]
+  },
+  "AdultActor": {
+    "title": "AdultActor",
+    "description": "A porn or pornographic actor or actress is a pornographic actor or actress who acts in pornographic films..&lt;ref&gt;https://gl.wikipedia.org/wiki/Actor_pornogr%C3%A1fico&lt; /ref&gt;",
+    "subClassOf": [
+      "Actor"
+    ]
+  },
+  "SoccerLeagueSeason": {
+    "title": "SoccerLeagueSeason",
+    "subClassOf": [
+      "SportsTeamSeason"
+    ]
+  },
+  "Lake": {
+    "title": "Lake",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "SiteOfSpecialScientificInterest": {
+    "title": "SiteOfSpecialScientificInterest",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "A Site of Special Scientific Interest (SSSI) is a conservation designation denoting a protected area in the United Kingdom. SSSIs are the basic building block of site-based nature conservation legislation and most other legal nature/geological conservation designations in Great Britain are based upon them, including National Nature Reserves, Ramsar Sites, Special Protection Areas, and Special Areas of Conservation."
+  },
+  "Fungus": {
+    "title": "Fungus",
+    "subClassOf": [
+      "Eukaryote"
+    ]
+  },
+  "Event": {
+    "title": "Event",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "FootballMatch": {
+    "title": "FootballMatch",
+    "description": "a competition between two football teams",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "SkiResort": {
+    "title": "SkiResort",
+    "subClassOf": [
+      "SkiArea"
+    ],
+    "description": "Ski resort is used to describe a holiday location with the necessary accommodation facilities and practice of the winter sport of skiing"
+  },
+  "MusicComposer": {
+    "title": "MusicComposer",
+    "description": "a person who creates music.",
+    "subClassOf": [
+      "Writer"
+    ]
+  },
+  "Sculptor": {
+    "title": "Sculptor",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "Ship": {
+    "title": "Ship",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Spacecraft": {
+    "title": "Spacecraft",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Hotel": {
+    "title": "Hotel",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "Project": {
+    "title": "Project",
+    "description": "A project is a temporary endeavor undertaken to achieve defined objectives.",
+    "subClassOf": [
+      "UnitOfWork"
+    ]
+  },
+  "Drama": {
+    "title": "Drama",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "Animal": {
+    "title": "Animal",
+    "subClassOf": [
+      "Eukaryote"
+    ]
+  },
+  "ChemicalElement": {
+    "title": "ChemicalElement",
+    "subClassOf": [
+      "ChemicalSubstance"
+    ]
+  },
+  "SolarEclipse": {
+    "title": "SolarEclipse",
+    "subClassOf": [
+      "NaturalEvent"
+    ],
+    "description": "A solar eclipse is the phenomenon in which the Moon intervenes between the Sun and the Earth, causing certain areas of the Earth to receive less light than usual."
+  },
+  "Professor": {
+    "title": "Professor",
+    "subClassOf": [
+      "Scientist"
+    ]
+  },
+  "MountainPass": {
+    "title": "MountainPass",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "a path that allows the crossing of a mountain chain. It is usually a saddle point in between two areas of higher elevation"
+  },
+  "Medician": {
+    "title": "Medician",
+    "subClassOf": [
+      "Scientist"
+    ]
+  },
+  "Rebellion": {
+    "title": "Rebellion",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "VicePresident": {
+    "title": "VicePresident",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "AdministrativeRegion": {
+    "title": "AdministrativeRegion",
+    "description": "A PopulatedPlace under the jurisdiction of an administrative body. This body may administer either a whole region or one or more adjacent Settlements (town administration)",
+    "subClassOf": [
+      "Region"
+    ]
+  },
+  "MusicGenre": {
+    "title": "MusicGenre",
+    "subClassOf": [
+      "Genre"
+    ]
+  },
+  "Satellite": {
+    "title": "Satellite",
+    "description": "An astronomical object that orbits a planet or star.",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "Surname": {
+    "title": "Surname",
+    "subClassOf": [
+      "Name"
+    ]
+  },
+  "Presenter": {
+    "title": "Presenter",
+    "description": "TV or radio show presenter",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Watermill": {
+    "title": "Watermill",
+    "subClassOf": [
+      "Mill"
+    ],
+    "description": "A watermill is a structure that uses a water wheel or turbine to drive a mechanical process such as flour, lumber or textile production, or metal shaping (rolling, grinding or wire drawing)"
+  },
+  "Producer": {
+    "title": "Producer",
+    "subClassOf": [
+      "Person"
+    ],
+    "description": "a person who manages movies or music recordings."
+  },
+  "HandballTeam": {
+    "title": "HandballTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "Weapon": {
+    "title": "Weapon",
+    "subClassOf": [
+      "Product",
+      "Device"
+    ]
+  },
+  "Type": {
+    "title": "Type",
+    "description": "category within a classification system",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "HistoricalCountry": {
+    "title": "HistoricalCountry",
+    "description": "A place which used to be a country.",
+    "subClassOf": [
+      "Country"
+    ]
+  },
+  "City": {
+    "title": "City",
+    "description": "It is currently considered an urban entity with a high population density in which industry and services predominate.",
+    "subClassOf": [
+      "Settlement"
+    ]
+  },
+  "ChessPlayer": {
+    "title": "ChessPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "TennisTournament": {
+    "title": "TennisTournament",
+    "subClassOf": [
+      "Tournament"
+    ]
+  },
+  "Amphibian": {
+    "title": "Amphibian",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "Continent": {
+    "title": "Continent",
+    "description": "A continent is a large area of \u200b\u200bland that has emerged from the Earth's crust; in fact, it is the largest of the divisions into which the emerged lands are divided.",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "Case": {
+    "title": "Case",
+    "description": "A case is the whole of work done to arrive at an administrative or business decision. A case is usually expressed in a collection of documents.",
+    "subClassOf": [
+      "UnitOfWork"
+    ]
+  },
+  "Organ": {
+    "title": "Organ",
+    "description": "All types and sizes of organs",
+    "subClassOf": [
+      "Instrument"
+    ]
+  },
+  "Biomolecule": {
+    "title": "Biomolecule",
+    "description": "equivalent to http://ccdb.ucsd.edu/NIF/BIRNLex-OBO-UBO.owl#birnlex_22.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "ProgrammingLanguage": {
+    "title": "ProgrammingLanguage",
+    "subClassOf": [
+      "Language"
+    ]
+  },
+  "Skater": {
+    "title": "Skater",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "Muscle": {
+    "title": "Muscle",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "Document": {
+    "title": "Document",
+    "description": "Any document",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "WorldHeritageSite": {
+    "title": "WorldHeritageSite",
+    "description": "A UNESCO World Heritage Site is a site (such as a forest, mountain, lake, desert, monument, building, complex, or city) that is on the list that is maintained by the international World Heritage Programme administered by the UNESCO World Heritage Committee, composed of 21 state parties which are elected by their General Assembly for a four-year term. A World Heritage Site is a place of either cultural or physical significance.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "RomanEmperor": {
+    "title": "RomanEmperor",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "HorseRider": {
+    "title": "HorseRider",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Blazon": {
+    "title": "Blazon",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "GovernmentAgency": {
+    "title": "GovernmentAgency",
+    "description": "An authority is a state institution that is responsible, in the broadest sense, for carrying out the tasks of the administration of the state and, in particular, for the services provided by the state to its citizens. An authority receives its mandate from the laws of the state in which and for which it operates.",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Memorial": {
+    "title": "Memorial",
+    "subClassOf": [
+      "Monument"
+    ],
+    "description": "A monument erected to commemorate a person, an event and/or group. In the case of a person, this might be a grave or tomb."
+  },
+  "Airport": {
+    "title": "Airport",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "Wine": {
+    "title": "Wine",
+    "subClassOf": [
+      "Beverage"
+    ]
+  },
+  "HorseRace": {
+    "title": "HorseRace",
+    "subClassOf": [
+      "Race"
+    ]
+  },
+  "Comedian": {
+    "title": "Comedian",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "VolleyballLeague": {
+    "title": "VolleyballLeague",
+    "description": "A group of sports teams that compete against each other in volleyball.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Fashion": {
+    "title": "Fashion",
+    "description": "type or code of dressing, according to the standards of the time or individual design.",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "Hospital": {
+    "title": "Hospital",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "Galaxy": {
+    "title": "Galaxy",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "BoxingCategory": {
+    "title": "BoxingCategory",
+    "subClassOf": [
+      "Boxing"
+    ]
+  },
+  "SkiArea": {
+    "title": "SkiArea",
+    "subClassOf": [
+      "SportFacility"
+    ]
+  },
+  "Cemetery": {
+    "title": "Cemetery",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "A burial place"
+  },
+  "Journalist": {
+    "title": "Journalist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Community": {
+    "title": "Community",
+    "description": "Community is a group of living organisms, people, plants or animals living in a common environment.",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "ChemicalCompound": {
+    "title": "ChemicalCompound",
+    "subClassOf": [
+      "ChemicalSubstance"
+    ]
+  },
+  "BroadcastNetwork": {
+    "title": "BroadcastNetwork",
+    "description": "A broadcast network is an organization, such as a corporation or other association, that provides live or recorded content, such as movies, newscasts, sports, and public affairs programs for broadcast over a group of radio or television stations. (http://en.wikipedia.org/wiki/Broadcast_network - 28/03/2011)",
+    "subClassOf": [
+      "Broadcaster"
+    ]
+  },
+  "Species": {
+    "title": "Species",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Model": {
+    "title": "Model",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "School": {
+    "title": "School",
+    "subClassOf": [
+      "EducationalInstitution"
+    ]
+  },
+  "Monastery": {
+    "title": "Monastery",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ],
+    "description": "A monastery is a type of building for the seclusion of religious, who live there in common. Originally a monastery was the cell of a single monk, called in this case hermit or anchorite."
+  },
+  "Archipelago": {
+    "title": "Archipelago",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "Forest": {
+    "title": "Forest",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "A natural place more or less densely grown with trees"
+  },
+  "Engineer": {
+    "title": "Engineer",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "AustralianRulesFootballPlayer": {
+    "title": "AustralianRulesFootballPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Game": {
+    "title": "Game",
+    "description": "a structured activity, usually undertaken for enjoyment and sometimes used as an educational tool",
+    "subClassOf": [
+      "Activity"
+    ]
+  },
+  "Port": {
+    "title": "Port",
+    "description": "a location on a coast or shore containing one or more harbors where ships can dock and transfer people or cargo to or from land.",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "SoccerTournament": {
+    "title": "SoccerTournament",
+    "subClassOf": [
+      "Tournament"
+    ]
+  },
+  "Chancellor": {
+    "title": "Chancellor",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "Broadcaster": {
+    "title": "Broadcaster",
+    "description": "A broadcaster is an organization responsible for producing radio or television programs and/or transmitting them",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "SpeedwayLeague": {
+    "title": "SpeedwayLeague",
+    "description": "A group of sports teams that compete against each other in motorcycle speedway racing.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "RugbyClub": {
+    "title": "RugbyClub",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "ComedyGroup": {
+    "title": "ComedyGroup",
+    "subClassOf": [
+      "Group"
+    ]
+  },
+  "VoiceActor": {
+    "title": "VoiceActor",
+    "subClassOf": [
+      "Actor"
+    ]
+  },
+  "Polyhedron": {
+    "title": "Polyhedron",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Gnetophytes": {
+    "title": "Gnetophytes",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "MotorcycleRacingLeague": {
+    "title": "MotorcycleRacingLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams or bikerider that compete against each other in Motorcycle Racing"
+  },
+  "AcademicConference": {
+    "title": "AcademicConference",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "Award": {
+    "title": "Award",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Ski_jumper": {
+    "title": "Ski_jumper",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "CountrySeat": {
+    "title": "CountrySeat",
+    "description": "A country estate is an estate.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "PopulatedPlace": {
+    "title": "PopulatedPlace",
+    "description": "A densely populated area is the area or place with a large number of buildings and a large permanent population, compared to the geographical area it occupies (metropolis, city or village).",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "Coach": {
+    "title": "Coach",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Religious": {
+    "title": "Religious",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "ResearchProject": {
+    "title": "ResearchProject",
+    "description": "A research project is a scientific investigation, usually using scientific methods, to achieve defined objectives.",
+    "subClassOf": [
+      "Project"
+    ]
+  },
+  "Beach": {
+    "title": "Beach",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "A shoreline of a sea or a large river, formed by sandy areas on an almost flat surface."
+  },
+  "GatedCommunity": {
+    "title": "GatedCommunity",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "Synagogue": {
+    "title": "Synagogue",
+    "description": "A synagogue is a Jewish place of worship.",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ]
+  },
+  "Capital": {
+    "title": "Capital",
+    "subClassOf": [
+      "City"
+    ],
+    "description": "A municipality enjoying primary status in a state, country, province, or other region as its seat of government."
+  },
+  "RailwayTunnel": {
+    "title": "RailwayTunnel",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ]
+  },
+  "PublicService": {
+    "title": "PublicService",
+    "subClassOf": [
+      "owl#Thing"
+    ],
+    "description": "They are the services offered by state structures"
+  },
+  "Aircraft": {
+    "title": "Aircraft",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "WineRegion": {
+    "title": "WineRegion",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "SpaceMission": {
+    "title": "SpaceMission",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "IceHockeyPlayer": {
+    "title": "IceHockeyPlayer",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "BasketballTeam": {
+    "title": "BasketballTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "HotSpring": {
+    "title": "HotSpring",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "Eukaryote": {
+    "title": "Eukaryote",
+    "subClassOf": [
+      "Species"
+    ]
+  },
+  "Lymph": {
+    "title": "Lymph",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "Athlete": {
+    "title": "Athlete",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Skier": {
+    "title": "Skier",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "Group": {
+    "title": "Group",
+    "description": "A usually informal group of people.",
+    "subClassOf": [
+      "Organisation",
+      "Organization"
+    ]
+  },
+  "PoliticalFunction": {
+    "title": "PoliticalFunction",
+    "subClassOf": [
+      "PersonFunction"
+    ]
+  },
+  "Mill": {
+    "title": "Mill",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ],
+    "description": "a unit operation designed to break a solid material into smaller pieces"
+  },
+  "Shrine": {
+    "title": "Shrine",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ]
+  },
+  "WaterwayTunnel": {
+    "title": "WaterwayTunnel",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ]
+  },
+  "Church": {
+    "title": "Church",
+    "description": "This is used for church buildings, not any other meaning of church.",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ]
+  },
+  "Cricketer": {
+    "title": "Cricketer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "VolleyballPlayer": {
+    "title": "VolleyballPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Election": {
+    "title": "Election",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "Cycad": {
+    "title": "Cycad",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "ArcherPlayer": {
+    "title": "ArcherPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Dam": {
+    "title": "Dam",
+    "subClassOf": [
+      "Infrastructure"
+    ],
+    "description": "A dam is part of a landscape infrastructure, like waterworks (canals) or roads, much more than a building, though, of course, it has been built, too."
+  },
+  "Person": {
+    "title": "Person",
+    "subClassOf": [
+      "Agent"
+    ]
+  },
+  "Atoll": {
+    "title": "Atoll",
+    "subClassOf": [
+      "Island"
+    ]
+  },
+  "Area": {
+    "title": "Area",
+    "subClassOf": [
+      "owl#Thing"
+    ],
+    "description": "Area of something. Use \"value\" for the value, \"min\" & \"max\" for a range (if uncertain) and \"rank\" (integer) for the rank of that thing amongst its siblings (eg regions ordered by area)"
+  },
+  "SportFacility": {
+    "title": "SportFacility",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "SerialKiller": {
+    "title": "SerialKiller",
+    "subClassOf": [
+      "Murderer"
+    ]
+  },
+  "AnatomicalStructure": {
+    "title": "AnatomicalStructure",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Congressman": {
+    "title": "Congressman",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "CollegeCoach": {
+    "title": "CollegeCoach",
+    "subClassOf": [
+      "Coach"
+    ]
+  },
+  "Tunnel": {
+    "title": "Tunnel",
+    "description": "A tunnel is an underground gallery providing passage to a communication route (railway, canal, road, footpath). Related to tunnels by their method of construction are large underground hydraulic works, such as aqueducts, collectors and emissaries intended either for the supply or evacuation of water from large centers and certain conduits established in connection with dams and hydroelectric plants. (http://fr.wikipedia.org/wiki/Tunnel).",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Economist": {
+    "title": "Economist",
+    "description": "The term economist refers to a person who is an expert in economic science.",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Fiefdom": {
+    "title": "Fiefdom",
+    "subClassOf": [
+      "HistoricalAreaOfAuthority"
+    ],
+    "description": "The territory under the authority of a feudal lord"
+  },
+  "ClassicalMusicArtist": {
+    "title": "ClassicalMusicArtist",
+    "subClassOf": [
+      "MusicalArtist"
+    ],
+    "description": "Ludwig van Beethoven, German composer and pianist, was a great classical music artist."
+  },
+  "Guitarist": {
+    "title": "Guitarist",
+    "subClassOf": [
+      "Instrumentalist"
+    ]
+  },
+  "Poet": {
+    "title": "Poet",
+    "subClassOf": [
+      "Writer"
+    ]
+  },
+  "RacingDriver": {
+    "title": "RacingDriver",
+    "subClassOf": [
+      "MotorsportRacer"
+    ]
+  },
+  "State": {
+    "title": "State",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "Dancer": {
+    "title": "Dancer",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "BrownDwarf": {
+    "title": "BrownDwarf",
+    "subClassOf": [
+      "Star"
+    ]
+  },
+  "UnitOfWork": {
+    "title": "UnitOfWork",
+    "subClassOf": [
+      "owl#Thing"
+    ],
+    "description": "This class is meant to convey the notion of an amount work to be done. It is different from Activity in that it has a definite end and is being measured."
+  },
+  "Article": {
+    "title": "Article",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "ArchitecturalStructure": {
+    "title": "ArchitecturalStructure",
+    "description": "A building is a structure erected by humans with static contact with the ground. It is usually designed for a long-term use (http://de.wikipedia.org/wiki/Bauwerk).",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "Locomotive": {
+    "title": "Locomotive",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "ClericalOrder": {
+    "title": "ClericalOrder",
+    "description": "A monastic order is an order of religious, men or women, who have united around a common belief and monastic rule to which they are bound, and who live together permanently within one and the same local community, a monastery or a temple. Several monasteries of like-minded religious together form a monastic order.",
+    "subClassOf": [
+      "ReligiousOrganisation"
+    ]
+  },
+  "Archive": {
+    "title": "Archive",
+    "description": "The collection of documents related to a person or organization.",
+    "subClassOf": [
+      "CollectionOfValuables"
+    ]
+  },
+  "TelevisionHost": {
+    "title": "TelevisionHost",
+    "subClassOf": [
+      "Presenter"
+    ]
+  },
+  "HistoricalSettlement": {
+    "title": "HistoricalSettlement",
+    "subClassOf": [
+      "Settlement"
+    ],
+    "description": "A place which used to be a city or town or village."
+  },
+  "Single": {
+    "title": "Single",
+    "description": "In music, a single or record single is a type of release, typically a recording of fewer tracks than an LP or a CD.",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "CanadianFootballPlayer": {
+    "title": "CanadianFootballPlayer",
+    "subClassOf": [
+      "GridironFootballPlayer"
+    ]
+  },
+  "FieldHockeyLeague": {
+    "title": "FieldHockeyLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in field hockey"
+  },
+  "GolfLeague": {
+    "title": "GolfLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "Golfplayer that compete against each other in Golf"
+  },
+  "MilitaryUnit": {
+    "title": "MilitaryUnit",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "ProtectedArea": {
+    "title": "ProtectedArea",
+    "description": "This class indicates areas with the status 'protected'. So it is not really a class, but should be an attribute",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "Museum": {
+    "title": "Museum",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "Humorist": {
+    "title": "Humorist",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "Ambassador": {
+    "title": "Ambassador",
+    "description": "An ambassador is the highest-level diplomatic official accredited to a foreign state or international organization.&lt;ref&gt;https://gl.wikipedia.org/wiki/Embaixador&lt;/ref&gt;",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "XMLSchema#gMonthDay": {
+    "title": "XMLSchema#gMonthDay"
+  },
+  "SpeedwayRider": {
+    "title": "SpeedwayRider",
+    "subClassOf": [
+      "MotorcycleRider"
+    ]
+  },
+  "Relationship": {
+    "title": "Relationship",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "ComicsCharacter": {
+    "title": "ComicsCharacter",
+    "subClassOf": [
+      "FictionalCharacter"
+    ]
+  },
+  "GeologicalPeriod": {
+    "title": "GeologicalPeriod",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "Biologist": {
+    "title": "Biologist",
+    "subClassOf": [
+      "Scientist"
+    ]
+  },
+  "Airline": {
+    "title": "Airline",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "GivenName": {
+    "title": "GivenName",
+    "subClassOf": [
+      "Name"
+    ]
+  },
+  "RaceTrack": {
+    "title": "RaceTrack",
+    "subClassOf": [
+      "SportFacility"
+    ]
+  },
+  "Legislature": {
+    "title": "Legislature",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Vein": {
+    "title": "Vein",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "Statistic": {
+    "title": "Statistic",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "CoalPit": {
+    "title": "CoalPit",
+    "subClassOf": [
+      "Mine"
+    ],
+    "description": "A coal pit is a place where charcoal is or was extracted"
+  },
+  "HandballLeague": {
+    "title": "HandballLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in Handball"
+  },
+  "ControlledDesignationOfOriginWine": {
+    "title": "ControlledDesignationOfOriginWine",
+    "description": "A quality assurance label for wines",
+    "subClassOf": [
+      "Wine"
+    ]
+  },
+  "WrittenWork": {
+    "title": "WrittenWork",
+    "subClassOf": [
+      "Work"
+    ],
+    "description": "A written product is any type of text that is written to be read (e.g. books, newspapers, articles)."
+  },
+  "AthleticsPlayer": {
+    "title": "AthleticsPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "AmericanFootballTeam": {
+    "title": "AmericanFootballTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "MusicFestival": {
+    "title": "MusicFestival",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "AmericanFootballCoach": {
+    "title": "AmericanFootballCoach",
+    "subClassOf": [
+      "Coach"
+    ]
+  },
+  "Factory": {
+    "title": "Factory",
+    "subClassOf": [
+      "Building"
+    ],
+    "description": "A factory (previously manufactory) or manufacturing plant is an industrial site, usually consisting of buildings and machinery, or more commonly a complex having several buildings, where workers manufacture goods or operate machines processing one product into another."
+  },
+  "ConcentrationCamp": {
+    "title": "ConcentrationCamp",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "camp in which people are imprisoned or confined, commonly in large groups, without trial.\nIncludes concentration, extermination, transit, detention, internment, (forced) labor, prisoner-of-war, Gulag; Nazi camps related to the Holocaust"
+  },
+  "LacrosseLeague": {
+    "title": "LacrosseLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in Lacrosse."
+  },
+  "Cleric": {
+    "title": "Cleric",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Mosque": {
+    "title": "Mosque",
+    "description": "A mosque is a place of worship where Muslims gather for communal prayers.",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ]
+  },
+  "Currency": {
+    "title": "Currency",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "ReligiousBuilding": {
+    "title": "ReligiousBuilding",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "Contest": {
+    "title": "Contest",
+    "subClassOf": [
+      "Competition"
+    ]
+  },
+  "CrossCountrySkier": {
+    "title": "CrossCountrySkier",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "Artwork": {
+    "title": "Artwork",
+    "description": "A work of art, artwork, art piece, or art object is an aesthetic item or artistic creation.",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "FilmFestival": {
+    "title": "FilmFestival",
+    "subClassOf": [
+      "SocietalEvent",
+      "Festival"
+    ]
+  },
+  "Fern": {
+    "title": "Fern",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "ComicsCreator": {
+    "title": "ComicsCreator",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "Grape": {
+    "title": "Grape",
+    "subClassOf": [
+      "FloweringPlant"
+    ]
+  },
+  "Fish": {
+    "title": "Fish",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "Village": {
+    "title": "Village",
+    "description": "a clustered human settlement or community, usually smaller a town",
+    "subClassOf": [
+      "Settlement"
+    ]
+  },
+  "NaturalPlace": {
+    "title": "NaturalPlace",
+    "description": "The natural place includes all places that naturally exist in the universe.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "Convention": {
+    "title": "Convention",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "MovingWalkway": {
+    "title": "MovingWalkway",
+    "subClassOf": [
+      "On-SiteTransportation"
+    ]
+  },
+  "SportsTeamMember": {
+    "title": "SportsTeamMember",
+    "subClassOf": [
+      "OrganisationMember"
+    ],
+    "description": "A member of an athletic team."
+  },
+  "Settlement": {
+    "title": "Settlement",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "NascarDriver": {
+    "title": "NascarDriver",
+    "subClassOf": [
+      "RacingDriver"
+    ]
+  },
+  "Infrastructure": {
+    "title": "Infrastructure",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "PersonalEvent": {
+    "title": "PersonalEvent",
+    "description": "an event that occurs in someone's personal life",
+    "subClassOf": [
+      "LifeCycleEvent"
+    ]
+  },
+  "TrackList": {
+    "title": "TrackList",
+    "description": "A list of music tracks, like on a CD",
+    "subClassOf": [
+      "List"
+    ]
+  },
+  "Album": {
+    "title": "Album",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "Mountain": {
+    "title": "Mountain",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "Cardinal": {
+    "title": "Cardinal",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "YearInSpaceflight": {
+    "title": "YearInSpaceflight",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "Sound": {
+    "title": "Sound",
+    "description": "A change in atmospheric air pressure that stimulates the sensory organ of hearing through sound waves",
+    "subClassOf": [
+      "Document"
+    ]
+  },
+  "Altitude": {
+    "title": "Altitude",
+    "description": "Elevation is the vertical distance of an object relative to a specified reference plane. Altitude is usually measured as the vertical distance (altitude difference) of a place from sea level (Mean Sea Level), while for more precise measurements the geoid is used.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Crustacean": {
+    "title": "Crustacean",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "Prison": {
+    "title": "Prison",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "InlineHockeyLeague": {
+    "title": "InlineHockeyLeague",
+    "description": "group of sports teams that compete against each other in Inline Hockey.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "HistoricalPeriod": {
+    "title": "HistoricalPeriod",
+    "subClassOf": [
+      "TimePeriod"
+    ],
+    "description": "A historical Period should be linked to a Place by way of the property dct:spatial (already defined)"
+  },
+  "OrganisationMember": {
+    "title": "OrganisationMember",
+    "subClassOf": [
+      "Person"
+    ],
+    "description": "Member of an organization."
+  },
+  "Agglomeration": {
+    "title": "Agglomeration",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "Surfer": {
+    "title": "Surfer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Escalator": {
+    "title": "Escalator",
+    "subClassOf": [
+      "On-SiteTransportation"
+    ]
+  },
+  "Square": {
+    "title": "Square",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Death": {
+    "title": "Death",
+    "description": "someone's death as a type of personal event",
+    "subClassOf": [
+      "PersonalEvent"
+    ]
+  },
+  "Lock": {
+    "title": "Lock",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "RecordOffice": {
+    "title": "RecordOffice",
+    "subClassOf": [
+      "Non-ProfitOrganisation"
+    ]
+  },
+  "EurovisionSongContestEntry": {
+    "title": "EurovisionSongContestEntry",
+    "subClassOf": [
+      "Song"
+    ]
+  },
+  "Engine": {
+    "title": "Engine",
+    "subClassOf": [
+      "Device"
+    ]
+  },
+  "Asteroid": {
+    "title": "Asteroid",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "Instrument": {
+    "title": "Instrument",
+    "subClassOf": [
+      "Product",
+      "Device"
+    ],
+    "description": "Describes all musical instrument"
+  },
+  "Island": {
+    "title": "Island",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "PersonFunction": {
+    "title": "PersonFunction",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "HockeyTeam": {
+    "title": "HockeyTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "PenaltyShootOut": {
+    "title": "PenaltyShootOut",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Glacier": {
+    "title": "Glacier",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "Glaciers are large masses of ice usually moving due to the compression of snow."
+  },
+  "GrossDomesticProductPerCapita": {
+    "title": "GrossDomesticProductPerCapita",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Archeologist": {
+    "title": "Archeologist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "InternationalOrganisation": {
+    "title": "InternationalOrganisation",
+    "subClassOf": [
+      "Organisation"
+    ],
+    "description": "An international organisation is either a private or a public organisation seeking to accomplish goals across country borders"
+  },
+  "PaintballLeague": {
+    "title": "PaintballLeague",
+    "description": "a group of sports teams that compete against each other in Paintball",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Cyclist": {
+    "title": "Cyclist",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "GrandPrix": {
+    "title": "GrandPrix",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Street": {
+    "title": "Street",
+    "subClassOf": [
+      "PopulatedPlace"
+    ],
+    "description": "A Street is different from a Road in as far as the infrastructure aspect is much less important here. A Street is a social and architectural ensemble much more than the connection between two geographic points."
+  },
+  "Desert": {
+    "title": "Desert",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "A barren area where there is very little rainfall."
+  },
+  "DisneyCharacter": {
+    "title": "DisneyCharacter",
+    "subClassOf": [
+      "FictionalCharacter"
+    ]
+  },
+  "RugbyPlayer": {
+    "title": "RugbyPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "PlayboyPlaymate": {
+    "title": "PlayboyPlaymate",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "TradeUnion": {
+    "title": "TradeUnion",
+    "description": "A trade union or labor union is an organization of workers who have banded together to achieve common goals such as better working conditions.",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Star": {
+    "title": "Star",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "Theatre": {
+    "title": "Theatre",
+    "description": "A theater or theatre (also a playhouse) is a structure where theatrical works or plays are performed or other performances such as musical concerts may be produced.",
+    "subClassOf": [
+      "Venue"
+    ]
+  },
+  "TelevisionEpisode": {
+    "title": "TelevisionEpisode",
+    "description": "A television episode is a part of serial television program.",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "Tax": {
+    "title": "Tax",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "FigureSkater": {
+    "title": "FigureSkater",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "Aristocrat": {
+    "title": "Aristocrat",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "EmployersOrganisation": {
+    "title": "EmployersOrganisation",
+    "subClassOf": [
+      "Organisation"
+    ],
+    "description": "An employers' organisation is an organisation of entrepreneurs who work together to coordinate their actions in the field of labour relations"
+  },
+  "Horse": {
+    "title": "Horse",
+    "subClassOf": [
+      "Mammal"
+    ]
+  },
+  "MobilePhone": {
+    "title": "MobilePhone",
+    "subClassOf": [
+      "Device"
+    ]
+  },
+  "GeopoliticalOrganisation": {
+    "title": "GeopoliticalOrganisation",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Country": {
+    "title": "Country",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "Orphan": {
+    "title": "Orphan",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "SambaSchool": {
+    "title": "SambaSchool",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "WaterTower": {
+    "title": "WaterTower",
+    "description": "a construction designed to store larger quantities of water at a place of some elevation in order to keep pressure on the water provision system",
+    "subClassOf": [
+      "Tower"
+    ]
+  },
+  "RailwayStation": {
+    "title": "RailwayStation",
+    "subClassOf": [
+      "Station"
+    ]
+  },
+  "CricketTeam": {
+    "title": "CricketTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "LawFirm": {
+    "title": "LawFirm",
+    "description": "A law firm is a business entity formed by one or more lawyers to engage in the practice of law. The primary service provided by a law firm is to advise clients (individuals or corporations) about their legal rights and responsibilities, and to represent their clients in civil or criminal cases, business transactions, and other matters in which legal advice and other assistance are sought.",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "ScreenWriter": {
+    "title": "ScreenWriter",
+    "description": "The screenwriter not only writes the premise of a series but is also the one who invents the protagonists of the work.",
+    "subClassOf": [
+      "Writer"
+    ]
+  },
+  "Plant": {
+    "title": "Plant",
+    "subClassOf": [
+      "Eukaryote"
+    ]
+  },
+  "Town": {
+    "title": "Town",
+    "subClassOf": [
+      "Settlement"
+    ],
+    "description": "a settlement ranging from a few hundred to several thousand (occasionally hundreds of thousands). The precise meaning varies between countries and is not always a matter of legal definition. Usually, a town is thought of as larger than a village but smaller than a city, though there are exceptions to this rule."
+  },
+  "WomensTennisAssociationTournament": {
+    "title": "WomensTennisAssociationTournament",
+    "subClassOf": [
+      "Tournament"
+    ]
+  },
+  "NaturalEvent": {
+    "title": "NaturalEvent",
+    "subClassOf": [
+      "Event"
+    ],
+    "description": "Physical event is used to describe an event that takes place naturally"
+  },
+  "HumanGeneLocation": {
+    "title": "HumanGeneLocation",
+    "subClassOf": [
+      "GeneLocation"
+    ]
+  },
+  "Publisher": {
+    "title": "Publisher",
+    "subClassOf": [
+      "Company"
+    ],
+    "description": "Publishing company"
+  },
+  "Road": {
+    "title": "Road",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ]
+  },
+  "TennisLeague": {
+    "title": "TennisLeague",
+    "description": "A group of sports teams or person that compete against each other in tennis.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "AutomobileEngine": {
+    "title": "AutomobileEngine",
+    "subClassOf": [
+      "Engine"
+    ]
+  },
+  "LineOfFashion": {
+    "title": "LineOfFashion",
+    "description": "A coherent type of clothing or dressing following a particular fashion",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "PowerStation": {
+    "title": "PowerStation",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "Cartoon": {
+    "title": "Cartoon",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "Bodybuilder": {
+    "title": "Bodybuilder",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Cape": {
+    "title": "Cape",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "GridironFootballPlayer": {
+    "title": "GridironFootballPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "SongWriter": {
+    "title": "SongWriter",
+    "description": "a person who writes the music and/or lyrics for popular songs.",
+    "subClassOf": [
+      "Writer"
+    ]
+  },
+  "HistoricalProvince": {
+    "title": "HistoricalProvince",
+    "description": "A place which used to be a province.",
+    "subClassOf": [
+      "Province"
+    ]
+  },
+  "Mineral": {
+    "title": "Mineral",
+    "description": "A naturally occurring solid chemical substance.",
+    "subClassOf": [
+      "ChemicalSubstance"
+    ]
+  },
+  "Historian": {
+    "title": "Historian",
+    "subClassOf": [
+      "Writer"
+    ]
+  },
+  "RadioProgram": {
+    "title": "RadioProgram",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "SumoWrestler": {
+    "title": "SumoWrestler",
+    "subClassOf": [
+      "Wrestler"
+    ]
+  },
+  "Writer": {
+    "title": "Writer",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "TopicalConcept": {
+    "title": "TopicalConcept",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Moss": {
+    "title": "Moss",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "CanadianFootballTeam": {
+    "title": "CanadianFootballTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "Wrestler": {
+    "title": "Wrestler",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Pyramid": {
+    "title": "Pyramid",
+    "description": "a structure whose shape is roughly that of a pyramid in the geometric sense.",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Brewery": {
+    "title": "Brewery",
+    "description": "Brewery is the name of the beer making industry.",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "Lipid": {
+    "title": "Lipid",
+    "description": "Are fats and fatty substances that play an important role in biochemistry",
+    "subClassOf": [
+      "Biomolecule"
+    ]
+  },
+  "Artist": {
+    "title": "Artist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "BullFighter": {
+    "title": "BullFighter",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "GolfTournament": {
+    "title": "GolfTournament",
+    "subClassOf": [
+      "Tournament"
+    ]
+  },
+  "Abbey": {
+    "title": "Abbey",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ],
+    "description": "An abbey (also called an abbey or abbey depending on whether it is directed by an abbot or an abbess) is a particular type of monastery, which under canon law is an autonomous entity."
+  },
+  "FootballLeagueSeason": {
+    "title": "FootballLeagueSeason",
+    "subClassOf": [
+      "SportsTeamSeason"
+    ]
+  },
+  "BeautyQueen": {
+    "title": "BeautyQueen",
+    "subClassOf": [
+      "Person"
+    ],
+    "description": "A beauty pageant titleholder"
+  },
+  "HumanGene": {
+    "title": "HumanGene",
+    "subClassOf": [
+      "Gene"
+    ]
+  },
+  "HighDiver": {
+    "title": "HighDiver",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "RadioHost": {
+    "title": "RadioHost",
+    "subClassOf": [
+      "Presenter"
+    ]
+  },
+  "Guitar": {
+    "title": "Guitar",
+    "description": "Describes the guitar",
+    "subClassOf": [
+      "Instrument"
+    ]
+  },
+  "AustralianFootballLeague": {
+    "title": "AustralianFootballLeague",
+    "description": "A group of sports teams that compete against each other in Australian rules football.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Host": {
+    "title": "Host",
+    "subClassOf": [
+      "TelevisionPersonality"
+    ],
+    "description": "Host is usually used to describe a male presenter of an event."
+  },
+  "Caterer": {
+    "title": "Caterer",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "RecordLabel": {
+    "title": "RecordLabel",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "MusicalWork": {
+    "title": "MusicalWork",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "Locality": {
+    "title": "Locality",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "EducationalInstitution": {
+    "title": "EducationalInstitution",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "RallyDriver": {
+    "title": "RallyDriver",
+    "description": "Rally driver is used to describe a man who takes part in special class car races",
+    "subClassOf": [
+      "RacingDriver"
+    ]
+  },
+  "MilitaryStructure": {
+    "title": "MilitaryStructure",
+    "description": "A military structure such as a Castle, Fortress, Wall, etc.",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Garden": {
+    "title": "Garden",
+    "description": "A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. (http://en.wikipedia.org/wiki/Garden)",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "OverseasDepartment": {
+    "title": "OverseasDepartment",
+    "subClassOf": [
+      "Department"
+    ]
+  },
+  "AcademicJournal": {
+    "title": "AcademicJournal",
+    "description": "Scientific journals are regularly published specialist journals on special topics from a wide range of scientific disciplines. They present new methods, techniques and current trends in the sciences.",
+    "subClassOf": [
+      "PeriodicalLiterature"
+    ]
+  },
+  "Department": {
+    "title": "Department",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "RoadJunction": {
+    "title": "RoadJunction",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ],
+    "description": "A road junction is a place where two or more roads cross (http://de.wikipedia.org/wiki/Stra%C3%9Fenkreuzung)."
+  },
+  "SportsTeam": {
+    "title": "SportsTeam",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Deputy": {
+    "title": "Deputy",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "BodyOfWater": {
+    "title": "BodyOfWater",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "Concentrated, usually large bodies of water (eg oceans) found on Earth or any other planet. The term is also used for water bodies where there is water movement, such as rivers, streams or canals."
+  },
+  "Tram": {
+    "title": "Tram",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "BusCompany": {
+    "title": "BusCompany",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "MouseGeneLocation": {
+    "title": "MouseGeneLocation",
+    "subClassOf": [
+      "GeneLocation"
+    ]
+  },
+  "Protein": {
+    "title": "Protein",
+    "subClassOf": [
+      "Biomolecule"
+    ]
+  },
+  "FloweringPlant": {
+    "title": "FloweringPlant",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "ShoppingMall": {
+    "title": "ShoppingMall",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "HistoricalDistrict": {
+    "title": "HistoricalDistrict",
+    "description": "a place which used to be a district.",
+    "subClassOf": [
+      "District"
+    ]
+  },
+  "HumanDevelopmentIndex": {
+    "title": "HumanDevelopmentIndex",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "CurlingLeague": {
+    "title": "CurlingLeague",
+    "description": "a group of sports teams that compete against each other in Curling",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "CityDistrict": {
+    "title": "CityDistrict",
+    "description": "District, borough, area or neighbourhood in a city or town",
+    "subClassOf": [
+      "Settlement"
+    ]
+  },
+  "Non-ProfitOrganisation": {
+    "title": "Non-ProfitOrganisation",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "VicePrimeMinister": {
+    "title": "VicePrimeMinister",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "PokerPlayer": {
+    "title": "PokerPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Play": {
+    "title": "Play",
+    "description": "A play is a form of literature, written by an author, usually consisting of scripted dialogue between characters, intended for theatrical performance and not just reading.",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "PrimeMinister": {
+    "title": "PrimeMinister",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "MouseGene": {
+    "title": "MouseGene",
+    "subClassOf": [
+      "Gene"
+    ]
+  },
+  "CelestialBody": {
+    "title": "CelestialBody",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "CyclingTeam": {
+    "title": "CyclingTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "DocumentType": {
+    "title": "DocumentType",
+    "description": "documenttype",
+    "subClassOf": [
+      "Type"
+    ]
+  },
+  "Fencer": {
+    "title": "Fencer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Gymnast": {
+    "title": "Gymnast",
+    "description": "A gymnast is one who performs gymnastics",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Governor": {
+    "title": "Governor",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "BritishRoyalty": {
+    "title": "BritishRoyalty",
+    "subClassOf": [
+      "Royalty"
+    ]
+  },
+  "PhilosophicalConcept": {
+    "title": "PhilosophicalConcept",
+    "subClassOf": [
+      "TopicalConcept"
+    ],
+    "description": "Philosophical concepts, e.g. Existentialism, Cogito Ergo Sum"
+  },
+  "Scientist": {
+    "title": "Scientist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "ConveyorSystem": {
+    "title": "ConveyorSystem",
+    "subClassOf": [
+      "On-SiteTransportation"
+    ]
+  },
+  "BaseballSeason": {
+    "title": "BaseballSeason",
+    "subClassOf": [
+      "SportsTeamSeason"
+    ]
+  },
+  "Library": {
+    "title": "Library",
+    "subClassOf": [
+      "Building",
+      "EducationalInstitution"
+    ]
+  },
+  "DistrictWaterBoard": {
+    "title": "DistrictWaterBoard",
+    "description": "Conservancy, governmental agency dedicated to surface water management",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "EthnicGroup": {
+    "title": "EthnicGroup",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "BusinessPerson": {
+    "title": "BusinessPerson",
+    "description": "The term entrepreneur mainly means someone who holds a higher position, such as an executive.",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Language": {
+    "title": "Language",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "RadioStation": {
+    "title": "RadioStation",
+    "subClassOf": [
+      "Broadcaster"
+    ],
+    "description": "A radio station has exactly one program, for example the station NDR Kultur. Not to be confused with the broadcasting company NDR, which has several radio stations."
+  },
+  "SportsLeague": {
+    "title": "SportsLeague",
+    "description": "A group of sports teams or individual athletes that compete against each other in a specific sport.",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "LegalCase": {
+    "title": "LegalCase",
+    "subClassOf": [
+      "Case"
+    ]
+  },
+  "Bacteria": {
+    "title": "Bacteria",
+    "subClassOf": [
+      "Species"
+    ]
+  },
+  "Lieutenant": {
+    "title": "Lieutenant",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "ClubMoss": {
+    "title": "ClubMoss",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "Place": {
+    "title": "Place",
+    "description": "Immobile things or locations.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Olympics": {
+    "title": "Olympics",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "AmericanFootballPlayer": {
+    "title": "AmericanFootballPlayer",
+    "subClassOf": [
+      "GridironFootballPlayer"
+    ]
+  },
+  "GreenAlga": {
+    "title": "GreenAlga",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "PeriodicalLiterature": {
+    "title": "PeriodicalLiterature",
+    "description": "In librarianship, a periodical is a printed publication that (usually) appears regularly, in contrast to a monograph. It is the technical term for series of books, gazettes, journals, magazines, periodicals and newspapers.",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "FormulaOneTeam": {
+    "title": "FormulaOneTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "Media": {
+    "title": "Media",
+    "description": "storage and transmission channels or tools used to store and deliver information or data",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "District": {
+    "title": "District",
+    "description": "administrative area under the district",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "StatedResolution": {
+    "title": "StatedResolution",
+    "description": "A Resolution describes a formal statement adopted by a meeting or convention.",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "Ideology": {
+    "title": "Ideology",
+    "description": "for example: Progressivism_in_the_United_States, Classical_liberalism",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "Bank": {
+    "title": "Bank",
+    "subClassOf": [
+      "Company"
+    ],
+    "description": "a company which main services are banking or financial services."
+  },
+  "Comic": {
+    "title": "Comic",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "Automobile": {
+    "title": "Automobile",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "TennisPlayer": {
+    "title": "TennisPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Cheese": {
+    "title": "Cheese",
+    "subClassOf": [
+      "Food"
+    ],
+    "description": "Dairy product prepared for human consumption"
+  },
+  "Dog": {
+    "title": "Dog",
+    "subClassOf": [
+      "Mammal"
+    ]
+  },
+  "Beverage": {
+    "title": "Beverage",
+    "subClassOf": [
+      "Food"
+    ],
+    "description": "A drinkable liquid beverage, usually with zero or minimal alcohol content."
+  },
+  "SoccerClub": {
+    "title": "SoccerClub",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "PrehistoricalPeriod": {
+    "title": "PrehistoricalPeriod",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "Musical": {
+    "title": "Musical",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "ChristianDoctrine": {
+    "title": "ChristianDoctrine",
+    "subClassOf": [
+      "TheologicalConcept"
+    ],
+    "description": "Tenets of the Christian faith, e.g. Trinity, Nicene Creed"
+  },
+  "Work": {
+    "title": "Work",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "MemberOfParliament": {
+    "title": "MemberOfParliament",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "Hormone": {
+    "title": "Hormone",
+    "description": "Hormones are signaling substances released by endocrine glands through the bloodstream to target cells or organs and regulate physiological processes and behavior",
+    "subClassOf": [
+      "Biomolecule"
+    ]
+  },
+  "Entomologist": {
+    "title": "Entomologist",
+    "subClassOf": [
+      "Scientist"
+    ]
+  },
+  "Conifer": {
+    "title": "Conifer",
+    "description": "Conifers are vascular plants, with seeds contained in a cone. They are woody plants, mostly trees and only a few are shrubs.",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "Film": {
+    "title": "Film",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "HorseTrainer": {
+    "title": "HorseTrainer",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "TheatreDirector": {
+    "title": "TheatreDirector",
+    "description": "A director in the theatre field who oversees and orchestrates the mounting of a theatre production.",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "TelevisionDirector": {
+    "title": "TelevisionDirector",
+    "description": "a person who directs the activities involved in making a television program.",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Reptile": {
+    "title": "Reptile",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "Baronet": {
+    "title": "Baronet",
+    "subClassOf": [
+      "BritishRoyalty"
+    ]
+  },
+  "Parish": {
+    "title": "Parish",
+    "description": "It is the smallest unit in the administrative priestly structure.",
+    "subClassOf": [
+      "ClericalAdministrativeRegion"
+    ]
+  },
+  "Crater": {
+    "title": "Crater",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "Agent": {
+    "title": "Agent",
+    "description": "According to the foaf:Agent class, an agent is an entity that acts. This is intended to be a superclass of the Person and Entity classes.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Enzyme": {
+    "title": "Enzyme",
+    "subClassOf": [
+      "Biomolecule"
+    ]
+  },
+  "XMLSchema#boolean": {
+    "title": "XMLSchema#boolean"
+  },
+  "Actor": {
+    "title": "Actor",
+    "description": "An actor or actress is a person who acts in a dramatic production and who works in film, television, theatre, or radio in that capacity.",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "Vicar": {
+    "title": "Vicar",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "TableTennisPlayer": {
+    "title": "TableTennisPlayer",
+    "description": "Athlete who plays table tennis",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Judge": {
+    "title": "Judge",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Embryology": {
+    "title": "Embryology",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "GaelicGamesPlayer": {
+    "title": "GaelicGamesPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Profession": {
+    "title": "Profession",
+    "subClassOf": [
+      "PersonFunction"
+    ]
+  },
+  "Archaea": {
+    "title": "Archaea",
+    "subClassOf": [
+      "Species"
+    ]
+  },
+  "SpeedSkater": {
+    "title": "SpeedSkater",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "BloodVessel": {
+    "title": "BloodVessel",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "TramStation": {
+    "title": "TramStation",
+    "subClassOf": [
+      "Station"
+    ]
+  },
+  "Bone": {
+    "title": "Bone",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ],
+    "description": "The basic unit of the support system of vertebrate organisms."
+  },
+  "Station": {
+    "title": "Station",
+    "description": "Public transport station (eg. railway station, metro station, bus station).",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "Bay": {
+    "title": "Bay",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "Polysaccharide": {
+    "title": "Polysaccharide",
+    "subClassOf": [
+      "Biomolecule"
+    ],
+    "description": "Are carbohydrates that are made up of ten or more monosaccharide units"
+  },
+  "HorseRiding": {
+    "title": "HorseRiding",
+    "subClassOf": [
+      "Sport"
+    ]
+  },
+  "Poem": {
+    "title": "Poem",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "Celebrity": {
+    "title": "Celebrity",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "LiteraryGenre": {
+    "title": "LiteraryGenre",
+    "subClassOf": [
+      "Genre"
+    ],
+    "description": "Genres of literature, e.g. Satire, Gothic"
+  },
+  "Priest": {
+    "title": "Priest",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "Boxing": {
+    "title": "Boxing",
+    "description": "Boxing is a competition based on the ability of the opponents to counter each other with only their fists and manage, with well-aimed and strong blows, to put each opponent out of the fight.",
+    "subClassOf": [
+      "Sport"
+    ]
+  },
+  "Food": {
+    "title": "Food",
+    "subClassOf": [
+      "owl#Thing"
+    ],
+    "description": "Food is any edible or potable substance normally consumed by humans."
+  },
+  "SupremeCourtOfTheUnitedStatesCase": {
+    "title": "SupremeCourtOfTheUnitedStatesCase",
+    "subClassOf": [
+      "LegalCase"
+    ]
+  },
+  "CareerStation": {
+    "title": "CareerStation",
+    "description": "this class marks a career step in the life of a person, e.g. a soccer player, holding information on the time span, matches and goals he or she achieved at a certain club",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "RestArea": {
+    "title": "RestArea",
+    "description": "A rest area is part of a Road, meant to stop and rest. More often than not, there is a filling station",
+    "subClassOf": [
+      "Infrastructure"
+    ]
+  },
+  "Criminal": {
+    "title": "Criminal",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "NationalAnthem": {
+    "title": "NationalAnthem",
+    "description": "Patriotic musical composition which is the offcial national song.",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "Arrondissement": {
+    "title": "Arrondissement",
+    "description": "The word arrondissement is used to designate various administrative districts in France, Belgium, Canada and other countries",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "VolleyballCoach": {
+    "title": "VolleyballCoach",
+    "subClassOf": [
+      "Coach"
+    ]
+  },
+  "Insect": {
+    "title": "Insect",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "MovieGenre": {
+    "title": "MovieGenre",
+    "subClassOf": [
+      "Genre"
+    ]
+  },
+  "Ocean": {
+    "title": "Ocean",
+    "subClassOf": [
+      "BodyOfWater"
+    ],
+    "description": "A body of saline water that composes much of a planet's hydrosphere."
+  },
+  "Gene": {
+    "title": "Gene",
+    "subClassOf": [
+      "Biomolecule"
+    ]
+  },
+  "Territory": {
+    "title": "Territory",
+    "subClassOf": [
+      "PopulatedPlace"
+    ],
+    "description": "A territory may refer to a country subdivision, a non-sovereign geographic region."
+  },
+  "TeamMember": {
+    "title": "TeamMember",
+    "subClassOf": [
+      "Athlete"
+    ],
+    "description": "A member of a sports team."
+  },
+  "TermOfOffice": {
+    "title": "TermOfOffice",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "TelevisionPersonality": {
+    "title": "TelevisionPersonality",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "River": {
+    "title": "River",
+    "description": "a large natural stream",
+    "subClassOf": [
+      "Stream"
+    ]
+  },
+  "MixedMartialArtsLeague": {
+    "title": "MixedMartialArtsLeague",
+    "description": "a group of sports teams that compete against each other in Mixed Martial Arts",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "PoloLeague": {
+    "title": "PoloLeague",
+    "description": "A group of sports teams that compete against each other in Polo.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Employer": {
+    "title": "Employer",
+    "description": "person, business, organization, etc. that hires workers.",
+    "subClassOf": [
+      "Agent"
+    ]
+  },
+  "IceHockeyLeague": {
+    "title": "IceHockeyLeague",
+    "description": "a group of sports teams that compete against each other in Ice Hockey.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Zoo": {
+    "title": "Zoo",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "SoftballLeague": {
+    "title": "SoftballLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "Teams competing in the softball game."
+  },
+  "RaceHorse": {
+    "title": "RaceHorse",
+    "subClassOf": [
+      "Horse"
+    ]
+  },
+  "Architect": {
+    "title": "Architect",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Sport": {
+    "title": "Sport",
+    "subClassOf": [
+      "Activity"
+    ],
+    "description": "A sport is commonly defined as an organized, competitive, and skillful physical activity."
+  },
+  "Soccer": {
+    "title": "Soccer",
+    "description": "A sports game in which the ball must be played by foot",
+    "subClassOf": [
+      "TeamSport"
+    ]
+  },
+  "Book": {
+    "title": "Book",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "SpaceStation": {
+    "title": "SpaceStation",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Ginkgo": {
+    "title": "Ginkgo",
+    "subClassOf": [
+      "Plant"
+    ]
+  },
+  "NaturalRegion": {
+    "title": "NaturalRegion",
+    "subClassOf": [
+      "Region"
+    ],
+    "description": "The natural range is used to describe the extent of a geographic area in which anthropogenic interference is absent or minimal"
+  },
+  "MythologicalFigure": {
+    "title": "MythologicalFigure",
+    "subClassOf": [
+      "FictionalCharacter"
+    ]
+  },
+  "CricketLeague": {
+    "title": "CricketLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in Cricket"
+  },
+  "Newspaper": {
+    "title": "Newspaper",
+    "description": "A newspaper is a printed publication with a moderate number of pages that is published in short periodic periods, at least once a week. Unlike a magazine, a newspaper is a press organ that is committed to current affairs and is usually divided into several content sections such as politics, local news, business, sports, arts and real estate.",
+    "subClassOf": [
+      "PeriodicalLiterature"
+    ]
+  },
+  "AustralianFootballTeam": {
+    "title": "AustralianFootballTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ]
+  },
+  "Diocese": {
+    "title": "Diocese",
+    "subClassOf": [
+      "ClericalAdministrativeRegion"
+    ],
+    "description": "District or see under the supervision of a bishop."
+  },
+  "Flag": {
+    "title": "Flag",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "MilitaryPerson": {
+    "title": "MilitaryPerson",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "BiologicalDatabase": {
+    "title": "BiologicalDatabase",
+    "subClassOf": [
+      "Database"
+    ],
+    "description": "Various databases containing information identifying the basic biological characteristics of organisms. This information is compiled into sets of libraries of the basic structures of the cells of organisms, such as the libraries of nucleic acids (genomics) and proteins (proteomics)."
+  },
+  "Boxer": {
+    "title": "Boxer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Depth": {
+    "title": "Depth",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Motorcycle": {
+    "title": "Motorcycle",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Windmill": {
+    "title": "Windmill",
+    "description": "A windmill is a machine that converts the energy of wind into rotational energy by means of vanes called sails",
+    "subClassOf": [
+      "Mill"
+    ]
+  },
+  "SoccerPlayer": {
+    "title": "SoccerPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "ElectionDiagram": {
+    "title": "ElectionDiagram",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "FashionDesigner": {
+    "title": "FashionDesigner",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "Website": {
+    "title": "Website",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "Dike": {
+    "title": "Dike",
+    "subClassOf": [
+      "Infrastructure"
+    ],
+    "description": "A dike is an elongated naturally occurring ridge or artificially constructed fill or wall, which regulates water levels"
+  },
+  "Quote": {
+    "title": "Quote",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "CanadianFootballLeague": {
+    "title": "CanadianFootballLeague",
+    "description": "A group of sports teams that compete against each other in canadian football league.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "UndergroundJournal": {
+    "title": "UndergroundJournal",
+    "description": "Underground newspapers, although a phenomenon of all times, are a phenomenon that is strongly associated with the resistance against the German occupier in the Second World War. The articles in these newspapers were aimed at keeping the spirit of resistance alive or stirring it up. The distribution of illegal magazines was strongly dependent on illegal distribution channels and on the failure or success of the German attempts to roll up these channels.",
+    "subClassOf": [
+      "PeriodicalLiterature"
+    ]
+  },
+  "Castle": {
+    "title": "Castle",
+    "description": "Castles often are, but need not be a military structure. They can serve for status, pleasure and hunt as well.",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "ChristianBishop": {
+    "title": "ChristianBishop",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "HollywoodCartoon": {
+    "title": "HollywoodCartoon",
+    "subClassOf": [
+      "Cartoon"
+    ]
+  },
+  "Tournament": {
+    "title": "Tournament",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Reference": {
+    "title": "Reference",
+    "description": "Reference to a work (book, movie, website)  providing info about the subject",
+    "subClassOf": [
+      "Annotation"
+    ]
+  },
+  "Athletics": {
+    "title": "Athletics",
+    "subClassOf": [
+      "Sport"
+    ]
+  },
+  "TelevisionSeason": {
+    "title": "TelevisionSeason",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "SoccerManager": {
+    "title": "SoccerManager",
+    "subClassOf": [
+      "SportsManager"
+    ]
+  },
+  "Fort": {
+    "title": "Fort",
+    "description": "Fortified place, most of the time to protect traffic routes",
+    "subClassOf": [
+      "MilitaryStructure"
+    ]
+  },
+  "CyclingLeague": {
+    "title": "CyclingLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "a group of sports teams that compete against each other in Cycling"
+  },
+  "CapitalOfRegion": {
+    "title": "CapitalOfRegion",
+    "description": "seat of a first order administration division.",
+    "subClassOf": [
+      "City"
+    ]
+  },
+  "TelevisionShow": {
+    "title": "TelevisionShow",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "Novel": {
+    "title": "Novel",
+    "subClassOf": [
+      "Book"
+    ],
+    "description": "A book of long narrative in literary prose"
+  },
+  "Drug": {
+    "title": "Drug",
+    "subClassOf": [
+      "ChemicalSubstance"
+    ]
+  },
+  "Parliament": {
+    "title": "Parliament",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Singer": {
+    "title": "Singer",
+    "description": "a person who sings.",
+    "subClassOf": [
+      "MusicalArtist"
+    ]
+  },
+  "AutoRacingLeague": {
+    "title": "AutoRacingLeague",
+    "description": "a group of sports teams or individual athletes competing against each other in car races",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "SportCompetitionResult": {
+    "title": "SportCompetitionResult",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Canton": {
+    "title": "Canton",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ],
+    "description": "The word canton is used to designate various (lower) administrative districts in France, Belgium, Canada and other countries"
+  },
+  "Globularswarm": {
+    "title": "Globularswarm",
+    "subClassOf": [
+      "Swarm"
+    ]
+  },
+  "Stream": {
+    "title": "Stream",
+    "subClassOf": [
+      "BodyOfWater"
+    ],
+    "description": "a flowing body of water with a current, confined within a bed and stream banks"
+  },
+  "Instrumentalist": {
+    "title": "Instrumentalist",
+    "description": "A musician is a person who writes, performs, or makes music.",
+    "subClassOf": [
+      "MusicalArtist"
+    ]
+  },
+  "BaseballTeam": {
+    "title": "BaseballTeam",
+    "subClassOf": [
+      "SportsTeam"
+    ],
+    "description": "A number of men or women who form a distinct entity with specific goals regarding the sport of baseball."
+  },
+  "Mollusca": {
+    "title": "Mollusca",
+    "description": "Molluscs are a huge phylum of animals, the most numerous after arthropods, with over 100,000 species.",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "Device": {
+    "title": "Device",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "BoardGame": {
+    "title": "BoardGame",
+    "description": "A board game is a game that requires a well-defined playing surface, usually called a board or a game board.",
+    "subClassOf": [
+      "Game"
+    ]
+  },
+  "MicroRegion": {
+    "title": "MicroRegion",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ],
+    "description": "A microregion is a - mainy statistical - region in Brazil, at an administrative level between a meso-region and a community"
+  },
+  "RouteStop": {
+    "title": "RouteStop",
+    "description": "one stage or stop on a road.",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "NetballPlayer": {
+    "title": "NetballPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Colour": {
+    "title": "Colour",
+    "subClassOf": [
+      "owl#Thing"
+    ],
+    "description": "Color or colour is the visual perceptual property corresponding in humans to the categories called red, yellow, blue and others. Color derives from the spectrum of light (distribution of light energy versus wavelength) interacting in the eye with the spectral sensitivities of the light receptors."
+  },
+  "Arachnid": {
+    "title": "Arachnid",
+    "subClassOf": [
+      "Animal"
+    ]
+  },
+  "NobleFamily": {
+    "title": "NobleFamily",
+    "subClassOf": [
+      "Family"
+    ],
+    "description": "Family deemed to be of noble descent"
+  },
+  "BackScene": {
+    "title": "BackScene",
+    "subClassOf": [
+      "MusicalArtist"
+    ]
+  },
+  "AnimangaCharacter": {
+    "title": "AnimangaCharacter",
+    "subClassOf": [
+      "ComicsCharacter"
+    ],
+    "description": "Anime/Manga character"
+  },
+  "GrossDomesticProduct": {
+    "title": "GrossDomesticProduct",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "HistoricBuilding": {
+    "title": "HistoricBuilding",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "TheologicalConcept": {
+    "title": "TheologicalConcept",
+    "subClassOf": [
+      "TopicalConcept"
+    ],
+    "description": "Theological concepts, e.g. The apocalypse, Trinty, Stoicism"
+  },
+  "President": {
+    "title": "President",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "Volcano": {
+    "title": "Volcano",
+    "subClassOf": [
+      "NaturalPlace"
+    ],
+    "description": "Volcano is a subcategory of natural states, but can also be considered a mountain."
+  },
+  "Saint": {
+    "title": "Saint",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "GeneLocation": {
+    "title": "GeneLocation",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "FormulaOneRacer": {
+    "title": "FormulaOneRacer",
+    "subClassOf": [
+      "RacingDriver"
+    ]
+  },
+  "ChristianPatriarch": {
+    "title": "ChristianPatriarch",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "AmusementParkAttraction": {
+    "title": "AmusementParkAttraction",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Beer": {
+    "title": "Beer",
+    "subClassOf": [
+      "Beverage"
+    ]
+  },
+  "Province": {
+    "title": "Province",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ],
+    "description": "An administrative body governing a territorial unity on the intermediate level, between local and national level"
+  },
+  "GolfCourse": {
+    "title": "GolfCourse",
+    "subClassOf": [
+      "SportFacility"
+    ],
+    "description": "On a golf course holes often hide hazards, defined as special areas to which additional rules of play apply."
+  },
+  "ComicStrip": {
+    "title": "ComicStrip",
+    "subClassOf": [
+      "Comic"
+    ]
+  },
+  "Linguist": {
+    "title": "Linguist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "AcademicSubject": {
+    "title": "AcademicSubject",
+    "description": "An academic discipline is a branch of knowledge that a community of specialists develops with research methodologies.",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "BoxingStyle": {
+    "title": "BoxingStyle",
+    "subClassOf": [
+      "Boxing"
+    ]
+  },
+  "BoxingLeague": {
+    "title": "BoxingLeague",
+    "description": "An event in which individual boxers or groups of boxers compete against each other with the goal of victory.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Image": {
+    "title": "Image",
+    "subClassOf": [
+      "Document"
+    ],
+    "description": "A document that contains a visual image"
+  },
+  "RocketEngine": {
+    "title": "RocketEngine",
+    "subClassOf": [
+      "Engine"
+    ]
+  },
+  "Sea": {
+    "title": "Sea",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "MixedMartialArtsEvent": {
+    "title": "MixedMartialArtsEvent",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Venue": {
+    "title": "Venue",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "Demographics": {
+    "title": "Demographics",
+    "description": "Population of a place. Uses these properties: populationTotal, year (when measured, populationYear), rank (sortOrder of this place amongst its siblings at the same level), name (areal measured by the population, eg: \"locality\", \"municipality\" or \"comitat\")",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Medicine": {
+    "title": "Medicine",
+    "subClassOf": [
+      "owl#Thing"
+    ],
+    "description": "The science and art of healing the human body and identifying the causes of disease"
+  },
+  "StillImage": {
+    "title": "StillImage",
+    "description": "A visual document that is not intended to be animated; equivalent to http://purl.org/dc/dcmitype/StillImage",
+    "subClassOf": [
+      "Image"
+    ]
+  },
+  "FillingStation": {
+    "title": "FillingStation",
+    "subClassOf": [
+      "Station"
+    ]
+  },
+  "SnookerWorldRanking": {
+    "title": "SnookerWorldRanking",
+    "description": "The official world ranking in snooker for a certain year/season",
+    "subClassOf": [
+      "SportCompetitionResult"
+    ]
+  },
+  "ReligiousOrganisation": {
+    "title": "ReligiousOrganisation",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "Manhwa": {
+    "title": "Manhwa",
+    "description": "Korean term for comics and print cartoons",
+    "subClassOf": [
+      "Comic"
+    ]
+  },
+  "GraveMonument": {
+    "title": "GraveMonument",
+    "description": "A monument erected on a tomb, or a memorial stone.",
+    "subClassOf": [
+      "Monument"
+    ]
+  },
+  "Manga": {
+    "title": "Manga",
+    "subClassOf": [
+      "Comic"
+    ],
+    "description": "Manga are comics created in Japan"
+  },
+  "Name": {
+    "title": "Name",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "OldTerritory": {
+    "title": "OldTerritory",
+    "subClassOf": [
+      "Territory"
+    ]
+  },
+  "ChartsPlacements": {
+    "title": "ChartsPlacements",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "Chef": {
+    "title": "Chef",
+    "description": "a person who cooks professionally for others",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "BowlingLeague": {
+    "title": "BowlingLeague",
+    "description": "a group of sports teams or players that compete against each other in Bowling",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "Monarch": {
+    "title": "Monarch",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "WaterPoloPlayer": {
+    "title": "WaterPoloPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Gate": {
+    "title": "Gate",
+    "description": "Gate is defined as a built structure marking the entrance to a building or an estate.",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ]
+  },
+  "LunarCrater": {
+    "title": "LunarCrater",
+    "subClassOf": [
+      "Crater"
+    ]
+  },
+  "Race": {
+    "title": "Race",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Stadium": {
+    "title": "Stadium",
+    "subClassOf": [
+      "SportFacility"
+    ]
+  },
+  "Royalty": {
+    "title": "Royalty",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Astronaut": {
+    "title": "Astronaut",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "File": {
+    "title": "File",
+    "subClassOf": [
+      "Document"
+    ],
+    "description": "A set of elements or resources that can be used to process and produce information"
+  },
+  "Monument": {
+    "title": "Monument",
+    "description": "A type of structure (a statue or an art object) created to commemorate a person or important event, not necessarily of a catastrophic nature.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "SportsTeamSeason": {
+    "title": "SportsTeamSeason",
+    "description": "a season for a sports team",
+    "subClassOf": [
+      "SportsSeason"
+    ]
+  },
+  "Park": {
+    "title": "Park",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "A park is an area of open space provided for recreational use. http://en.wikipedia.org/wiki/Park"
+  },
+  "Manhua": {
+    "title": "Manhua",
+    "subClassOf": [
+      "Comic"
+    ],
+    "description": "Outside China, the term is used for comics from China."
+  },
+  "MilitaryVehicle": {
+    "title": "MilitaryVehicle",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "MountainRange": {
+    "title": "MountainRange",
+    "description": "a chain of mountains bordered by highlands or separated from other mountains by passes or valleys.",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "MusicalArtist": {
+    "title": "MusicalArtist",
+    "subClassOf": [
+      "MusicGroup",
+      "DUL.owl#NaturalPerson",
+      "Artist"
+    ]
+  },
+  "Sculpture": {
+    "title": "Sculpture",
+    "description": "Sculpture is a three-dimensional work of art created by shaping or combining hard materials, typically stone such as marble, metal, glass, or wood, or plastic materials such as clay, textiles, polymers, and softer metals.",
+    "subClassOf": [
+      "Artwork"
+    ]
+  },
+  "RailwayLine": {
+    "title": "RailwayLine",
+    "description": "A railway line is a transport service by trains that pull passengers or freight provided by an organization. Not to be mistaken for railway track, which is the structure consisting of the rails. Wikipedia do not clearly differentiate between both, so there is one infobox describing tracks and lines.",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ]
+  },
+  "CultivatedVariety": {
+    "title": "CultivatedVariety",
+    "subClassOf": [
+      "Plant"
+    ],
+    "description": "A cultivar is a plant or grouping of plants selected for desirable characteristics that can be maintained by propagation. A plant whose origin or selection is primarily due to intentional human activity."
+  },
+  "Valley": {
+    "title": "Valley",
+    "description": "a depression with predominant extent in one direction",
+    "subClassOf": [
+      "NaturalPlace"
+    ]
+  },
+  "SystemOfLaw": {
+    "title": "SystemOfLaw",
+    "description": "a system of legislation, either national or international",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "GovernmentCabinet": {
+    "title": "GovernmentCabinet",
+    "subClassOf": [
+      "GovernmentAgency"
+    ],
+    "description": "A cabinet is a body of high-ranking state officials, typically consisting of the top leaders of the executive branch."
+  },
+  "Genre": {
+    "title": "Genre",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "Energy": {
+    "title": "Energy"
+  },
+  "CollectionOfValuables": {
+    "title": "CollectionOfValuables",
+    "description": "A collection of valuables, considered as a work).",
+    "subClassOf": [
+      "Work"
+    ]
+  },
+  "NCAATeamSeason": {
+    "title": "NCAATeamSeason",
+    "subClassOf": [
+      "SportsTeamSeason"
+    ]
+  },
+  "Ligament": {
+    "title": "Ligament",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "OfficeHolder": {
+    "title": "OfficeHolder",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "SportsClub": {
+    "title": "SportsClub",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "SoapCharacter": {
+    "title": "SoapCharacter",
+    "subClassOf": [
+      "FictionalCharacter"
+    ]
+  },
+  "SportsManager": {
+    "title": "SportsManager",
+    "subClassOf": [
+      "Person"
+    ],
+    "description": "According to the French label Soccer, it may mean the coach. However, here a sports manager is translated as a board member of a sports club."
+  },
+  "Senator": {
+    "title": "Senator",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "HistoricalAreaOfAuthority": {
+    "title": "HistoricalAreaOfAuthority",
+    "description": "Mostly for feudal forms of authority, but can also serve for historical forms of centralised authority",
+    "subClassOf": [
+      "AdministrativeRegion"
+    ]
+  },
+  "NarutoCharacter": {
+    "title": "NarutoCharacter",
+    "subClassOf": [
+      "FictionalCharacter"
+    ]
+  },
+  "TelevisionStation": {
+    "title": "TelevisionStation",
+    "subClassOf": [
+      "Broadcaster"
+    ],
+    "description": "A television station has a lineup. For example, the television station WABC-TV (or ABC 7, Channel 7). Not to be confused with the ABC television network, which has many television stations."
+  },
+  "Referee": {
+    "title": "Referee",
+    "description": "An official who watches a game or match closely to ensure that the rules are adhered to.",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Band": {
+    "title": "Band",
+    "subClassOf": [
+      "Group",
+      "MusicGroup",
+      "DUL.owl#SocialPerson"
+    ]
+  },
+  "PeriodOfArtisticStyle": {
+    "title": "PeriodOfArtisticStyle",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "MathematicalConcept": {
+    "title": "MathematicalConcept",
+    "description": "Mathematical concepts, e.g. Fibonacci numbers, Imaginary numbers, Symmetry",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "SquashPlayer": {
+    "title": "SquashPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "FictionalCharacter": {
+    "title": "FictionalCharacter",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Marriage": {
+    "title": "Marriage",
+    "subClassOf": [
+      "PersonalEvent"
+    ],
+    "description": "Marriage is a social, religious and legal coupling or union of two people, of different or in some countries in recent years, of the same sex."
+  },
+  "Winery": {
+    "title": "Winery",
+    "subClassOf": [
+      "Company"
+    ]
+  },
+  "AmateurBoxer": {
+    "title": "AmateurBoxer",
+    "subClassOf": [
+      "Boxer"
+    ]
+  },
+  "Decoration": {
+    "title": "Decoration",
+    "description": "An object, such as a medal or an order, that is awarded to honor the recipient ostentatiously.",
+    "subClassOf": [
+      "Award"
+    ]
+  },
+  "DartsPlayer": {
+    "title": "DartsPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Municipality": {
+    "title": "Municipality",
+    "description": "A Municipality is the local entity defined in article 140 of the Spanish Constitution and the basic entity of the territorial organization of the State according to article 1 of Law 7/1985, of April 2, Regulating the Bases of the Local Regime. It has legal personality and full capacity to fulfill its purposes. The territorial delimitation of the Municipality is collected from the Central Register of Cartography of the IGN.",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "Length": {
+    "title": "Length"
+  },
+  "Competition": {
+    "title": "Competition",
+    "subClassOf": [
+      "Event"
+    ]
+  },
+  "ScientificConcept": {
+    "title": "ScientificConcept",
+    "description": "Scientific concepts, e.g. Theory of relativity, Quantum gravity",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "MilitaryAircraft": {
+    "title": "MilitaryAircraft",
+    "subClassOf": [
+      "Aircraft"
+    ]
+  },
+  "Psychologist": {
+    "title": "Psychologist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Deity": {
+    "title": "Deity",
+    "subClassOf": [
+      "Agent"
+    ]
+  },
+  "Restaurant": {
+    "title": "Restaurant",
+    "subClassOf": [
+      "Building"
+    ]
+  },
+  "GolfPlayer": {
+    "title": "GolfPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "NationalFootballLeagueEvent": {
+    "title": "NationalFootballLeagueEvent",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "GovernmentalAdministrativeRegion": {
+    "title": "GovernmentalAdministrativeRegion",
+    "description": "An administrative body governing some territorial unity, in this case a governmental administrative body",
+    "subClassOf": [
+      "AdministrativeRegion"
+    ]
+  },
+  "HistoricPlace": {
+    "title": "HistoricPlace",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "NationalCollegiateAthleticAssociationAthlete": {
+    "title": "NationalCollegiateAthleticAssociationAthlete",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Openswarm": {
+    "title": "Openswarm",
+    "subClassOf": [
+      "Swarm"
+    ]
+  },
+  "BobsleighAthlete": {
+    "title": "BobsleighAthlete",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "RouteOfTransportation": {
+    "title": "RouteOfTransportation",
+    "subClassOf": [
+      "Infrastructure"
+    ],
+    "description": "Transport routes (traffic routes) are traffic routes on which goods or people are transported. A distinction is made between transport routes by air, water and land, which are then used for the different types of transport (http://de.wikipedia.org/wiki/Transportweg)."
+  },
+  "Constellation": {
+    "title": "Constellation",
+    "description": "A constellation is each of the 88 parts into which the celestial sphere is conventionally divided for the purpose of mapping the stars.",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "RadioControlledRacingLeague": {
+    "title": "RadioControlledRacingLeague",
+    "subClassOf": [
+      "SportsLeague"
+    ],
+    "description": "A group of sports teams or person that compete against each other in radio-controlled racing."
+  },
+  "MotocycleRacer": {
+    "title": "MotocycleRacer",
+    "subClassOf": [
+      "MotorcycleRider"
+    ]
+  },
+  "Mine": {
+    "title": "Mine",
+    "description": "A mine is a place where minerals are or were extracted",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "Egyptologist": {
+    "title": "Egyptologist",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Biathlete": {
+    "title": "Biathlete",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "Photographer": {
+    "title": "Photographer",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "Anime": {
+    "title": "Anime",
+    "description": "Animated Japanese comic strip",
+    "subClassOf": [
+      "Cartoon"
+    ]
+  },
+  "Voltage": {
+    "title": "Voltage"
+  },
+  "HistoricalRegion": {
+    "title": "HistoricalRegion",
+    "subClassOf": [
+      "Region"
+    ],
+    "description": "a place which used to be a region."
+  },
+  "MemberResistanceMovement": {
+    "title": "MemberResistanceMovement",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "XMLSchema#positiveInteger": {
+    "title": "XMLSchema#positiveInteger"
+  },
+  "OlympicResult": {
+    "title": "OlympicResult",
+    "subClassOf": [
+      "SportCompetitionResult"
+    ]
+  },
+  "LifeCycleEvent": {
+    "title": "LifeCycleEvent",
+    "subClassOf": [
+      "Event"
+    ]
+  },
+  "LightNovel": {
+    "title": "LightNovel",
+    "subClassOf": [
+      "Novel"
+    ],
+    "description": "A style of Japanese novel"
+  },
+  "BeachVolleyballPlayer": {
+    "title": "BeachVolleyballPlayer",
+    "description": "A person (male or female) who plays the sport of beach volleyball.",
+    "subClassOf": [
+      "VolleyballPlayer"
+    ]
+  },
+  "SocietalEvent": {
+    "title": "SocietalEvent",
+    "description": "an event that is clearly different from strictly personal events",
+    "subClassOf": [
+      "Event"
+    ]
+  },
+  "CricketGround": {
+    "title": "CricketGround",
+    "subClassOf": [
+      "SportFacility"
+    ]
+  },
+  "XMLSchema#dateTime": {
+    "title": "XMLSchema#dateTime"
+  },
+  "Mayor": {
+    "title": "Mayor",
+    "subClassOf": [
+      "Politician"
+    ]
+  },
+  "HockeyClub": {
+    "title": "HockeyClub",
+    "subClassOf": [
+      "SportsClub"
+    ]
+  },
+  "MovingImage": {
+    "title": "MovingImage",
+    "description": "A visual document that is intended to be animated; equivalent to http://purl.org/dc/dcmitype/MovingImage",
+    "subClassOf": [
+      "Image"
+    ]
+  },
+  "DTMRacer": {
+    "title": "DTMRacer",
+    "subClassOf": [
+      "RacingDriver"
+    ]
+  },
+  "Painter": {
+    "title": "Painter",
+    "subClassOf": [
+      "Artist"
+    ]
+  },
+  "SpaceShuttle": {
+    "title": "SpaceShuttle",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "HandballPlayer": {
+    "title": "HandballPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Building": {
+    "title": "Building",
+    "subClassOf": [
+      "ArchitecturalStructure"
+    ],
+    "description": "Building is defined as a Civil Engineering structure such as a house, worship center, factory etc. that has a foundation, wall, roof etc. that protect human being and their properties from direct harsh effect of weather like rain, wind, sun etc. (http://en.wikipedia.org/wiki/Building)."
+  },
+  "PlayWright": {
+    "title": "PlayWright",
+    "subClassOf": [
+      "Writer"
+    ],
+    "description": "A person who writes dramatic literature or drama."
+  },
+  "Treaty": {
+    "title": "Treaty",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "PoliticalConcept": {
+    "title": "PoliticalConcept",
+    "description": "Political concepts, e.g. Capitalism, Democracy",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "MeanOfTransportation": {
+    "title": "MeanOfTransportation",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "XMLSchema#time": {
+    "title": "XMLSchema#time"
+  },
+  "ClericalAdministrativeRegion": {
+    "title": "ClericalAdministrativeRegion",
+    "description": "An administrative body governing some territorial unity, in this case a clerical administrative body",
+    "subClassOf": [
+      "AdministrativeRegion"
+    ]
+  },
+  "MotorsportRacer": {
+    "title": "MotorsportRacer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Density": {
+    "title": "Density"
+  },
+  "MetroStation": {
+    "title": "MetroStation",
+    "subClassOf": [
+      "Station"
+    ],
+    "description": "Metro stop is usually used for a location or point where the metro means of transport stops"
+  },
+  "GovernmentType": {
+    "title": "GovernmentType",
+    "description": "a form of government",
+    "subClassOf": [
+      "Type"
+    ]
+  },
+  "ProtohistoricalPeriod": {
+    "title": "ProtohistoricalPeriod",
+    "subClassOf": [
+      "TimePeriod"
+    ]
+  },
+  "WinterSportPlayer": {
+    "title": "WinterSportPlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Sales": {
+    "title": "Sales",
+    "subClassOf": [
+      "Activity"
+    ]
+  },
+  "Ratio": {
+    "title": "Ratio",
+    "subClassOf": [
+      "Relationship"
+    ]
+  },
+  "WrestlingEvent": {
+    "title": "WrestlingEvent",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Attack": {
+    "title": "Attack",
+    "subClassOf": [
+      "SocietalEvent"
+    ],
+    "description": "An Attack is not necessarily part of a Military Conflict"
+  },
+  "Curler": {
+    "title": "Curler",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "Temple": {
+    "title": "Temple",
+    "subClassOf": [
+      "ReligiousBuilding"
+    ]
+  },
+  "Prefecture": {
+    "title": "Prefecture",
+    "subClassOf": [
+      "GovernmentalAdministrativeRegion"
+    ]
+  },
+  "SoccerLeague": {
+    "title": "SoccerLeague",
+    "description": "A group of sports teams that compete against each other in soccer.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "ClassicalMusicComposition": {
+    "title": "ClassicalMusicComposition",
+    "description": "The composition of classical music can also be done with the help of special computer programs that use a specific algorithm.",
+    "subClassOf": [
+      "MusicalWork"
+    ]
+  },
+  "MusicDirector": {
+    "title": "MusicDirector",
+    "description": "A person who is the director of an orchestra or concert band.",
+    "subClassOf": [
+      "MusicalArtist"
+    ]
+  },
+  "Swarm": {
+    "title": "Swarm",
+    "subClassOf": [
+      "CelestialBody"
+    ]
+  },
+  "WaterRide": {
+    "title": "WaterRide",
+    "subClassOf": [
+      "AmusementParkAttraction"
+    ]
+  },
+  "Farmer": {
+    "title": "Farmer",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "FormulaOneRacing": {
+    "title": "FormulaOneRacing",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "FormerMunicipality": {
+    "title": "FormerMunicipality",
+    "subClassOf": [
+      "Municipality"
+    ],
+    "description": "A municipality that has ceased to exist, and most of the time got incorporated (wholesale or partly) into another municipality"
+  },
+  "Pope": {
+    "title": "Pope",
+    "subClassOf": [
+      "Cleric"
+    ]
+  },
+  "CyclingCompetition": {
+    "title": "CyclingCompetition",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Nerve": {
+    "title": "Nerve",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "Time": {
+    "title": "Time"
+  },
+  "MultiVolumePublication": {
+    "title": "MultiVolumePublication",
+    "subClassOf": [
+      "WrittenWork"
+    ]
+  },
+  "PublicTransitSystem": {
+    "title": "PublicTransitSystem",
+    "description": "A system of public transport by road, rail or water.",
+    "subClassOf": [
+      "Organisation"
+    ]
+  },
+  "XMLSchema#nonPositiveInteger": {
+    "title": "XMLSchema#nonPositiveInteger"
+  },
+  "Standard": {
+    "title": "Standard",
+    "description": "a common specification",
+    "subClassOf": [
+      "TopicalConcept"
+    ]
+  },
+  "SnookerPlayer": {
+    "title": "SnookerPlayer",
+    "subClassOf": [
+      "Athlete"
+    ],
+    "description": "An athlete that plays snooker, which is a billard derivate"
+  },
+  "LacrossePlayer": {
+    "title": "LacrossePlayer",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "RollerCoaster": {
+    "title": "RollerCoaster",
+    "subClassOf": [
+      "AmusementParkAttraction"
+    ]
+  },
+  "Murderer": {
+    "title": "Murderer",
+    "subClassOf": [
+      "Criminal"
+    ]
+  },
+  "Frequency": {
+    "title": "Frequency"
+  },
+  "LinearMassDensity": {
+    "title": "LinearMassDensity"
+  },
+  "ArtisticGenre": {
+    "title": "ArtisticGenre",
+    "subClassOf": [
+      "Genre"
+    ],
+    "description": "In art history, genre refers to the forms of art that relate to the medium of artistic expression."
+  },
+  "Rocket": {
+    "title": "Rocket",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Diploma": {
+    "title": "Diploma",
+    "subClassOf": [
+      "owl#Thing"
+    ]
+  },
+  "MotorsportSeason": {
+    "title": "MotorsportSeason",
+    "subClassOf": [
+      "SportsSeason"
+    ]
+  },
+  "Deanery": {
+    "title": "Deanery",
+    "description": "The intermediate level of a clerical administrative body between parish and diocese",
+    "subClassOf": [
+      "ClericalAdministrativeRegion"
+    ]
+  },
+  "RoadTunnel": {
+    "title": "RoadTunnel",
+    "subClassOf": [
+      "RouteOfTransportation"
+    ]
+  },
+  "XMLSchema#float": {
+    "title": "XMLSchema#float"
+  },
+  "InformationAppliance": {
+    "title": "InformationAppliance",
+    "description": "An information device such as PDAs or Video game consoles, etc.",
+    "subClassOf": [
+      "Device"
+    ]
+  },
+  "On-SiteTransportation": {
+    "title": "On-SiteTransportation",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Divorce": {
+    "title": "Divorce",
+    "subClassOf": [
+      "PersonalEvent"
+    ],
+    "description": "two people's divorce as a type of personal event"
+  },
+  "VideogamesLeague": {
+    "title": "VideogamesLeague",
+    "description": "A group of teams or individuals who compete in electronic games.",
+    "subClassOf": [
+      "SportsLeague"
+    ]
+  },
+  "StormSurge": {
+    "title": "StormSurge",
+    "subClassOf": [
+      "NaturalEvent"
+    ],
+    "description": "A storm surge is the large-scale flooding of a coastal area under the influence of the interacting forces of wind, tide and water"
+  },
+  "Intercommunality": {
+    "title": "Intercommunality",
+    "subClassOf": [
+      "PopulatedPlace"
+    ]
+  },
+  "MotorRace": {
+    "title": "MotorRace",
+    "subClassOf": [
+      "Race"
+    ]
+  },
+  "Vodka": {
+    "title": "Vodka",
+    "subClassOf": [
+      "Beverage"
+    ]
+  },
+  "Treadmill": {
+    "title": "Treadmill",
+    "description": "A mill driven by the tractive power of horses, donkeys or even people",
+    "subClassOf": [
+      "Mill"
+    ]
+  },
+  "XMLSchema#negativeInteger": {
+    "title": "XMLSchema#negativeInteger"
+  },
+  "Rower": {
+    "title": "Rower",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "Creek": {
+    "title": "Creek",
+    "description": "the portion of a stream that is affected by ebb and flow of ocean tides",
+    "subClassOf": [
+      "Stream"
+    ]
+  },
+  "PoliticianSpouse": {
+    "title": "PoliticianSpouse",
+    "subClassOf": [
+      "Person"
+    ]
+  },
+  "Meeting": {
+    "title": "Meeting",
+    "description": "A regular or irregular meeting of people as an event to keep record of",
+    "subClassOf": [
+      "SocietalEvent"
+    ]
+  },
+  "NationalSoccerClub": {
+    "title": "NationalSoccerClub",
+    "subClassOf": [
+      "SoccerClub"
+    ]
+  },
+  "NordicCombined": {
+    "title": "NordicCombined",
+    "subClassOf": [
+      "WinterSportPlayer"
+    ]
+  },
+  "InternationalFootballLeagueEvent": {
+    "title": "InternationalFootballLeagueEvent",
+    "subClassOf": [
+      "SportsEvent"
+    ]
+  },
+  "Jockey": {
+    "title": "Jockey",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "TrainCarriage": {
+    "title": "TrainCarriage",
+    "subClassOf": [
+      "MeanOfTransportation"
+    ]
+  },
+  "Lawyer": {
+    "title": "Lawyer",
+    "subClassOf": [
+      "Person"
+    ],
+    "description": "a person who is practicing law."
+  },
+  "Temperature": {
+    "title": "Temperature"
+  },
+  "XMLSchema#gMonth": {
+    "title": "XMLSchema#gMonth"
+  },
+  "WindMotor": {
+    "title": "WindMotor",
+    "subClassOf": [
+      "Mill"
+    ],
+    "description": "A wind-driven turbine that adapts itself to wind direction and to wind-force. Is considered to be a class in its own, despite the wind as common factor with Windmill."
+  },
+  "CardGame": {
+    "title": "CardGame",
+    "subClassOf": [
+      "Game"
+    ],
+    "description": "come from http://en.wikipedia.org/wiki/Category:Card_games"
+  },
+  "NationalFootballLeagueSeason": {
+    "title": "NationalFootballLeagueSeason",
+    "subClassOf": [
+      "FootballLeagueSeason"
+    ]
+  },
+  "Force": {
+    "title": "Force"
+  },
+  "XMLSchema#gDay": {
+    "title": "XMLSchema#gDay"
+  },
+  "MartialArtist": {
+    "title": "MartialArtist",
+    "subClassOf": [
+      "Athlete"
+    ]
+  },
+  "ElectricCurrent": {
+    "title": "ElectricCurrent"
+  },
+  "SoccerClubSeason": {
+    "title": "SoccerClubSeason",
+    "subClassOf": [
+      "SportsTeamSeason"
+    ]
+  },
+  "PopulationDensity": {
+    "title": "PopulationDensity"
+  },
+  "XMLSchema#nonNegativeInteger": {
+    "title": "XMLSchema#nonNegativeInteger"
+  },
+  "Pressure": {
+    "title": "Pressure"
+  },
+  "FuelEfficiency": {
+    "title": "FuelEfficiency"
+  },
+  "Power": {
+    "title": "Power"
+  },
+  "XMLSchema#double": {
+    "title": "XMLSchema#double"
+  },
+  "InformationUnit": {
+    "title": "InformationUnit"
+  },
+  "Torque": {
+    "title": "Torque"
+  },
+  "Mass": {
+    "title": "Mass"
+  },
+  "XMLSchema#date": {
+    "title": "XMLSchema#date"
+  },
+  "XMLSchema#gYear": {
+    "title": "XMLSchema#gYear"
+  },
+  "Speed": {
+    "title": "Speed"
+  },
+  "Volume": {
+    "title": "Volume"
+  },
+  "XMLSchema#gYearMonth": {
+    "title": "XMLSchema#gYearMonth"
+  },
+  "XMLSchema#integer": {
+    "title": "XMLSchema#integer"
+  },
+  "XMLSchema#string": {
+    "title": "XMLSchema#string"
+  },
+  "FlowRate": {
+    "title": "FlowRate"
+  },
+  "XMLSchema#anyURI": {
+    "title": "XMLSchema#anyURI"
+  }
+}

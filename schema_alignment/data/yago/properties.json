@@ -1,0 +1,1438 @@
+{
+  "isEncodedByBioChemEntity": {
+    "title": "isEncodedByBioChemEntity",
+    "types": [
+      "Gene"
+    ],
+    "classes": [
+      "BioChemEntity"
+    ]
+  },
+  "telephone": {
+    "title": "telephone",
+    "description": "The telephone number.",
+    "classes": [
+      "Nb0788fd016cf4c1080fa088c7a65383d"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "taxonRank": {
+    "title": "taxonRank",
+    "types": [
+      "Thing"
+    ],
+    "classes": [
+      "Taxon"
+    ]
+  },
+  "spouse": {
+    "title": "spouse",
+    "classes": [
+      "Person"
+    ],
+    "description": "The person's spouse.",
+    "types": [
+      "Person"
+    ]
+  },
+  "familyName": {
+    "title": "familyName",
+    "description": "Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property.",
+    "types": [
+      "Thing"
+    ],
+    "classes": [
+      "Person"
+    ]
+  },
+  "gtin": {
+    "title": "gtin",
+    "subPropertyOf": [
+      "identifier"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ],
+    "classes": [
+      "Product"
+    ],
+    "description": "A Global Trade Item Number (<a href=\"https://www.gs1.org/standards/id-keys/gtin\">GTIN</a>). GTINs identify trade items, including products and services, using numeric identification codes. The <a class=\"localLink\" href=\"http://schema.org/gtin\">gtin</a> property generalizes the earlier <a class=\"localLink\" href=\"http://schema.org/gtin8\">gtin8</a>, <a class=\"localLink\" href=\"http://schema.org/gtin12\">gtin12</a>, <a class=\"localLink\" href=\"http://schema.org/gtin13\">gtin13</a>, and <a class=\"localLink\" href=\"http://schema.org/gtin14\">gtin14</a> properties. The GS1 <a href=\"https://www.gs1.org/standards/Digital-Link/\">digital link specifications</a> express GTINs as URLs. A correct <a class=\"localLink\" href=\"http://schema.org/gtin\">gtin</a> value should be a valid GTIN, which means that it should be an all-numeric string of either 8, 12, 13 or 14 digits, or a \"GS1 Digital Link\" URL based on such a string. The numeric component should also have a <a href=\"https://www.gs1.org/services/check-digit-calculator\">valid GS1 check digit</a> and meet the other rules for valid GTINs. See also <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GS1's GTIN Summary</a> and <a href=\"https://en.wikipedia.org/wiki/Global_Trade_Item_Number\">Wikipedia</a> for more details. Left-padding of the gtin values is not required or encouraged."
+  },
+  "sameAs": {
+    "title": "sameAs",
+    "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.",
+    "types": [
+      "XMLSchema#anyURI"
+    ],
+    "classes": [
+      "Thing"
+    ]
+  },
+  "partOfSeries": {
+    "title": "partOfSeries",
+    "classes": [
+      "N5dd66803602347d984517582cedb9e1a"
+    ],
+    "subPropertyOf": [
+      "isPartOf"
+    ],
+    "types": [
+      "CreativeWorkSeries"
+    ],
+    "description": "The series to which this episode or season belongs."
+  },
+  "composer": {
+    "title": "composer",
+    "description": "The person or organization who wrote a composition, or who is the composer of a work performed at some event.",
+    "types": [
+      "N94c3cfa0c5674239a73783bdacf29334"
+    ],
+    "classes": [
+      "N59b9967de8a34b8ea599b0378fb8494c"
+    ]
+  },
+  "possibleTreatment": {
+    "title": "possibleTreatment",
+    "description": "A possible treatment to address this condition, sign or symptom.",
+    "types": [
+      "MedicalTherapy"
+    ],
+    "classes": [
+      "Nc4b3aa9e461041b3a247840f79ea2ceb"
+    ]
+  },
+  "creator": {
+    "title": "creator",
+    "classes": [
+      "CreativeWork"
+    ],
+    "types": [
+      "Ne1e90dae087d4f64957db3984d2b93c8"
+    ],
+    "description": "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork."
+  },
+  "birthDate": {
+    "title": "birthDate",
+    "classes": [
+      "Person"
+    ],
+    "types": [
+      "N48b9da9a6d3f4ce8b5da16a325711e75"
+    ],
+    "description": "Date of birth."
+  },
+  "elevation": {
+    "title": "elevation",
+    "description": "The elevation of a location (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>). Values may be of the form 'NUMBER UNIT<em>OF</em>MEASUREMENT' (e.g., '1,000 m', '3,200 ft') while numbers alone should be assumed to be a value in meters.",
+    "classes": [
+      "Place"
+    ],
+    "types": [
+      "QuantitativeValue"
+    ]
+  },
+  "hasOccupation": {
+    "title": "hasOccupation",
+    "description": "The Person's occupation. For past professions, use Role for expressing dates.",
+    "classes": [
+      "Person"
+    ],
+    "types": [
+      "Occupation"
+    ]
+  },
+  "founder": {
+    "title": "founder",
+    "types": [
+      "Person"
+    ],
+    "description": "A person who founded this organization.",
+    "classes": [
+      "Organization"
+    ]
+  },
+  "unitCode": {
+    "title": "unitCode",
+    "types": [
+      "Thing"
+    ],
+    "description": "The unit of measurement given using the UN/CEFACT Common Code (3 characters) or a URL. Other codes than the UN/CEFACT Common Code may be used with a prefix followed by a colon.",
+    "classes": [
+      "QuantitativeValue"
+    ]
+  },
+  "director": {
+    "title": "director",
+    "classes": [
+      "Nbb3b944fb89f47c993e67bc19a360c18"
+    ],
+    "description": "A director of e.g. tv, radio, movie, video gaming etc. content, or of an event. Directors can be associated with individual items or with a series, episode, clip.",
+    "types": [
+      "Person"
+    ]
+  },
+  "duns": {
+    "title": "duns",
+    "description": "The Dun &amp; Bradstreet DUNS number for identifying an organization or business person.",
+    "subPropertyOf": [
+      "identifier"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ],
+    "classes": [
+      "Organization"
+    ]
+  },
+  "parentTaxon": {
+    "title": "parentTaxon",
+    "classes": [
+      "Taxon"
+    ],
+    "types": [
+      "Taxon"
+    ]
+  },
+  "hasMolecularFunction": {
+    "title": "hasMolecularFunction",
+    "types": [
+      "Thing"
+    ],
+    "classes": [
+      "BioChemEntity"
+    ]
+  },
+  "nationality": {
+    "title": "nationality",
+    "types": [
+      "Country"
+    ],
+    "description": "Nationality of the person.",
+    "classes": [
+      "Person"
+    ]
+  },
+  "foundingLocation": {
+    "title": "foundingLocation",
+    "types": [
+      "Place"
+    ],
+    "classes": [
+      "Organization"
+    ],
+    "description": "The place where the Organization was founded."
+  },
+  "height": {
+    "title": "height",
+    "description": "The height of the item.",
+    "classes": [
+      "N6893e3e930e94a75bf61cb71893e04b1"
+    ],
+    "types": [
+      "QuantitativeValue"
+    ]
+  },
+  "legalStatus": {
+    "title": "legalStatus",
+    "description": "The drug or supplement's legal status, including any controlled substance schedules that apply.",
+    "types": [
+      "DrugLegalStatus"
+    ],
+    "classes": [
+      "MedicalEntity"
+    ]
+  },
+  "logo": {
+    "title": "logo",
+    "classes": [
+      "N656d51b848674f7e9cde6d851eb37b0d"
+    ],
+    "description": "An associated logo.",
+    "types": [
+      "ImageObject"
+    ],
+    "subPropertyOf": [
+      "image"
+    ]
+  },
+  "latitude": {
+    "title": "latitude",
+    "classes": [
+      "GeoCoordinates"
+    ],
+    "description": "The latitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>).",
+    "types": [
+      "XMLSchema#double"
+    ]
+  },
+  "organizer": {
+    "title": "organizer",
+    "types": [
+      "Ne926e62ff8e040518e7ff5460fd6b9f4"
+    ],
+    "classes": [
+      "Event"
+    ],
+    "description": "An organizer of an Event."
+  },
+  "producer": {
+    "title": "producer",
+    "types": [
+      "Na8dea46224bd4f0bb9abe742d97b577c"
+    ],
+    "description": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "datePublished": {
+    "title": "datePublished",
+    "classes": [
+      "CreativeWork"
+    ],
+    "types": [
+      "Na7fcd51546a24f4099fa9e4e1e28da3a"
+    ],
+    "description": "Date of first broadcast/publication."
+  },
+  "geo": {
+    "title": "geo",
+    "classes": [
+      "Place"
+    ],
+    "description": "The geo coordinates of the place.",
+    "types": [
+      "GeoCoordinates"
+    ]
+  },
+  "about": {
+    "title": "about",
+    "description": "The subject matter of the content.",
+    "classes": [
+      "N9314d979ab104c139bbc758b3c4281ab"
+    ],
+    "types": [
+      "Thing"
+    ]
+  },
+  "subEvent": {
+    "title": "subEvent",
+    "classes": [
+      "Event"
+    ],
+    "types": [
+      "Event"
+    ],
+    "description": "An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference."
+  },
+  "memberOf": {
+    "title": "memberOf",
+    "description": "An Organization (or ProgramMembership) to which this Person or Organization belongs.",
+    "types": [
+      "Organization"
+    ],
+    "classes": [
+      "Nec4741a4145843b8b07f33a55000a5eb"
+    ]
+  },
+  "numberOfSeasons": {
+    "title": "numberOfSeasons",
+    "classes": [
+      "N7f5fd0d2f46f44a1b9373de67f8f3a51"
+    ],
+    "types": [
+      "XMLSchema#integer"
+    ],
+    "description": "The number of seasons in this series."
+  },
+  "locationCreated": {
+    "title": "locationCreated",
+    "classes": [
+      "CreativeWork"
+    ],
+    "types": [
+      "Place"
+    ],
+    "description": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork."
+  },
+  "exampleOfWork": {
+    "title": "exampleOfWork",
+    "types": [
+      "CreativeWork"
+    ],
+    "description": "A creative work that this work is an example/instance/realization/derivation of.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "smiles": {
+    "title": "smiles",
+    "types": [
+      "XMLSchema#string"
+    ],
+    "classes": [
+      "MolecularEntity"
+    ]
+  },
+  "image": {
+    "title": "image",
+    "types": [
+      "ImageObject"
+    ],
+    "description": "An image of the item. This can be a <a class=\"localLink\" href=\"http://schema.org/URL\">URL</a> or a fully described <a class=\"localLink\" href=\"http://schema.org/ImageObject\">ImageObject</a>.",
+    "classes": [
+      "Thing"
+    ]
+  },
+  "hasPart": {
+    "title": "hasPart",
+    "classes": [
+      "CreativeWork"
+    ],
+    "types": [
+      "CreativeWork"
+    ],
+    "description": "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)."
+  },
+  "license": {
+    "title": "license",
+    "description": "A license document that applies to this content, typically indicated by URL.",
+    "types": [
+      "CreativeWork"
+    ],
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "position": {
+    "title": "position",
+    "classes": [
+      "CreativeWork"
+    ],
+    "description": "The position of an item in a series or sequence of items.",
+    "types": [
+      "XMLSchema#integer"
+    ]
+  },
+  "material": {
+    "title": "material",
+    "types": [
+      "Thing"
+    ],
+    "description": "A material that something is made from, e.g. leather, wool, cotton, paper.",
+    "classes": [
+      "N24583e77358746109ddfcd086eebef3c"
+    ]
+  },
+  "genre": {
+    "title": "genre",
+    "classes": [
+      "N430c755040cc4c549f41852a99f91ce6"
+    ],
+    "description": "Genre of the creative work, broadcast channel or group.",
+    "types": [
+      "Thing"
+    ]
+  },
+  "issueNumber": {
+    "title": "issueNumber",
+    "description": "Identifies the issue of publication; for example, \"iii\" or \"2\".",
+    "subPropertyOf": [
+      "position"
+    ],
+    "classes": [
+      "PublicationIssue"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "alternateName": {
+    "title": "alternateName",
+    "description": "An alias for the item.",
+    "classes": [
+      "Thing"
+    ],
+    "types": [
+      "22-rdf-syntax-ns#PlainLiteral"
+    ]
+  },
+  "issn": {
+    "title": "issn",
+    "description": "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.",
+    "subPropertyOf": [
+      "identifier"
+    ],
+    "classes": [
+      "CreativeWorkSeries"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "musicBy": {
+    "title": "musicBy",
+    "types": [
+      "N7a2ef9a1c7e14aea889a6fa5c971a1b6"
+    ],
+    "description": "The composer of the soundtrack.",
+    "classes": [
+      "N5522d39683c84e54ae2ec2fd9c0407c4"
+    ]
+  },
+  "affiliation": {
+    "title": "affiliation",
+    "classes": [
+      "Person"
+    ],
+    "subPropertyOf": [
+      "memberOf"
+    ],
+    "types": [
+      "Organization"
+    ],
+    "description": "An organization that this person is affiliated with. For example, a school/university, a club, or a team."
+  },
+  "minValue": {
+    "title": "minValue",
+    "types": [
+      "XMLSchema#decimal"
+    ],
+    "description": "The lower value of some characteristic or property.",
+    "classes": [
+      "QuantitativeValue"
+    ]
+  },
+  "colorist": {
+    "title": "colorist",
+    "classes": [
+      "N4944ed4775c048568a8faa0474643b60"
+    ],
+    "types": [
+      "Person"
+    ],
+    "description": "The individual who adds color to inked drawings."
+  },
+  "partOfSeason": {
+    "title": "partOfSeason",
+    "types": [
+      "CreativeWorkSeason"
+    ],
+    "classes": [
+      "Episode"
+    ],
+    "subPropertyOf": [
+      "isPartOf"
+    ],
+    "description": "The season to which this episode belongs."
+  },
+  "broadcastChannelId": {
+    "title": "broadcastChannelId",
+    "classes": [
+      "BroadcastChannel"
+    ],
+    "description": "The unique address by which the BroadcastService can be identified in a provider lineup. In US, this is typically a number.",
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "owns": {
+    "title": "owns",
+    "classes": [
+      "Person"
+    ],
+    "types": [
+      "Product"
+    ],
+    "description": "Products owned by the organization or person."
+  },
+  "leiCode": {
+    "title": "leiCode",
+    "description": "An organization identifier that uniquely identifies a legal entity as defined in ISO 17442.",
+    "subPropertyOf": [
+      "identifier"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ],
+    "classes": [
+      "Organization"
+    ]
+  },
+  "competitor": {
+    "title": "competitor",
+    "classes": [
+      "SportsEvent"
+    ],
+    "types": [
+      "N892f233fd13c42bd9101f1ee321cc209"
+    ],
+    "description": "A competitor in a sports event."
+  },
+  "illustrator": {
+    "title": "illustrator",
+    "types": [
+      "Person"
+    ],
+    "description": "The illustrator of the book.",
+    "classes": [
+      "Book"
+    ]
+  },
+  "inChIKey": {
+    "title": "inChIKey",
+    "classes": [
+      "MolecularEntity"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "servesCuisine": {
+    "title": "servesCuisine",
+    "description": "The cuisine of the restaurant.",
+    "types": [
+      "Thing"
+    ],
+    "classes": [
+      "FoodEstablishment"
+    ]
+  },
+  "maxValue": {
+    "title": "maxValue",
+    "description": "The upper value of some characteristic or property.",
+    "classes": [
+      "QuantitativeValue"
+    ],
+    "types": [
+      "XMLSchema#decimal"
+    ]
+  },
+  "isbn": {
+    "title": "isbn",
+    "subPropertyOf": [
+      "identifier"
+    ],
+    "description": "The ISBN of the book.",
+    "classes": [
+      "Book"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "faxNumber": {
+    "title": "faxNumber",
+    "description": "The fax number.",
+    "classes": [
+      "Ncaf1d5039e42403cbb56f9dde2f2fe42"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "lyricist": {
+    "title": "lyricist",
+    "classes": [
+      "MusicComposition"
+    ],
+    "description": "The person who wrote the words.",
+    "types": [
+      "N102c99b8c8bf44ca9e3cdb18406775da"
+    ]
+  },
+  "relevantSpecialty": {
+    "title": "relevantSpecialty",
+    "types": [
+      "MedicalSpecialty"
+    ],
+    "description": "If applicable, a medical specialty in which this entity is relevant.",
+    "classes": [
+      "MedicalEntity"
+    ]
+  },
+  "brand": {
+    "title": "brand",
+    "description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
+    "classes": [
+      "N6c11753e0c3e4124984612fc86fffe8e"
+    ],
+    "types": [
+      "Ne766e495449b495a8e589523ac7ef036"
+    ]
+  },
+  "superEvent": {
+    "title": "superEvent",
+    "types": [
+      "Event"
+    ],
+    "classes": [
+      "Event"
+    ],
+    "description": "An event that this event is a part of. For example, a collection of individual music performances might each have a music festival as their superEvent."
+  },
+  "volumeNumber": {
+    "title": "volumeNumber",
+    "classes": [
+      "PublicationVolume"
+    ],
+    "description": "Identifies the volume of publication or multi-part work; for example, \"iii\" or \"2\".",
+    "subPropertyOf": [
+      "position"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "operatingSystem": {
+    "title": "operatingSystem",
+    "types": [
+      "SoftwareApplication"
+    ],
+    "description": "Operating systems supported (Windows 7, OSX 10.6, Android 1.6).",
+    "classes": [
+      "SoftwareApplication"
+    ]
+  },
+  "provider": {
+    "title": "provider",
+    "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
+    "types": [
+      "Na39a0cb6d11140678b4abe4e79eb7899"
+    ],
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "callSign": {
+    "title": "callSign",
+    "description": "A <a href=\"https://en.wikipedia.org/wiki/Call_sign\">callsign</a>, as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
+    "classes": [
+      "N5a81e3055e2046fc9d5f214085edb06a"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ],
+    "subPropertyOf": [
+      "identifier"
+    ]
+  },
+  "numberOfPages": {
+    "title": "numberOfPages",
+    "classes": [
+      "Book"
+    ],
+    "types": [
+      "XMLSchema#integer"
+    ],
+    "description": "The number of pages in the book."
+  },
+  "containedInPlace": {
+    "title": "containedInPlace",
+    "description": "The basic containment relation between a place and one that contains it.",
+    "types": [
+      "Place"
+    ],
+    "classes": [
+      "Place"
+    ]
+  },
+  "parentOrganization": {
+    "title": "parentOrganization",
+    "description": "The larger organization that this organization is a <a class=\"localLink\" href=\"http://schema.org/subOrganization\">subOrganization</a> of, if any.",
+    "types": [
+      "Organization"
+    ],
+    "classes": [
+      "Organization"
+    ]
+  },
+  "foundingDate": {
+    "title": "foundingDate",
+    "description": "The date that this organization was founded.",
+    "types": [
+      "N8792c6f3e5fc42ba8e7b04b51acda561"
+    ],
+    "classes": [
+      "Organization"
+    ]
+  },
+  "url": {
+    "title": "url",
+    "description": "URL of the item.",
+    "types": [
+      "XMLSchema#anyURI"
+    ],
+    "classes": [
+      "Thing"
+    ]
+  },
+  "containsPlace": {
+    "title": "containsPlace",
+    "types": [
+      "Place"
+    ],
+    "classes": [
+      "Place"
+    ],
+    "description": "The basic containment relation between a place and another that it contains."
+  },
+  "contentLocation": {
+    "title": "contentLocation",
+    "types": [
+      "Place"
+    ],
+    "description": "The location depicted or described in the content. For example, the location in a photograph or painting.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "icaoCode": {
+    "title": "icaoCode",
+    "classes": [
+      "N521627868f104113a821d99af2731674"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ],
+    "description": "ICAO identifier for an airport."
+  },
+  "encodingFormat": {
+    "title": "encodingFormat",
+    "description": "Media type typically expressed using a MIME format (see <a href=\"http://www.iana.org/assignments/media-types/media-types.xhtml\">IANA site</a> and <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types\">MDN reference</a>) e.g. application/zip for a SoftwareApplication binary, audio/mpeg for .mp3 etc.).<br/><br/>\n\nIn cases where a <a class=\"localLink\" href=\"http://schema.org/CreativeWork\">CreativeWork</a> has several media type representations, <a class=\"localLink\" href=\"http://schema.org/encoding\">encoding</a> can be used to indicate each <a class=\"localLink\" href=\"http://schema.org/MediaObject\">MediaObject</a> alongside particular <a class=\"localLink\" href=\"http://schema.org/encodingFormat\">encodingFormat</a> information.<br/><br/>\n\nUnregistered or niche encoding and file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia/Wikidata entry.",
+    "types": [
+      "XMLSchema#string"
+    ],
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "contributor": {
+    "title": "contributor",
+    "classes": [
+      "Nb86e2bf630a2496d98f0c27c9188bf44"
+    ],
+    "description": "A secondary contributor to the CreativeWork or Event.",
+    "types": [
+      "N3afa0714c48642bebd800e5299694c44"
+    ]
+  },
+  "iswcCode": {
+    "title": "iswcCode",
+    "types": [
+      "XMLSchema#string"
+    ],
+    "classes": [
+      "MusicComposition"
+    ],
+    "description": "The International Standard Musical Work Code for the composition."
+  },
+  "duration": {
+    "title": "duration",
+    "description": "The duration of the item (movie, audio recording, event, etc.) in <a href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO 8601 date format</a>.",
+    "classes": [
+      "N70e25f23e7ea4c8bafe6a0b65ad54c4c"
+    ],
+    "types": [
+      "XMLSchema#duration"
+    ]
+  },
+  "startDate": {
+    "title": "startDate",
+    "types": [
+      "Nc7680af4cfee407f9615195126a113a0"
+    ],
+    "description": "The start date and time of the item (in <a href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO 8601 date format</a>).",
+    "classes": [
+      "Event"
+    ]
+  },
+  "translator": {
+    "title": "translator",
+    "description": "Organization or person who adapts a creative work to different languages, regional differences and technical requirements of a target market, or that translates during some event.",
+    "classes": [
+      "Nf7a2ea015f44474daad909fd6608fe5b"
+    ],
+    "types": [
+      "Nbc3f142b5b7a49f2bb9c4202091e65f6"
+    ]
+  },
+  "copyrightHolder": {
+    "title": "copyrightHolder",
+    "classes": [
+      "CreativeWork"
+    ],
+    "types": [
+      "N2d933ea71306423cb8b6ca44166b79ed"
+    ],
+    "description": "The party holding the legal copyright to the CreativeWork."
+  },
+  "isLocatedInSubcellularLocation": {
+    "title": "isLocatedInSubcellularLocation",
+    "classes": [
+      "BioChemEntity"
+    ],
+    "types": [
+      "Thing"
+    ]
+  },
+  "dissolutionDate": {
+    "title": "dissolutionDate",
+    "classes": [
+      "Organization"
+    ],
+    "types": [
+      "N903f7cafb8524c0bbff042cc0c9cd09b"
+    ],
+    "description": "The date that this organization was dissolved."
+  },
+  "countryOfOrigin": {
+    "title": "countryOfOrigin",
+    "classes": [
+      "Ne9e39b48fde84fe79186539a4ab7b65e"
+    ],
+    "types": [
+      "Country"
+    ],
+    "description": "The country of the principal offices of the production company or individual responsible for the movie or program."
+  },
+  "worksFor": {
+    "title": "worksFor",
+    "types": [
+      "Person"
+    ],
+    "classes": [
+      "Person"
+    ],
+    "description": "Organizations that the person works for."
+  },
+  "inLanguage": {
+    "title": "inLanguage",
+    "classes": [
+      "CreativeWork"
+    ],
+    "description": "The language of the content or performance or used in an action. Please use one of the language codes from the <a href=\"http://tools.ietf.org/html/bcp47\">IETF BCP 47 standard</a>. See also <a class=\"localLink\" href=\"http://schema.org/availableLanguage\">availableLanguage</a>.",
+    "types": [
+      "Language"
+    ]
+  },
+  "publisher": {
+    "title": "publisher",
+    "description": "The publisher of the creative work.",
+    "types": [
+      "Nc302f97f45e7490c9fedb276f5fc6388"
+    ],
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "numberOfEmployees": {
+    "title": "numberOfEmployees",
+    "description": "The number of employees in an organization e.g. business.",
+    "classes": [
+      "Organization"
+    ],
+    "types": [
+      "QuantitativeValue"
+    ]
+  },
+  "value": {
+    "title": "value",
+    "classes": [
+      "QuantitativeValue"
+    ],
+    "types": [
+      "XMLSchema#decimal"
+    ],
+    "description": "The value of the quantitative value or property value node.<br/><br/>\n\n<ul>\n<li>For <a class=\"localLink\" href=\"http://schema.org/QuantitativeValue\">QuantitativeValue</a> and <a class=\"localLink\" href=\"http://schema.org/MonetaryAmount\">MonetaryAmount</a>, the recommended type for values is 'Number'.</li>\n<li>For <a class=\"localLink\" href=\"http://schema.org/PropertyValue\">PropertyValue</a>, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.</li>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n"
+  },
+  "isBasedOn": {
+    "title": "isBasedOn",
+    "types": [
+      "CreativeWork"
+    ],
+    "classes": [
+      "CreativeWork"
+    ],
+    "description": "A resource from which this work is derived or from which it is a modification or adaption."
+  },
+  "releaseOf": {
+    "title": "releaseOf",
+    "types": [
+      "MusicAlbum"
+    ],
+    "description": "The album this is a release of.",
+    "classes": [
+      "MusicRelease"
+    ]
+  },
+  "gender": {
+    "title": "gender",
+    "classes": [
+      "Person"
+    ],
+    "description": "Gender of something, typically a <a class=\"localLink\" href=\"http://schema.org/Person\">Person</a>, but possibly also fictional characters, animals, etc. While http://schema.org/Male and http://schema.org/Female may be used, text strings are also acceptable for people who do not identify as a binary gender. The <a class=\"localLink\" href=\"http://schema.org/gender\">gender</a> property can also be used in an extended sense to cover e.g. the gender of sports teams. As with the gender of individuals, we do not try to enumerate all possibilities. A mixed-gender <a class=\"localLink\" href=\"http://schema.org/SportsTeam\">SportsTeam</a> can be indicated with a text value of \"Mixed\".",
+    "types": [
+      "Thing"
+    ]
+  },
+  "deathPlace": {
+    "title": "deathPlace",
+    "classes": [
+      "Person"
+    ],
+    "description": "The place where the person died.",
+    "types": [
+      "Place"
+    ]
+  },
+  "musicReleaseFormat": {
+    "title": "musicReleaseFormat",
+    "classes": [
+      "MusicRelease"
+    ],
+    "description": "Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).",
+    "types": [
+      "Thing"
+    ]
+  },
+  "knowsLanguage": {
+    "title": "knowsLanguage",
+    "description": "Of a <a class=\"localLink\" href=\"http://schema.org/Person\">Person</a>, and less typically of an <a class=\"localLink\" href=\"http://schema.org/Organization\">Organization</a>, to indicate a known language. We do not distinguish skill levels or reading/writing/speaking/signing here. Use language codes from the <a href=\"http://tools.ietf.org/html/bcp47\">IETF BCP 47 standard</a>.",
+    "types": [
+      "Language"
+    ],
+    "classes": [
+      "N7b12c6bd5e2842fc998455794487a85a"
+    ]
+  },
+  "iataCode": {
+    "title": "iataCode",
+    "classes": [
+      "N21314cfadc6a45b6b2bd5829f9c7cb3b"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ],
+    "description": "IATA identifier for an airline or airport."
+  },
+  "actor": {
+    "title": "actor",
+    "types": [
+      "Person"
+    ],
+    "classes": [
+      "N4aa72be1c6ab4ea4bcc9efca5d5e525f"
+    ],
+    "description": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip."
+  },
+  "sport": {
+    "title": "sport",
+    "description": "A type of sport (e.g. Baseball).",
+    "classes": [
+      "Na7db87ce6f4a4e59af20f9c2f5d7b21d"
+    ],
+    "types": [
+      "Thing"
+    ]
+  },
+  "byArtist": {
+    "title": "byArtist",
+    "description": "The artist that performed this album or recording.",
+    "classes": [
+      "MusicAlbum"
+    ],
+    "types": [
+      "MusicGroup"
+    ]
+  },
+  "author": {
+    "title": "author",
+    "types": [
+      "N8c12c9b0fe824b62b507a3fa3d1ba076"
+    ],
+    "description": "The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "connectedTo": {
+    "title": "connectedTo",
+    "types": [
+      "AnatomicalStructure"
+    ],
+    "classes": [
+      "AnatomicalStructure"
+    ],
+    "description": "Other anatomical structures to which this structure is connected."
+  },
+  "location": {
+    "title": "location",
+    "description": "The location of for example where the event is happening, an organization is located, or where an action takes place.",
+    "classes": [
+      "Nef763e62181d455fbbdb013aa3fb4246"
+    ],
+    "types": [
+      "Place"
+    ]
+  },
+  "subOrganization": {
+    "title": "subOrganization",
+    "classes": [
+      "Organization"
+    ],
+    "description": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary. See also: the more specific 'department' property.",
+    "types": [
+      "Organization"
+    ]
+  },
+  "award": {
+    "title": "award",
+    "types": [
+      "Thing"
+    ],
+    "description": "An award won by or for this item.",
+    "classes": [
+      "Ncd8682f9cb9c428bb57dfebe892bf795"
+    ]
+  },
+  "workExample": {
+    "title": "workExample",
+    "types": [
+      "CreativeWork"
+    ],
+    "description": "Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "contentRating": {
+    "title": "contentRating",
+    "types": [
+      "Rating"
+    ],
+    "description": "Official rating of a piece of content&#x2014;for example,'MPAA PG-13'.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "weight": {
+    "title": "weight",
+    "description": "The weight of the product or person.",
+    "classes": [
+      "Nea2d58612bbe430e9bf22bf94a7f61c6"
+    ],
+    "types": [
+      "QuantitativeValue"
+    ]
+  },
+  "birthPlace": {
+    "title": "birthPlace",
+    "types": [
+      "Place"
+    ],
+    "classes": [
+      "Person"
+    ],
+    "description": "The place where the person was born."
+  },
+  "homeLocation": {
+    "title": "homeLocation",
+    "types": [
+      "Place"
+    ],
+    "description": "A contact location for a person's residence.",
+    "subPropertyOf": [
+      "location"
+    ],
+    "classes": [
+      "Person"
+    ]
+  },
+  "honorificPrefix": {
+    "title": "honorificPrefix",
+    "classes": [
+      "Person"
+    ],
+    "types": [
+      "Thing"
+    ],
+    "description": "An honorific prefix preceding a Person's name such as Dr/Mrs/Mr."
+  },
+  "netWorth": {
+    "title": "netWorth",
+    "classes": [
+      "Person"
+    ],
+    "description": "The total financial value of the person as calculated by subtracting assets from liabilities.",
+    "types": [
+      "QuantitativeValue"
+    ]
+  },
+  "children": {
+    "title": "children",
+    "types": [
+      "Person"
+    ],
+    "description": "A child of the person.",
+    "classes": [
+      "Person"
+    ]
+  },
+  "signOrSymptom": {
+    "title": "signOrSymptom",
+    "classes": [
+      "MedicalCondition"
+    ],
+    "types": [
+      "MedicalSignOrSymptom"
+    ],
+    "description": "A sign or symptom of this condition. Signs are objective or physically observable manifestations of the medical condition while symptoms are the subjective experience of the medical condition."
+  },
+  "encodesBioChemEntity": {
+    "title": "encodesBioChemEntity",
+    "classes": [
+      "Gene"
+    ],
+    "types": [
+      "BioChemEntity"
+    ]
+  },
+  "citation": {
+    "title": "citation",
+    "classes": [
+      "CreativeWork"
+    ],
+    "description": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
+    "types": [
+      "CreativeWork"
+    ]
+  },
+  "productionCompany": {
+    "title": "productionCompany",
+    "types": [
+      "Organization"
+    ],
+    "description": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
+    "classes": [
+      "Nf956f315357947ff96905205d4b81f29"
+    ]
+  },
+  "endDate": {
+    "title": "endDate",
+    "description": "The end date and time of the item (in <a href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO 8601 date format</a>).",
+    "types": [
+      "N3d10036896f14b379261ca7c576f861a"
+    ],
+    "classes": [
+      "Event"
+    ]
+  },
+  "riskFactor": {
+    "title": "riskFactor",
+    "classes": [
+      "MedicalCondition"
+    ],
+    "types": [
+      "Thing"
+    ],
+    "description": "A modifiable or non-modifiable factor that increases the risk of a patient contracting this condition, e.g. age,  coexisting condition."
+  },
+  "inChI": {
+    "title": "inChI",
+    "classes": [
+      "MolecularEntity"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "pagination": {
+    "title": "pagination",
+    "description": "Any description of pages that is not separated into pageStart and pageEnd; for example, \"1-6, 9, 55\" or \"10-12, 46-49\".",
+    "classes": [
+      "N89c4683fe0c1483aba334bfa29044319"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "molecularFormula": {
+    "title": "molecularFormula",
+    "classes": [
+      "MolecularEntity"
+    ],
+    "types": [
+      "XMLSchema#string"
+    ]
+  },
+  "editor": {
+    "title": "editor",
+    "description": "Specifies the Person who edited the CreativeWork.",
+    "types": [
+      "Person"
+    ],
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "width": {
+    "title": "width",
+    "classes": [
+      "N14cc5be013124c9fb1f405b75e605275"
+    ],
+    "types": [
+      "QuantitativeValue"
+    ],
+    "description": "The width of the item."
+  },
+  "isInvolvedInBiologicalProcess": {
+    "title": "isInvolvedInBiologicalProcess",
+    "types": [
+      "Thing"
+    ],
+    "classes": [
+      "BioChemEntity"
+    ]
+  },
+  "depth": {
+    "title": "depth",
+    "classes": [
+      "N8ca8001b320646b08d83a1108e521a3e"
+    ],
+    "types": [
+      "QuantitativeValue"
+    ],
+    "description": "The depth of the item."
+  },
+  "givenName": {
+    "title": "givenName",
+    "description": "Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property.",
+    "classes": [
+      "Person"
+    ],
+    "types": [
+      "Thing"
+    ]
+  },
+  "numberOfEpisodes": {
+    "title": "numberOfEpisodes",
+    "description": "The number of episodes in this season or series.",
+    "classes": [
+      "Ncc8d7e65696944ce89468c402f77a8f4"
+    ],
+    "types": [
+      "XMLSchema#integer"
+    ]
+  },
+  "alumniOf": {
+    "title": "alumniOf",
+    "types": [
+      "Organization"
+    ],
+    "description": "An organization that the person is an alumni of.",
+    "classes": [
+      "Person"
+    ]
+  },
+  "isPartOf": {
+    "title": "isPartOf",
+    "types": [
+      "CreativeWork"
+    ],
+    "description": "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "bioChemInteraction": {
+    "title": "bioChemInteraction",
+    "types": [
+      "BioChemEntity"
+    ],
+    "classes": [
+      "BioChemEntity"
+    ]
+  },
+  "dateCreated": {
+    "title": "dateCreated",
+    "types": [
+      "N0eba8fac784446e9943dcaff5ca20cad"
+    ],
+    "description": "The date on which the CreativeWork was created or the item was added to a DataFeed.",
+    "classes": [
+      "CreativeWork"
+    ]
+  },
+  "sponsor": {
+    "title": "sponsor",
+    "types": [
+      "Ndf8ef216d1034ee19499480feaf8fc19"
+    ],
+    "classes": [
+      "N8cf6a8fc755e48e18108494f0c2f799d"
+    ],
+    "description": "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event."
+  },
+  "parent": {
+    "title": "parent",
+    "types": [
+      "Person"
+    ],
+    "classes": [
+      "Person"
+    ],
+    "description": "A parent of this person."
+  },
+  "expressedIn": {
+    "title": "expressedIn",
+    "classes": [
+      "Gene"
+    ],
+    "types": [
+      "Thing"
+    ]
+  },
+  "deathDate": {
+    "title": "deathDate",
+    "classes": [
+      "Person"
+    ],
+    "types": [
+      "Ncfbdf9b7b5404e2d978b3b99a2d404e1"
+    ],
+    "description": "Date of death."
+  },
+  "recordLabel": {
+    "title": "recordLabel",
+    "description": "The label that issued the release.",
+    "classes": [
+      "MusicRelease"
+    ],
+    "types": [
+      "Organization"
+    ]
+  },
+  "longitude": {
+    "title": "longitude",
+    "description": "The longitude of a location. For example <code>-122.08585</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>).",
+    "classes": [
+      "GeoCoordinates"
+    ],
+    "types": [
+      "XMLSchema#double"
+    ]
+  },
+  "character": {
+    "title": "character",
+    "classes": [
+      "CreativeWork"
+    ],
+    "description": "Fictional person connected with a creative work.",
+    "types": [
+      "Person"
+    ]
+  }
+}

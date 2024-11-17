@@ -1,0 +1,1871 @@
+{
+  "EntertainmentBusiness": {
+    "title": "EntertainmentBusiness",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A business providing entertainment."
+  },
+  "Library": {
+    "title": "Library",
+    "description": "A library.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "MusicAlbum": {
+    "title": "MusicAlbum",
+    "subClassOf": [
+      "MusicPlaylist"
+    ],
+    "description": "A collection of music tracks."
+  },
+  "SelfStorage": {
+    "title": "SelfStorage",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A self-storage facility."
+  },
+  "LocalBusiness": {
+    "title": "LocalBusiness",
+    "subClassOf": [
+      "Organization",
+      "Place"
+    ],
+    "description": "A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc."
+  },
+  "Store": {
+    "title": "Store",
+    "description": "A retail good store.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "Dataset": {
+    "title": "Dataset",
+    "description": "A body of structured information describing some topic(s) of interest.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "LodgingBusiness": {
+    "title": "LodgingBusiness",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A lodging business, such as a motel, hotel, or inn."
+  },
+  "BankOrCreditUnion": {
+    "title": "BankOrCreditUnion",
+    "subClassOf": [
+      "FinancialService"
+    ],
+    "description": "Bank or credit union."
+  },
+  "Thesis": {
+    "title": "Thesis",
+    "description": "A thesis or dissertation document submitted in support of candidature for an academic degree or professional qualification.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "HinduTemple": {
+    "title": "HinduTemple",
+    "subClassOf": [
+      "PlaceOfWorship"
+    ],
+    "description": "A Hindu temple."
+  },
+  "ProductModel": {
+    "title": "ProductModel",
+    "subClassOf": [
+      "Product"
+    ],
+    "description": "A datasheet or vendor specification of a product (in the sense of a prototypical description)."
+  },
+  "Painting": {
+    "title": "Painting",
+    "description": "A painting.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "Winery": {
+    "title": "Winery",
+    "description": "A winery.",
+    "subClassOf": [
+      "FoodEstablishment"
+    ]
+  },
+  "MovieSeries": {
+    "title": "MovieSeries",
+    "description": "A series of movies. Included movies can be indicated with the hasPart property.",
+    "subClassOf": [
+      "CreativeWorkSeries"
+    ]
+  },
+  "PublicToilet": {
+    "title": "PublicToilet",
+    "description": "A public toilet is a room or small building containing one or more toilets (and possibly also urinals) which is available for use by the general public, or by customers or employees of certain businesses.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "Airline": {
+    "title": "Airline",
+    "subClassOf": [
+      "Organization"
+    ],
+    "description": "An organization that provides flights for passengers."
+  },
+  "MiddleSchool": {
+    "title": "MiddleSchool",
+    "description": "A middle school (typically for children aged around 11-14, although this varies somewhat).",
+    "subClassOf": [
+      "EducationalOrganization"
+    ]
+  },
+  "MovieTheater": {
+    "title": "MovieTheater",
+    "subClassOf": [
+      "CivicStructure",
+      "EntertainmentBusiness"
+    ],
+    "description": "A movie theater."
+  },
+  "RadioChannel": {
+    "title": "RadioChannel",
+    "description": "A unique instance of a radio BroadcastService on a CableOrSatelliteService lineup.",
+    "subClassOf": [
+      "BroadcastChannel"
+    ]
+  },
+  "FireStation": {
+    "title": "FireStation",
+    "description": "A fire station. With firemen.",
+    "subClassOf": [
+      "EmergencyService",
+      "CivicStructure"
+    ]
+  },
+  "Cemetery": {
+    "title": "Cemetery",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A graveyard."
+  },
+  "Nerve": {
+    "title": "Nerve",
+    "description": "A common pathway for the electrochemical nerve impulses that are transmitted along each of the axons.",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "ImageObject": {
+    "title": "ImageObject",
+    "subClassOf": [
+      "MediaObject"
+    ],
+    "description": "An image file."
+  },
+  "BroadcastService": {
+    "title": "BroadcastService",
+    "subClassOf": [
+      "Service"
+    ],
+    "description": "A delivery service through which content is provided via broadcast over the air or online."
+  },
+  "LiquorStore": {
+    "title": "LiquorStore",
+    "subClassOf": [
+      "Store"
+    ],
+    "description": "A shop that sells alcoholic drinks such as wine, beer, whisky and other spirits."
+  },
+  "Optician": {
+    "title": "Optician",
+    "description": "A store that sells reading glasses and similar devices for improving vision.",
+    "subClassOf": [
+      "MedicalBusiness"
+    ]
+  },
+  "Festival": {
+    "title": "Festival",
+    "subClassOf": [
+      "Event"
+    ],
+    "description": "Event type: Festival."
+  },
+  "Thing": {
+    "title": "Thing",
+    "description": "The most generic type of item."
+  },
+  "Park": {
+    "title": "Park",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A park."
+  },
+  "MediaObject": {
+    "title": "MediaObject",
+    "description": "A media object, such as an image, video, or audio object embedded in a web page or a downloadable dataset i.e. DataDownload. Note that a creative work may have many media objects associated with it on the same web page. For example, a page about a single song (MusicRecording) may have a music video (VideoObject), and a high and low bandwidth audio stream (2 AudioObject's).",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "Bakery": {
+    "title": "Bakery",
+    "subClassOf": [
+      "FoodEstablishment"
+    ],
+    "description": "A bakery."
+  },
+  "Beach": {
+    "title": "Beach",
+    "description": "Beach.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "DataCatalog": {
+    "title": "DataCatalog",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A collection of datasets."
+  },
+  "PhysicalExam": {
+    "title": "PhysicalExam",
+    "subClassOf": [
+      "MedicalProcedure",
+      "MedicalEntity"
+    ],
+    "description": "A type of physical examination of a patient performed by a physician."
+  },
+  "SocialMediaPosting": {
+    "title": "SocialMediaPosting",
+    "subClassOf": [
+      "Article"
+    ],
+    "description": "A post to a social media platform, including blog posts, tweets, Facebook posts, etc."
+  },
+  "Pharmacy": {
+    "title": "Pharmacy",
+    "subClassOf": [
+      "MedicalBusiness",
+      "MedicalOrganization"
+    ],
+    "description": "A pharmacy or drugstore."
+  },
+  "IceCreamShop": {
+    "title": "IceCreamShop",
+    "description": "An ice cream shop.",
+    "subClassOf": [
+      "FoodEstablishment"
+    ]
+  },
+  "PawnShop": {
+    "title": "PawnShop",
+    "subClassOf": [
+      "Store"
+    ],
+    "description": "A shop that will buy, or lend money against the security of, personal possessions."
+  },
+  "MedicalTherapy": {
+    "title": "MedicalTherapy",
+    "subClassOf": [
+      "TherapeuticProcedure"
+    ],
+    "description": "Any medical intervention designed to prevent, treat, and cure human diseases and medical conditions, including both curative and palliative therapies. Medical therapies are typically processes of care relying upon pharmacotherapy, behavioral therapy, supportive therapy (with fluid or nutrition for example), or detoxification (e.g. hemodialysis) aimed at improving or preventing a health condition."
+  },
+  "GroceryStore": {
+    "title": "GroceryStore",
+    "description": "A grocery store.",
+    "subClassOf": [
+      "Store"
+    ]
+  },
+  "NailSalon": {
+    "title": "NailSalon",
+    "description": "A nail salon.",
+    "subClassOf": [
+      "HealthAndBeautyBusiness"
+    ]
+  },
+  "RecyclingCenter": {
+    "title": "RecyclingCenter",
+    "description": "A recycling center.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "TelevisionStation": {
+    "title": "TelevisionStation",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A television station."
+  },
+  "PodcastSeries": {
+    "title": "PodcastSeries",
+    "description": "A podcast is an episodic series of digital audio or video files which a user can download and listen to.",
+    "subClassOf": [
+      "CreativeWorkSeries"
+    ]
+  },
+  "WebPage": {
+    "title": "WebPage",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page."
+  },
+  "Muscle": {
+    "title": "Muscle",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ],
+    "description": "A muscle is an anatomical structure consisting of a contractile form of tissue that animals use to effect movement."
+  },
+  "Place": {
+    "title": "Place",
+    "description": "Entities that have a somewhat fixed, physical extension.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "GasStation": {
+    "title": "GasStation",
+    "description": "A gas station.",
+    "subClassOf": [
+      "AutomotiveBusiness"
+    ]
+  },
+  "BioChemEntity": {
+    "title": "BioChemEntity",
+    "description": "Any biological, chemical, or biochemical thing. For example: a protein; a gene; a chemical; a synthetic chemical.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "SurgicalProcedure": {
+    "title": "SurgicalProcedure",
+    "description": "A medical procedure involving an incision with instruments; performed for diagnose, or therapeutic purposes.",
+    "subClassOf": [
+      "MedicalProcedure"
+    ]
+  },
+  "Airport": {
+    "title": "Airport",
+    "description": "An airport.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "GovernmentOrganization": {
+    "title": "GovernmentOrganization",
+    "description": "A governmental organization or agency.",
+    "subClassOf": [
+      "Organization"
+    ]
+  },
+  "SubwayStation": {
+    "title": "SubwayStation",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A subway station."
+  },
+  "PerformingGroup": {
+    "title": "PerformingGroup",
+    "description": "A performance group, such as a band, an orchestra, or a circus.",
+    "subClassOf": [
+      "Organization"
+    ]
+  },
+  "MusicPlaylist": {
+    "title": "MusicPlaylist",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A collection of music tracks in playlist form."
+  },
+  "SheetMusic": {
+    "title": "SheetMusic",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "Printed music, as opposed to performed or recorded music."
+  },
+  "SeaBodyOfWater": {
+    "title": "SeaBodyOfWater",
+    "description": "A sea (for example, the Caspian sea).",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "VisualArtwork": {
+    "title": "VisualArtwork",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A work of art that is primarily visual in character."
+  },
+  "School": {
+    "title": "School",
+    "description": "A school.",
+    "subClassOf": [
+      "EducationalOrganization"
+    ]
+  },
+  "ShoeStore": {
+    "title": "ShoeStore",
+    "subClassOf": [
+      "Store"
+    ],
+    "description": "A shoe store."
+  },
+  "Play": {
+    "title": "Play",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A play is a form of literature, usually consisting of dialogue between characters, intended for theatrical performance rather than just reading. Note the peformance of a Play would be a <a class=\"localLink\" href=\"http://schema.org/TheaterEvent\">TheaterEvent</a> - the <em>Play</em> being the <a class=\"localLink\" href=\"http://schema.org/workPerformed\">workPerformed</a>."
+  },
+  "BusOrCoach": {
+    "title": "BusOrCoach",
+    "subClassOf": [
+      "Vehicle"
+    ],
+    "description": "A bus (also omnibus or autobus) is a road vehicle designed to carry passengers. Coaches are luxury busses, usually in service for long distance travel."
+  },
+  "Crematorium": {
+    "title": "Crematorium",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A crematorium."
+  },
+  "TouristInformationCenter": {
+    "title": "TouristInformationCenter",
+    "description": "A tourist information center.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "ComputerLanguage": {
+    "title": "ComputerLanguage",
+    "description": "This type covers computer programming languages such as Scheme and Lisp, as well as other language-like computer representations. Natural languages are best represented with the <a class=\"localLink\" href=\"http://schema.org/Language\">Language</a> type.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "State": {
+    "title": "State",
+    "subClassOf": [
+      "AdministrativeArea"
+    ],
+    "description": "A state or province of a country."
+  },
+  "Book": {
+    "title": "Book",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A book."
+  },
+  "BeautySalon": {
+    "title": "BeautySalon",
+    "description": "Beauty salon.",
+    "subClassOf": [
+      "HealthAndBeautyBusiness"
+    ]
+  },
+  "Bridge": {
+    "title": "Bridge",
+    "description": "A bridge.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "CatholicChurch": {
+    "title": "CatholicChurch",
+    "description": "A Catholic church.",
+    "subClassOf": [
+      "Church"
+    ]
+  },
+  "TVSeries": {
+    "title": "TVSeries",
+    "subClassOf": [
+      "CreativeWorkSeries",
+      "CreativeWork"
+    ],
+    "description": "CreativeWorkSeries dedicated to TV broadcast and associated online delivery."
+  },
+  "Continent": {
+    "title": "Continent",
+    "description": "One of the continents (for example, Europe or Africa).",
+    "subClassOf": [
+      "Landform"
+    ]
+  },
+  "Resort": {
+    "title": "Resort",
+    "description": "A resort is a place used for relaxation or recreation, attracting visitors for holidays or vacations. Resorts are places, towns or sometimes commercial establishment operated by a single company (Source: Wikipedia, the free encyclopedia, see <a href=\"http://en.wikipedia.org/wiki/Resort\">http://en.wikipedia.org/wiki/Resort</a>).\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.",
+    "subClassOf": [
+      "LodgingBusiness"
+    ]
+  },
+  "AdministrativeArea": {
+    "title": "AdministrativeArea",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "A geographical region, typically under the jurisdiction of a particular government."
+  },
+  "Photograph": {
+    "title": "Photograph",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A photograph."
+  },
+  "SportsEvent": {
+    "title": "SportsEvent",
+    "subClassOf": [
+      "Event"
+    ],
+    "description": "Event type: Sports event."
+  },
+  "VideoGame": {
+    "title": "VideoGame",
+    "description": "A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device.",
+    "subClassOf": [
+      "Game",
+      "SoftwareApplication"
+    ]
+  },
+  "BroadcastChannel": {
+    "title": "BroadcastChannel",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "A unique instance of a BroadcastService on a CableOrSatelliteService lineup."
+  },
+  "LakeBodyOfWater": {
+    "title": "LakeBodyOfWater",
+    "description": "A lake (for example, Lake Pontrachain).",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "Course": {
+    "title": "Course",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners."
+  },
+  "Playground": {
+    "title": "Playground",
+    "description": "A playground.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "CreativeWork": {
+    "title": "CreativeWork",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "The most generic kind of creative work, including books, movies, photographs, software programs, etc."
+  },
+  "DrugLegalStatus": {
+    "title": "DrugLegalStatus",
+    "subClassOf": [
+      "MedicalEntity"
+    ],
+    "description": "The legal availability status of a medical drug."
+  },
+  "RadiationTherapy": {
+    "title": "RadiationTherapy",
+    "subClassOf": [
+      "MedicalTherapy"
+    ],
+    "description": "A process of care using radiation aimed at improving a health condition."
+  },
+  "OutletStore": {
+    "title": "OutletStore",
+    "description": "An outlet store.",
+    "subClassOf": [
+      "Store"
+    ]
+  },
+  "Substance": {
+    "title": "Substance",
+    "subClassOf": [
+      "MedicalEntity"
+    ],
+    "description": "Any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical."
+  },
+  "DefenceEstablishment": {
+    "title": "DefenceEstablishment",
+    "subClassOf": [
+      "GovernmentBuilding"
+    ],
+    "description": "A defence establishment, such as an army or navy base."
+  },
+  "Movie": {
+    "title": "Movie",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A movie."
+  },
+  "EventVenue": {
+    "title": "EventVenue",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "An event venue."
+  },
+  "RadioSeries": {
+    "title": "RadioSeries",
+    "description": "CreativeWorkSeries dedicated to radio broadcast and associated online delivery.",
+    "subClassOf": [
+      "CreativeWorkSeries"
+    ]
+  },
+  "MusicRelease": {
+    "title": "MusicRelease",
+    "subClassOf": [
+      "MusicPlaylist"
+    ],
+    "description": "A MusicRelease is a specific release of a music album."
+  },
+  "ChemicalSubstance": {
+    "title": "ChemicalSubstance",
+    "subClassOf": [
+      "BioChemEntity"
+    ],
+    "description": "A chemical substance."
+  },
+  "Map": {
+    "title": "Map",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A map."
+  },
+  "Bone": {
+    "title": "Bone",
+    "description": "Rigid connective tissue that comprises up the skeletal structure of the human body.",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ]
+  },
+  "BusStop": {
+    "title": "BusStop",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A bus stop."
+  },
+  "Chapter": {
+    "title": "Chapter",
+    "description": "One of the sections into which a book is divided. A chapter usually has a section number or a name.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "MedicalSymptom": {
+    "title": "MedicalSymptom",
+    "description": "Any complaint sensed and expressed by the patient (therefore defined as subjective)  like stomachache, lower-back pain, or fatigue.",
+    "subClassOf": [
+      "MedicalSignOrSymptom"
+    ]
+  },
+  "MedicalSign": {
+    "title": "MedicalSign",
+    "description": "Any physical manifestation of a person's medical condition discoverable by objective diagnostic tests or physical examination.",
+    "subClassOf": [
+      "MedicalSignOrSymptom"
+    ]
+  },
+  "MusicComposition": {
+    "title": "MusicComposition",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A musical composition."
+  },
+  "AudioObject": {
+    "title": "AudioObject",
+    "subClassOf": [
+      "MediaObject"
+    ],
+    "description": "An audio file."
+  },
+  "BuddhistTemple": {
+    "title": "BuddhistTemple",
+    "description": "A Buddhist temple.",
+    "subClassOf": [
+      "PlaceOfWorship"
+    ]
+  },
+  "City": {
+    "title": "City",
+    "description": "A city or town.",
+    "subClassOf": [
+      "AdministrativeArea"
+    ]
+  },
+  "CafeOrCoffeeShop": {
+    "title": "CafeOrCoffeeShop",
+    "description": "A cafe or coffee shop.",
+    "subClassOf": [
+      "FoodEstablishment"
+    ]
+  },
+  "TheaterGroup": {
+    "title": "TheaterGroup",
+    "subClassOf": [
+      "PerformingGroup"
+    ],
+    "description": "A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre."
+  },
+  "PlaceOfWorship": {
+    "title": "PlaceOfWorship",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "Place of worship, such as a church, synagogue, or mosque."
+  },
+  "Occupation": {
+    "title": "Occupation",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "A profession, may involve prolonged training and/or a formal qualification."
+  },
+  "Canal": {
+    "title": "Canal",
+    "subClassOf": [
+      "BodyOfWater"
+    ],
+    "description": "A canal, like the Panama Canal."
+  },
+  "Drawing": {
+    "title": "Drawing",
+    "description": "A picture or diagram made with a pencil, pen, or crayon rather than paint.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "StadiumOrArena": {
+    "title": "StadiumOrArena",
+    "description": "A stadium.",
+    "subClassOf": [
+      "CivicStructure",
+      "SportsActivityLocation"
+    ]
+  },
+  "RadioStation": {
+    "title": "RadioStation",
+    "description": "A radio station.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "AutoRental": {
+    "title": "AutoRental",
+    "subClassOf": [
+      "AutomotiveBusiness"
+    ],
+    "description": "A car rental business."
+  },
+  "EmergencyService": {
+    "title": "EmergencyService",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "An emergency service, such as a fire station or ER."
+  },
+  "Pond": {
+    "title": "Pond",
+    "description": "A pond.",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "QuantitativeValue": {
+    "title": "QuantitativeValue",
+    "description": "A point value or interval for product characteristics and other purposes."
+  },
+  "RiverBodyOfWater": {
+    "title": "RiverBodyOfWater",
+    "subClassOf": [
+      "BodyOfWater"
+    ],
+    "description": "A river (for example, the broad majestic Shannon)."
+  },
+  "PostOffice": {
+    "title": "PostOffice",
+    "description": "A post office.",
+    "subClassOf": [
+      "GovernmentOffice"
+    ]
+  },
+  "Country": {
+    "title": "Country",
+    "subClassOf": [
+      "AdministrativeArea"
+    ],
+    "description": "A country."
+  },
+  "Car": {
+    "title": "Car",
+    "subClassOf": [
+      "Vehicle"
+    ],
+    "description": "A car is a wheeled, self-powered motor vehicle used for transportation."
+  },
+  "Collection": {
+    "title": "Collection",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A created collection of Creative Works or other artefacts."
+  },
+  "PoliceStation": {
+    "title": "PoliceStation",
+    "subClassOf": [
+      "EmergencyService",
+      "CivicStructure"
+    ],
+    "description": "A police station."
+  },
+  "MedicalOrganization": {
+    "title": "MedicalOrganization",
+    "description": "A medical organization (physical or not), such as hospital, institution or clinic.",
+    "subClassOf": [
+      "Organization"
+    ]
+  },
+  "Newspaper": {
+    "title": "Newspaper",
+    "description": "A publication containing information about varied topics that are pertinent to general information, a geographic area, or a specific subject matter (i.e. business, culture, education). Often published daily.",
+    "subClassOf": [
+      "Periodical"
+    ]
+  },
+  "AnatomicalStructure": {
+    "title": "AnatomicalStructure",
+    "subClassOf": [
+      "MedicalEntity"
+    ],
+    "description": "Any part of the human body, typically a component of an anatomical system. Organs, tissues, and cells are all anatomical structures."
+  },
+  "AmusementPark": {
+    "title": "AmusementPark",
+    "subClassOf": [
+      "EntertainmentBusiness"
+    ],
+    "description": "An amusement park."
+  },
+  "BarOrPub": {
+    "title": "BarOrPub",
+    "description": "A bar or pub.",
+    "subClassOf": [
+      "FoodEstablishment"
+    ]
+  },
+  "Episode": {
+    "title": "Episode",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A media episode (e.g. TV, radio, video game) which can be part of a series or season."
+  },
+  "Hospital": {
+    "title": "Hospital",
+    "subClassOf": [
+      "EmergencyService",
+      "MedicalOrganization",
+      "CivicStructure"
+    ],
+    "description": "A hospital."
+  },
+  "EmploymentAgency": {
+    "title": "EmploymentAgency",
+    "description": "An employment agency.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "SportsActivityLocation": {
+    "title": "SportsActivityLocation",
+    "description": "A sports location, such as a playing field.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "MedicalSpecialty": {
+    "title": "MedicalSpecialty",
+    "subClassOf": [
+      "Specialty",
+      "MedicalEntity"
+    ],
+    "description": "Any specific branch of medical science or practice. Medical specialities include clinical specialties that pertain to particular organ systems and their respective disease states, as well as allied health specialties. Enumerated type."
+  },
+  "Brewery": {
+    "title": "Brewery",
+    "description": "Brewery.",
+    "subClassOf": [
+      "FoodEstablishment"
+    ]
+  },
+  "CityHall": {
+    "title": "CityHall",
+    "subClassOf": [
+      "GovernmentBuilding"
+    ],
+    "description": "A city hall."
+  },
+  "ToyStore": {
+    "title": "ToyStore",
+    "description": "A toy store.",
+    "subClassOf": [
+      "Store"
+    ]
+  },
+  "ChildCare": {
+    "title": "ChildCare",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A Childcare center."
+  },
+  "MobileApplication": {
+    "title": "MobileApplication",
+    "description": "A software application designed specifically to work well on a mobile device such as a telephone.",
+    "subClassOf": [
+      "SoftwareApplication"
+    ]
+  },
+  "ScholarlyArticle": {
+    "title": "ScholarlyArticle",
+    "description": "A scholarly article.",
+    "subClassOf": [
+      "Article"
+    ]
+  },
+  "Ligament": {
+    "title": "Ligament",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ],
+    "description": "A short band of tough, flexible, fibrous connective tissue that functions to connect multiple bones, cartilages, and structurally support joints."
+  },
+  "BodyOfWater": {
+    "title": "BodyOfWater",
+    "subClassOf": [
+      "Landform"
+    ],
+    "description": "A body of water, such as a sea, ocean, or lake."
+  },
+  "TennisComplex": {
+    "title": "TennisComplex",
+    "subClassOf": [
+      "SportsActivityLocation"
+    ],
+    "description": "A tennis complex."
+  },
+  "ComicSeries": {
+    "title": "ComicSeries",
+    "subClassOf": [
+      "Periodical"
+    ],
+    "description": "A sequential publication of comic stories under a\n    unifying title, for example \"The Amazing Spider-Man\" or \"Groo the\n    Wanderer\"."
+  },
+  "ComicStory": {
+    "title": "ComicStory",
+    "description": "The term \"story\" is any indivisible, re-printable\n    unit of a comic, including the interior stories, covers, and backmatter. Most\n    comics have at least two stories: a cover (ComicCoverArt) and an interior story.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "BookStore": {
+    "title": "BookStore",
+    "subClassOf": [
+      "Store"
+    ],
+    "description": "A bookstore."
+  },
+  "SportsTeam": {
+    "title": "SportsTeam",
+    "description": "Organization: Sports team.",
+    "subClassOf": [
+      "SportsOrganization"
+    ]
+  },
+  "Waterfall": {
+    "title": "Waterfall",
+    "subClassOf": [
+      "BodyOfWater"
+    ],
+    "description": "A waterfall, like Niagara."
+  },
+  "Vehicle": {
+    "title": "Vehicle",
+    "subClassOf": [
+      "Product"
+    ],
+    "description": "A vehicle is a device that is designed or used to transport people or cargo over land, water, air, or through space."
+  },
+  "EventSeries": {
+    "title": "EventSeries",
+    "subClassOf": [
+      "Event"
+    ],
+    "description": "A series of <a class=\"localLink\" href=\"http://schema.org/Event\">Event</a>s. Included events can relate with the series using the <a class=\"localLink\" href=\"http://schema.org/superEvent\">superEvent</a> property.<br/><br/>\n\nAn EventSeries is a collection of events that share some unifying characteristic. For example, \"The Olympic Games\" is a series, which\nis repeated regularly. The \"2012 London Olympics\" can be presented both as an <a class=\"localLink\" href=\"http://schema.org/Event\">Event</a> in the series \"Olympic Games\", and as an\n<a class=\"localLink\" href=\"http://schema.org/EventSeries\">EventSeries</a> that included a number of sporting competitions as Events.<br/><br/>\n\nThe nature of the association between the events in an <a class=\"localLink\" href=\"http://schema.org/EventSeries\">EventSeries</a> can vary, but typical examples could\ninclude a thematic event series (e.g. topical meetups or classes), or a series of regular events that share a location, attendee group and/or organizers.<br/><br/>\n\nEventSeries has been defined as a kind of Event to make it easy for publishers to use it in an Event context without\nworrying about which kinds of series are really event-like enough to call an Event. In general an EventSeries\nmay seem more Event-like when the period of time is compact and when aspects such as location are fixed, but\nit may also sometimes prove useful to describe a longer-term series as an Event."
+  },
+  "Embassy": {
+    "title": "Embassy",
+    "subClassOf": [
+      "GovernmentBuilding"
+    ],
+    "description": "An embassy."
+  },
+  "CivicStructure": {
+    "title": "CivicStructure",
+    "description": "A public structure, such as a town hall or concert hall.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "VideoGameSeries": {
+    "title": "VideoGameSeries",
+    "description": "A video game series.",
+    "subClassOf": [
+      "CreativeWorkSeries"
+    ]
+  },
+  "ArchiveOrganization": {
+    "title": "ArchiveOrganization",
+    "description": "An organization with archival holdings. An organization which keeps and preserves archival material and typically makes it accessible to the public.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "Church": {
+    "title": "Church",
+    "subClassOf": [
+      "PlaceOfWorship"
+    ],
+    "description": "A church."
+  },
+  "MedicalEntity": {
+    "title": "MedicalEntity",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "The most generic type of entity related to health and the practice of medicine."
+  },
+  "InfectiousDisease": {
+    "title": "InfectiousDisease",
+    "subClassOf": [
+      "MedicalCondition"
+    ],
+    "description": "An infectious disease is a clinically evident human disease resulting from the presence of pathogenic microbial agents, like pathogenic viruses, pathogenic bacteria, fungi, protozoa, multicellular parasites, and prions. To be considered an infectious disease, such pathogens are known to be able to cause this disease."
+  },
+  "VideoObject": {
+    "title": "VideoObject",
+    "subClassOf": [
+      "MediaObject"
+    ],
+    "description": "A video file."
+  },
+  "Courthouse": {
+    "title": "Courthouse",
+    "subClassOf": [
+      "GovernmentBuilding"
+    ],
+    "description": "A courthouse."
+  },
+  "Protein": {
+    "title": "Protein",
+    "description": "Protein is here used in its widest possible definition, as classes of amino acid based molecules. Amyloid-beta Protein in human (UniProt P05067), eukaryota (e.g. an OrthoDB group) or even a single molecule that one can point to are all of type schema:Protein. A protein can thus be a subclass of another protein, e.g. schema:Protein as a UniProt record can have multiple isoforms inside it which would also be schema:Protein. They can be imagined, synthetic, hypothetical or naturally occurring.",
+    "subClassOf": [
+      "BioChemEntity"
+    ]
+  },
+  "Report": {
+    "title": "Report",
+    "description": "A Report generated by governmental or non-governmental organization.",
+    "subClassOf": [
+      "Article"
+    ]
+  },
+  "WebSite": {
+    "title": "WebSite",
+    "description": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "TravelAgency": {
+    "title": "TravelAgency",
+    "description": "A travel agency.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "Volcano": {
+    "title": "Volcano",
+    "subClassOf": [
+      "Landform"
+    ],
+    "description": "A volcano, like Fuji san."
+  },
+  "Hostel": {
+    "title": "Hostel",
+    "description": "A hostel - cheap accommodation, often in shared dormitories.\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.",
+    "subClassOf": [
+      "LodgingBusiness"
+    ]
+  },
+  "PublicSwimmingPool": {
+    "title": "PublicSwimmingPool",
+    "subClassOf": [
+      "SportsActivityLocation"
+    ],
+    "description": "A public swimming pool."
+  },
+  "FoodEstablishment": {
+    "title": "FoodEstablishment",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A food-related business."
+  },
+  "NGO": {
+    "title": "NGO",
+    "subClassOf": [
+      "Organization"
+    ],
+    "description": "Organization: Non-governmental Organization."
+  },
+  "Reservoir": {
+    "title": "Reservoir",
+    "subClassOf": [
+      "BodyOfWater"
+    ],
+    "description": "A reservoir of water, typically an artificially created lake, like the Lake Kariba reservoir."
+  },
+  "Language": {
+    "title": "Language",
+    "description": "Natural languages such as Spanish, Tamil, Hindi, English, etc. Formal language code tags expressed in <a href=\"https://en.wikipedia.org/wiki/IETF_language_tag\">BCP 47</a> can be used via the <a class=\"localLink\" href=\"http://schema.org/alternateName\">alternateName</a> property. The Language type previously also covered programming languages such as Scheme and Lisp, which are now best represented using <a class=\"localLink\" href=\"http://schema.org/ComputerLanguage\">ComputerLanguage</a>.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "Sculpture": {
+    "title": "Sculpture",
+    "description": "A piece of sculpture.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "MolecularEntity": {
+    "title": "MolecularEntity",
+    "subClassOf": [
+      "BioChemEntity"
+    ],
+    "description": "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity."
+  },
+  "Campground": {
+    "title": "Campground",
+    "subClassOf": [
+      "CivicStructure",
+      "LodgingBusiness"
+    ],
+    "description": "A camping site, campsite, or <a class=\"localLink\" href=\"http://schema.org/Campground\">Campground</a> is a place used for overnight stay in the outdoors, typically containing individual <a class=\"localLink\" href=\"http://schema.org/CampingPitch\">CampingPitch</a> locations. <br/><br/>\n\nIn British English a campsite is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or park a camper; a campground may contain many campsites (Source: Wikipedia see <a href=\"https://en.wikipedia.org/wiki/Campsite\">https://en.wikipedia.org/wiki/Campsite</a>).<br/><br/>\n\nSee also the dedicated <a href=\"/docs/hotels.html\">document on the use of schema.org for marking up hotels and other forms of accommodations</a>."
+  },
+  "Mosque": {
+    "title": "Mosque",
+    "subClassOf": [
+      "PlaceOfWorship"
+    ],
+    "description": "A mosque."
+  },
+  "TrainStation": {
+    "title": "TrainStation",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A train station."
+  },
+  "Distillery": {
+    "title": "Distillery",
+    "description": "A distillery.",
+    "subClassOf": [
+      "FoodEstablishment"
+    ]
+  },
+  "Aquarium": {
+    "title": "Aquarium",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "Aquarium."
+  },
+  "Motel": {
+    "title": "Motel",
+    "subClassOf": [
+      "LodgingBusiness"
+    ],
+    "description": "A motel.\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>."
+  },
+  "DanceGroup": {
+    "title": "DanceGroup",
+    "description": "A dance group&#x2014;for example, the Alvin Ailey Dance Theater or Riverdance.",
+    "subClassOf": [
+      "PerformingGroup"
+    ]
+  },
+  "Blog": {
+    "title": "Blog",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A blog."
+  },
+  "CreativeWorkSeries": {
+    "title": "CreativeWorkSeries",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A CreativeWorkSeries in schema.org is a group of related items, typically but not necessarily of the same kind. CreativeWorkSeries are usually organized into some order, often chronological. Unlike <a class=\"localLink\" href=\"http://schema.org/ItemList\">ItemList</a> which is a general purpose data structure for lists of things, the emphasis with CreativeWorkSeries is on published materials (written e.g. books and periodicals, or media such as tv, radio and games).<br/><br/>\n\nSpecific subtypes are available for describing <a class=\"localLink\" href=\"http://schema.org/TVSeries\">TVSeries</a>, <a class=\"localLink\" href=\"http://schema.org/RadioSeries\">RadioSeries</a>, <a class=\"localLink\" href=\"http://schema.org/MovieSeries\">MovieSeries</a>, <a class=\"localLink\" href=\"http://schema.org/BookSeries\">BookSeries</a>, <a class=\"localLink\" href=\"http://schema.org/Periodical\">Periodical</a> and <a class=\"localLink\" href=\"http://schema.org/VideoGameSeries\">VideoGameSeries</a>. In each case, the <a class=\"localLink\" href=\"http://schema.org/hasPart\">hasPart</a> / <a class=\"localLink\" href=\"http://schema.org/isPartOf\">isPartOf</a> properties can be used to relate the CreativeWorkSeries to its parts. The general CreativeWorkSeries type serves largely just to organize these more specific and practical subtypes.<br/><br/>\n\nIt is common for properties applicable to an item from the series to be usefully applied to the containing group. Schema.org attempts to anticipate some of these cases, but publishers should be free to apply properties of the series parts to the series as a whole wherever they seem appropriate."
+  },
+  "ComedyClub": {
+    "title": "ComedyClub",
+    "subClassOf": [
+      "EntertainmentBusiness"
+    ],
+    "description": "A comedy club."
+  },
+  "WorkersUnion": {
+    "title": "WorkersUnion",
+    "description": "A Workers Union (also known as a Labor Union, Labour Union, or Trade Union) is an organization that promotes the interests of its worker members by collectively bargaining with management, organizing, and political lobbying.",
+    "subClassOf": [
+      "Organization"
+    ]
+  },
+  "Landform": {
+    "title": "Landform",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "A landform or physical feature.  Landform elements include mountains, plains, lakes, rivers, seascape and oceanic waterbody interface features such as bays, peninsulas, seas and so forth, including sub-aqueous terrain features such as submersed mountain ranges, volcanoes, and the great ocean basins."
+  },
+  "Apartment": {
+    "title": "Apartment",
+    "subClassOf": [
+      "Accommodation"
+    ],
+    "description": "An apartment (in American English) or flat (in British English) is a self-contained housing unit (a type of residential real estate) that occupies only part of a building (Source: Wikipedia, the free encyclopedia, see <a href=\"http://en.wikipedia.org/wiki/Apartment\">http://en.wikipedia.org/wiki/Apartment</a>)."
+  },
+  "DaySpa": {
+    "title": "DaySpa",
+    "subClassOf": [
+      "HealthAndBeautyBusiness"
+    ],
+    "description": "A day spa."
+  },
+  "BowlingAlley": {
+    "title": "BowlingAlley",
+    "description": "A bowling alley.",
+    "subClassOf": [
+      "SportsActivityLocation"
+    ]
+  },
+  "SkiResort": {
+    "title": "SkiResort",
+    "description": "A ski resort.",
+    "subClassOf": [
+      "SportsActivityLocation"
+    ]
+  },
+  "MusicGroup": {
+    "title": "MusicGroup",
+    "subClassOf": [
+      "PerformingGroup"
+    ],
+    "description": "A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician."
+  },
+  "Motorcycle": {
+    "title": "Motorcycle",
+    "subClassOf": [
+      "Vehicle"
+    ],
+    "description": "A motorcycle or motorbike is a single-track, two-wheeled motor vehicle."
+  },
+  "TherapeuticProcedure": {
+    "title": "TherapeuticProcedure",
+    "description": "A medical procedure intended primarily for therapeutic purposes, aimed at improving a health condition.",
+    "subClassOf": [
+      "MedicalProcedure"
+    ]
+  },
+  "MedicalProcedure": {
+    "title": "MedicalProcedure",
+    "subClassOf": [
+      "MedicalEntity"
+    ],
+    "description": "A process of care used in either a diagnostic, therapeutic, preventive or palliative capacity that relies on invasive (surgical), non-invasive, or other techniques."
+  },
+  "MedicalTest": {
+    "title": "MedicalTest",
+    "description": "Any medical test, typically performed for diagnostic purposes.",
+    "subClassOf": [
+      "MedicalEntity"
+    ]
+  },
+  "MedicalSignOrSymptom": {
+    "title": "MedicalSignOrSymptom",
+    "subClassOf": [
+      "MedicalCondition"
+    ],
+    "description": "Any feature associated or not with a medical condition. In medicine a symptom is generally subjective while a sign is objective."
+  },
+  "PublicationVolume": {
+    "title": "PublicationVolume",
+    "description": "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>\n\nSee also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "GolfCourse": {
+    "title": "GolfCourse",
+    "description": "A golf course.",
+    "subClassOf": [
+      "SportsActivityLocation"
+    ]
+  },
+  "MusicVenue": {
+    "title": "MusicVenue",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A music venue."
+  },
+  "NewsArticle": {
+    "title": "NewsArticle",
+    "subClassOf": [
+      "Article"
+    ],
+    "description": "A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news.<br/><br/>\n\nA more detailed overview of <a href=\"/docs/news.html\">schema.org News markup</a> is also available."
+  },
+  "Article": {
+    "title": "Article",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.<br/><br/>\n\nSee also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>."
+  },
+  "ShoppingCenter": {
+    "title": "ShoppingCenter",
+    "description": "A shopping center or mall.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "AnimalShelter": {
+    "title": "AnimalShelter",
+    "description": "Animal shelter.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "GeoCoordinates": {
+    "title": "GeoCoordinates",
+    "description": "The geographic coordinates of a place or event."
+  },
+  "MedicalGuideline": {
+    "title": "MedicalGuideline",
+    "subClassOf": [
+      "MedicalEntity"
+    ],
+    "description": "Any recommendation made by a standard society (e.g. ACC/AHA) or consensus statement that denotes how to diagnose and treat a particular condition. Note: this type should be used to tag the actual guideline recommendation; if the guideline recommendation occurs in a larger scholarly article, use MedicalScholarlyArticle to tag the overall article, not this type. Note also: the organization making the recommendation should be captured in the recognizingAuthority base property of MedicalEntity."
+  },
+  "FinancialService": {
+    "title": "FinancialService",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "Financial services business."
+  },
+  "TouristAttraction": {
+    "title": "TouristAttraction",
+    "subClassOf": [
+      "Place"
+    ],
+    "description": "A tourist attraction.  In principle any Thing can be a <a class=\"localLink\" href=\"http://schema.org/TouristAttraction\">TouristAttraction</a>, from a <a class=\"localLink\" href=\"http://schema.org/Mountain\">Mountain</a> and <a class=\"localLink\" href=\"http://schema.org/LandmarksOrHistoricalBuildings\">LandmarksOrHistoricalBuildings</a> to a <a class=\"localLink\" href=\"http://schema.org/LocalBusiness\">LocalBusiness</a>.  This Type can be used on its own to describe a general <a class=\"localLink\" href=\"http://schema.org/TouristAttraction\">TouristAttraction</a>, or be used as an <a class=\"localLink\" href=\"http://schema.org/additionalType\">additionalType</a> to add tourist attraction properties to any other type.  (See examples below)"
+  },
+  "Manuscript": {
+    "title": "Manuscript",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A book, document, or piece of music written by hand rather than typed or printed."
+  },
+  "FinancialProduct": {
+    "title": "FinancialProduct",
+    "subClassOf": [
+      "Service"
+    ],
+    "description": "A product provided to consumers and businesses by financial institutions such as banks, insurance companies, brokerage firms, consumer finance companies, and investment companies which comprise the financial services industry."
+  },
+  "PublicationIssue": {
+    "title": "PublicationIssue",
+    "description": "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>\n\nSee also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "TVSeason": {
+    "title": "TVSeason",
+    "subClassOf": [
+      "CreativeWorkSeason",
+      "CreativeWork"
+    ],
+    "description": "Season dedicated to TV broadcast and associated online delivery."
+  },
+  "Artery": {
+    "title": "Artery",
+    "subClassOf": [
+      "Vessel"
+    ],
+    "description": "A type of blood vessel that specifically carries blood away from the heart."
+  },
+  "OceanBodyOfWater": {
+    "title": "OceanBodyOfWater",
+    "description": "An ocean (for example, the Pacific).",
+    "subClassOf": [
+      "BodyOfWater"
+    ]
+  },
+  "HealthClub": {
+    "title": "HealthClub",
+    "subClassOf": [
+      "HealthAndBeautyBusiness",
+      "SportsActivityLocation"
+    ],
+    "description": "A health club."
+  },
+  "ElementarySchool": {
+    "title": "ElementarySchool",
+    "description": "An elementary school.",
+    "subClassOf": [
+      "EducationalOrganization"
+    ]
+  },
+  "Hotel": {
+    "title": "Hotel",
+    "description": "A hotel is an establishment that provides lodging paid on a short-term basis (Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Hotel).\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.",
+    "subClassOf": [
+      "LodgingBusiness"
+    ]
+  },
+  "TelevisionChannel": {
+    "title": "TelevisionChannel",
+    "description": "A unique instance of a television BroadcastService on a CableOrSatelliteService lineup.",
+    "subClassOf": [
+      "BroadcastChannel"
+    ]
+  },
+  "ArtGallery": {
+    "title": "ArtGallery",
+    "subClassOf": [
+      "EntertainmentBusiness"
+    ],
+    "description": "An art gallery."
+  },
+  "Brand": {
+    "title": "Brand",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "A brand is a name used by an organization or business person for labeling a product, product group, or similar."
+  },
+  "Event": {
+    "title": "Event",
+    "description": "An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the <a class=\"localLink\" href=\"http://schema.org/offers\">offers</a> property. Repeated events may be structured as separate Event objects.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "Periodical": {
+    "title": "Periodical",
+    "description": "A publication in any medium issued in successive parts bearing numerical or chronological designations and intended, such as a magazine, scholarly journal, or newspaper to continue indefinitely.<br/><br/>\n\nSee also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>.",
+    "subClassOf": [
+      "CreativeWorkSeries"
+    ]
+  },
+  "BookSeries": {
+    "title": "BookSeries",
+    "subClassOf": [
+      "CreativeWorkSeries"
+    ],
+    "description": "A series of books. Included books can be indicated with the hasPart property."
+  },
+  "MedicalClinic": {
+    "title": "MedicalClinic",
+    "description": "A facility, often associated with a hospital or medical school, that is devoted to the specific diagnosis and/or healthcare. Previously limited to outpatients but with evolution it may be open to inpatients as well.",
+    "subClassOf": [
+      "MedicalBusiness",
+      "MedicalOrganization"
+    ]
+  },
+  "CollegeOrUniversity": {
+    "title": "CollegeOrUniversity",
+    "subClassOf": [
+      "EducationalOrganization"
+    ],
+    "description": "A college, university, or other third-level educational institution."
+  },
+  "SportsOrganization": {
+    "title": "SportsOrganization",
+    "description": "Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations.",
+    "subClassOf": [
+      "Organization"
+    ]
+  },
+  "Restaurant": {
+    "title": "Restaurant",
+    "subClassOf": [
+      "FoodEstablishment"
+    ],
+    "description": "A restaurant."
+  },
+  "TVEpisode": {
+    "title": "TVEpisode",
+    "subClassOf": [
+      "Episode"
+    ],
+    "description": "A TV episode which can be part of a series or season."
+  },
+  "BlogPosting": {
+    "title": "BlogPosting",
+    "description": "A blog post.",
+    "subClassOf": [
+      "SocialMediaPosting"
+    ]
+  },
+  "Atlas": {
+    "title": "Atlas",
+    "description": "A collection or bound volume of maps, charts, plates or tables, physical or in media form illustrating any subject.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "Corporation": {
+    "title": "Corporation",
+    "subClassOf": [
+      "Organization"
+    ],
+    "description": "Organization: A business corporation."
+  },
+  "Legislation": {
+    "title": "Legislation",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A legal document such as an act, decree, bill, etc. (enforceable or not) or a component of a legal act (like an article)."
+  },
+  "BloodTest": {
+    "title": "BloodTest",
+    "description": "A medical test performed on a sample of a patient's blood.",
+    "subClassOf": [
+      "MedicalTest"
+    ]
+  },
+  "EducationalOrganization": {
+    "title": "EducationalOrganization",
+    "description": "An educational organization.",
+    "subClassOf": [
+      "Organization"
+    ]
+  },
+  "ParkingFacility": {
+    "title": "ParkingFacility",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A parking lot or other parking facility."
+  },
+  "Rating": {
+    "title": "Rating",
+    "description": "A rating is an evaluation on a numeric scale, such as 1 to 5 stars.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "GovernmentOffice": {
+    "title": "GovernmentOffice",
+    "description": "A government office&#x2014;for example, an IRS or DMV office.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "CreativeWorkSeason": {
+    "title": "CreativeWorkSeason",
+    "description": "A media season e.g. tv, radio, video game etc.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "PerformingArtsTheater": {
+    "title": "PerformingArtsTheater",
+    "description": "A theater or other performing art center.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "BusStation": {
+    "title": "BusStation",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A bus station."
+  },
+  "Organization": {
+    "title": "Organization",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "An organization such as a school, NGO, corporation, club, etc."
+  },
+  "MedicalCondition": {
+    "title": "MedicalCondition",
+    "subClassOf": [
+      "MedicalEntity"
+    ],
+    "description": "Any condition of the human body that affects the normal functioning of a person, whether physically or mentally. Includes diseases, injuries, disabilities, disorders, syndromes, etc."
+  },
+  "Product": {
+    "title": "Product",
+    "description": "Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "Accommodation": {
+    "title": "Accommodation",
+    "description": "An accommodation is a place that can accommodate human beings, e.g. a hotel room, a camping pitch, or a meeting room. Many accommodations are for overnight stays, but this is not a mandatory requirement.\nFor more specific types of accommodations not defined in schema.org, one can use additionalType with external vocabularies.\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "Preschool": {
+    "title": "Preschool",
+    "description": "A preschool.",
+    "subClassOf": [
+      "EducationalOrganization"
+    ]
+  },
+  "House": {
+    "title": "House",
+    "description": "A house is a building or structure that has the ability to be occupied for habitation by humans or other creatures (Source: Wikipedia, the free encyclopedia, see <a href=\"http://en.wikipedia.org/wiki/House\">http://en.wikipedia.org/wiki/House</a>).",
+    "subClassOf": [
+      "Accommodation"
+    ]
+  },
+  "Joint": {
+    "title": "Joint",
+    "subClassOf": [
+      "AnatomicalStructure"
+    ],
+    "description": "The anatomical location at which two or more bones make contact."
+  },
+  "Drug": {
+    "title": "Drug",
+    "subClassOf": [
+      "Substance"
+    ],
+    "description": "A chemical or biologic substance, used as a medical therapy, that has a physiological effect on an organism. Here the term drug is used interchangeably with the term medicine although clinical knowledge make a clear difference between them."
+  },
+  "Taxon": {
+    "title": "Taxon",
+    "subClassOf": [
+      "Thing"
+    ],
+    "description": "A set of organisms asserted to represent a natural cohesive biological unit."
+  },
+  "Game": {
+    "title": "Game",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "The Game type represents things which are games. These are typically rule-governed recreational activities, e.g. role-playing games in which players assume the role of characters in a fictional setting."
+  },
+  "Museum": {
+    "title": "Museum",
+    "description": "A museum.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "Gene": {
+    "title": "Gene",
+    "subClassOf": [
+      "BioChemEntity"
+    ],
+    "description": "A discrete unit of inheritance which affects one or more biological traits ."
+  },
+  "BedAndBreakfast": {
+    "title": "BedAndBreakfast",
+    "subClassOf": [
+      "LodgingBusiness"
+    ],
+    "description": "Bed and breakfast.\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>."
+  },
+  "Service": {
+    "title": "Service",
+    "description": "A service provided by an organization, e.g. delivery service, print services, etc.",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "MedicalBusiness": {
+    "title": "MedicalBusiness",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "A particular physical or virtual business of an organization for medical purposes. Examples of MedicalBusiness include differents business run by health professionals."
+  },
+  "HealthAndBeautyBusiness": {
+    "title": "HealthAndBeautyBusiness",
+    "description": "Health and beauty.",
+    "subClassOf": [
+      "LocalBusiness"
+    ]
+  },
+  "DiagnosticProcedure": {
+    "title": "DiagnosticProcedure",
+    "description": "A medical procedure intended primarily for diagnostic, as opposed to therapeutic, purposes.",
+    "subClassOf": [
+      "MedicalProcedure"
+    ]
+  },
+  "LandmarksOrHistoricalBuildings": {
+    "title": "LandmarksOrHistoricalBuildings",
+    "description": "An historical landmark or building.",
+    "subClassOf": [
+      "Place"
+    ]
+  },
+  "NightClub": {
+    "title": "NightClub",
+    "subClassOf": [
+      "EntertainmentBusiness"
+    ],
+    "description": "A nightclub or discotheque."
+  },
+  "PetStore": {
+    "title": "PetStore",
+    "subClassOf": [
+      "Store"
+    ],
+    "description": "A pet store."
+  },
+  "MedicalDevice": {
+    "title": "MedicalDevice",
+    "description": "Any object used in a medical capacity, such as to diagnose or treat a patient.",
+    "subClassOf": [
+      "MedicalEntity"
+    ]
+  },
+  "Person": {
+    "title": "Person",
+    "description": "A person (alive, dead, undead, or fictional).",
+    "subClassOf": [
+      "Thing"
+    ]
+  },
+  "Casino": {
+    "title": "Casino",
+    "description": "A casino.",
+    "subClassOf": [
+      "EntertainmentBusiness"
+    ]
+  },
+  "Vein": {
+    "title": "Vein",
+    "description": "A type of blood vessel that specifically carries blood to the heart.",
+    "subClassOf": [
+      "Vessel"
+    ]
+  },
+  "SoftwareApplication": {
+    "title": "SoftwareApplication",
+    "subClassOf": [
+      "CreativeWork"
+    ],
+    "description": "A software application."
+  },
+  "Zoo": {
+    "title": "Zoo",
+    "description": "A zoo.",
+    "subClassOf": [
+      "CivicStructure"
+    ]
+  },
+  "Mountain": {
+    "title": "Mountain",
+    "subClassOf": [
+      "Landform"
+    ],
+    "description": "A mountain, like Mount Whitney or Mount Everest."
+  },
+  "TattooParlor": {
+    "title": "TattooParlor",
+    "subClassOf": [
+      "HealthAndBeautyBusiness"
+    ],
+    "description": "A tattoo parlor."
+  },
+  "Poster": {
+    "title": "Poster",
+    "description": "A large, usually printed placard, bill, or announcement, often illustrated, that is posted to advertise or publicize something.",
+    "subClassOf": [
+      "CreativeWork"
+    ]
+  },
+  "AutomotiveBusiness": {
+    "title": "AutomotiveBusiness",
+    "subClassOf": [
+      "LocalBusiness"
+    ],
+    "description": "Car repair, sales, or parts."
+  },
+  "GovernmentBuilding": {
+    "title": "GovernmentBuilding",
+    "subClassOf": [
+      "CivicStructure"
+    ],
+    "description": "A government building."
+  },
+  "Synagogue": {
+    "title": "Synagogue",
+    "description": "A synagogue.",
+    "subClassOf": [
+      "PlaceOfWorship"
+    ]
+  }
+}
