@@ -1,0 +1,36 @@
+{
+  "id": "EU.EORI.NL000000004",
+  "name": "HealthCargo Enterprise",
+  "additional_info": {
+    "description": "Large pharmaceutical retailer operating across Europe and located in Slovenia.",
+    "website": "https://www.healthcargo.org",
+    "company_email": "healthcargo@fiware.org"
+  },
+  "satellite_id": "EU.EORI.NL000000006",
+  "roles": [
+    {
+      "role": "ServiceConsumer",
+      "start_date": "2023-12-31T00:00:00Z",
+      "end_date": "2024-12-31T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "53A2LE1ZOF4-LS59P2DG0",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:8083/api/capabilities"
+      },
+      {
+        "id": "D0MA1ADE-39K1EI1AX0K5",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:8083/api/connect/token"
+      }
+    ]
+  }
+}

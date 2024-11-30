@@ -1,0 +1,416 @@
+{
+  "id": "EU.EORI.NL000000006",
+  "name": "Transportation Satellite",
+  "certifications": [
+    {
+      "role": "SchemeOwner",
+      "start_date": "2019-01-20T00:00:00Z",
+      "end_date": "2059-01-20T00:00:00Z",
+      "loa": 3
+    }
+  ],
+  "additional_info": {
+    "description": "iSHARE Satellite hosting entities related to transportation data, i.e. part of the Transportation Data Space.",
+    "website": "https://www.transporationDS.org",
+    "company_email": "transportation@fiware.org"
+  },
+  "roles": [
+    {
+      "role": "SchemeOwner",
+      "start_date": "2023-12-31T00:00:00Z",
+      "end_date": "2024-12-31T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "trusted_list": [
+    {
+      "name": "iSHARETestCA",
+      "status": "granted",
+      "validity": "valid",
+      "crt": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIF1TCCA72gAwIBAgIUBHP+mv6s+LKLqQA3lYWrWmCFDVswDQYJKoZIhvcNAQEL\nBQAwejELMAkGA1UEBhMCU0kxEjAQBgNVBAgMCUxqdWJsamFuYTESMBAGA1UEBwwJ\nTGp1YmxqYW5hMQ8wDQYDVQQKDAZGSVdBUkUxEjAQBgNVBAMMCUZJV0FSRS1DQTEe\nMBwGCSqGSIb3DQEJARYPdGVzdEBmaXdhcmUub3JnMB4XDTI0MDIyNTExMDIyNVoX\nDTM0MDIyMjExMDIyNVowejELMAkGA1UEBhMCU0kxEjAQBgNVBAgMCUxqdWJsamFu\nYTESMBAGA1UEBwwJTGp1YmxqYW5hMQ8wDQYDVQQKDAZGSVdBUkUxEjAQBgNVBAMM\nCUZJV0FSRS1DQTEeMBwGCSqGSIb3DQEJARYPdGVzdEBmaXdhcmUub3JnMIICIjAN\nBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyzAW9630h6C+x/7cIxeuAw7uP8i/\nACrHbXG11Og0NKSFVFUsDz4DTx3FKYy0l+yjUAOJ1OQCUb7nurJ5q772L7gHB6zu\nYPwgIsCi8q5gUVwiiz5If3PJw3jd02WdZr7AzV13DwlwEci92akIF6HoEaRKJ1XF\ncUTYo57mEBGIhGoDlcKH7GjxJVRiPtumHA92SpC892xRFOsFSR0g7/CuizLZp/VS\ndoHNyctq0Mii7w13rmr+cZAOnvAN6j80b/KMYYaDsoMpIhHQCYa4mm978K3atvRB\nTv1ZY1C28uq3RkAqKYICf6BpWwjGe4qxHbXaK3e3WJ1zvu5rjuVkq1QCRSDI7Fmi\nnJ+fbBCNF6gZvsbR3OMjcaCF/JwBXC5/i1vOyjIWM8LxtSoJ5ieu86roiLb6t8AV\n4vSU5+L5vg6YY0wJjpRyM0oeNXwrIqranT/oXTH1EDY5QgV9dtRqt52zv9BVeRy0\nTcVS0ybNwAciT/jtHp5TNL2pB4mQPaqn8U5cUVsIamKshXK7+qSklK/eLlavy8dy\nBwxvJk0xAjEycoHgdD9KR9kWrfcKXdTIK2B8gQgguCYAnDZnf8JmHm9ZNNBTSRvP\naP2ra20qr6jqBdFh2FD+SWDkhgHDJvnmFF/jz1Y6oBaRkaCKNkVRsVAb1Pim9PjY\nTcq+n5Nk9SdlBIkCAwEAAaNTMFEwHQYDVR0OBBYEFEVtw3Bb/uB/6mAhUy1GEmdj\n70rqMB8GA1UdIwQYMBaAFEVtw3Bb/uB/6mAhUy1GEmdj70rqMA8GA1UdEwEB/wQF\nMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAFxlnC1Zhz6HUAP6nDnpbnFG/44IbK96\n6VwqjE/npTFLKd6s/8hvwLnIomm+koZ3fxYlN7GzixpcMCDxWRIB1yqE5HMRo+8Q\nBOzbH/nCyi/28z20FqNthbbR/mRe3+NLun0ONbAiEOPxmKzLTH/9sbzL6HsFXHn7\npcEQoqh3ehLRCmC2R23nvppM4T/A01r3Sf2jFctPAh3iQOFnayDszDhM5jU57Bim\ny2HCKcdvDeETtCLaVqaYZSwJ5UpBQEk4GH8KMwJGLBUbpK9qwX2rYPTy3727Chat\nraNjiGR6hmwJmNEhZXdMFsG42ZI1Io7N8RewWO6/lWbn4D7aMWNBmWD0Jix1lRwx\nZyFoBFi6k1RkyOKJwKotyyW7If5331pP/4KKQWO18iUn6RT3zUQ+uhl2mfB0yyTz\nb3voyM3O4uKsQbr0SwzhQSuqtOZWuuPVpYt80A9T51vbUa4WUjs7lE1+032z9guu\nfnPba5kjbLv+Z4HOQHxRuWXAWAQtFZpT4kKOA8oM+KA10uYy3aMaqeFoIkpQm3rs\nqEYHgKq1eF/R1HcXP78EKKBVrAPvRKsTP0PCA4+th0HX7KJYqHxPWBKvEXZto974\nUXRf0affpBuRsM1ZXUP7EVQc6/gUsmNtzmfL/dkc09nPYBB2ow9PWPDLQHBuz208\nv8uQTFkbf0y4\n-----END CERTIFICATE-----"
+    },
+    {
+      "name": "FIWARE-CA",
+      "status": "granted",
+      "validity": "valid",
+      "crt": "-----BEGIN CERTIFICATE-----\nMIIFxTCCA62gAwIBAgIBATANBgkqhkiG9w0BAQsFADB6MQswCQYDVQQGEwJTSTES\nMBAGA1UECAwJTGp1YmxqYW5hMRIwEAYDVQQHDAlManVibGphbmExDzANBgNVBAoM\nBkZJV0FSRTESMBAGA1UEAwwJRklXQVJFLUNBMR4wHAYJKoZIhvcNAQkBFg90ZXN0\nQGZpd2FyZS5vcmcwHhcNMjQwMjI1MTExMDUwWhcNMzEwNTI5MTExMDUwWjBqMQsw\nCQYDVQQGEwJTSTESMBAGA1UECAwJTGp1YmxqYW5hMQ8wDQYDVQQKDAZGSVdBUkUx\nFjAUBgNVBAMMDUZJV0FSRS1DQV9UTFMxHjAcBgkqhkiG9w0BCQEWD3Rlc3RAZml3\nYXJlLm9yZzCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALDmqiKu3NVi\nggzajM6BpjDnSqfNexVmBJbisumpsnjM8JLXS54MMefPlG9x1/QyAtPTAQRpi3JD\nWOCXJ/lP1cvSVIWpBGYM7ySQYXWLNABSyMdrcXXbKbi6oP6C7jn9LbGDprfNgjSt\nlmzelXx0pA0y03oRo8Nlj8xidaBdnKHccXnDzNwrUyIgTLoRLS5Mp17EA7+HQWmE\n/OMpuJAYgmdOFEUVwNKJoPhUGjF5k5MvVXuS749/w92GSnccNOaKtu73vJJT09Fr\neHKnBpPzGzKic2R0JNHSFytFA3u1TWQmgZBdhrmrTZnRy+pa017GvLni1tQm0Ekd\nbBrgtCMl8FIbEOCYhPFY4XeO4+p03qnVXYxFGnCz1qh4MLOfVL2VqdMcDAue/8kY\nZ4obt5ylOx6vNh3AvBCpFKzqg1IZlrBsiOvu55gIgZDo4wLeCMdKKLpm0wUoKxug\nYhtcmSipcvhRYoYpP5R2YxDsurXpfn5Wp4QlGnZAxLsDqe7hQ9YqIfpi6EoF+iSU\nxz1XjTWTzCbd7z+Supeg3Ut4R8NfUChg459r/8xbPVj+azwOFDQMK2dSMPqKJwEx\nDhiUPULG+aF9vLggKtQddpMmMzpEpytZDJ5J9IiwJP9+kbVbolv7XmbVP5n96yLL\nvNcmLXgQ/kewmHO78q7TkLFcNBrdlX8VAgMBAAGjZjBkMB0GA1UdDgQWBBROgsWs\ncKHwBJPzHyganlkJ5tOUCDAfBgNVHSMEGDAWgBRFbcNwW/7gf+pgIVMtRhJnY+9K\n6jASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBhjANBgkqhkiG9w0B\nAQsFAAOCAgEAa6QWxBXOSaUjbYiRpRRgbkQ5J17P4BC2FjvQXPzCdjW6g3xG3jMs\n7nufPmwyTdfd8FaYHifWPHIfLvUdcKVOG1vyGqDKNl6LLQGpgcylB9PE71gL886x\nH27NTjIzByga/k6Yw9fdDLh6EPiKlFNDwXB2jCJ2zcGzyYj2QPxfS9B/8uhWYjmm\n8Qbhm6HtcTXlCtn/fbJdBfLsAsrfqPGXtwZraJVMXQ4GBgnV9JPKAblzfWHyj9dh\nxFoi/iIOQFG5OIwbpkalXfD8/t4flWgmOoU2grGnCkPwSS5mgVkAOjj9mPQLlqPG\n7tP4Sqf2cZrp1nQYvcD0ybDeJUEmSQULzbNg2XQmEw5yGih70HYujBMpWCXr2c0c\nJu3veD7OsAYOzv5pszt2tOvizpTCETnuahxQ049pEUhcdnuFDi9JXBoKjhtHCrwD\nMAyHLpOm9uVdlfBzPUMfGZm9AXdR77D0p2EM4B0cbLG1zmiYFRDQLgGM5wm9WLaD\nFrLdxOevsauqYW7zXPr+KjirlIbA1KLv3uUUqcwRsvwIr/PL/T8wFS1/3zbmRwHG\nD/67Dsa+9aJQInhESpE22dSRA8FbuJvUsXLC/1f0dXde+JjbhXflOndaXsc66++R\nlj3/hM2MyhTlOxQeW05+2FRlYQr153fPCVXziC5X65FIaaSnkrWzHvo=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\n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\nv8uQTFkbf0y4\n-----END CERTIFICATE-----"
+    }
+  ],
+  "parties": [
+    {
+      "id": "EU.EORI.NL000000001",
+      "name": "SLOAir Corporation",
+      "status": "Active",
+      "start_date": "2021-02-23T00:00:00Z",
+      "end_date": "2045-02-23T00:00:00Z",
+      "url": "https://ishare-demo-sloair:8080/api",
+      "additional_info": {
+        "description": "Slovenian-based airline company operating a fleet of commercial airplanes. Managing cargo transportation, and maintenance records for the aircraft.",
+        "website": "https://www.sloair.org",
+        "company_email": "sloair@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2024-01-27T00:00:00Z",
+          "expiry_date": "2025-01-27T00:00:00Z",
+          "hash_file": "614331b0003219f2d2d123b0cd6105fb",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2024-01-27T00:00:00.000Z",
+          "expiry_date": "2025-01-27T00:00:00.000Z",
+          "hash_file": "f50a036402b3b243910ce572930be9f5",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "EntitledParty",
+          "start_date": "2024-01-27T00:00:00Z",
+          "end_date": "2025-01-27T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ],
+      "authregistries": [
+        {
+          "authorizationRegistryName": "FlyInfo AR",
+          "authorizationRegistryID": "EU.EORI.NL000000005",
+          "authorizationRegsitryUrl": "https://ishare-demo-flyinfo:8000",
+          "dataspaceID": "FlyDS1",
+          "dataspaceName": "FlyDS1"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000002",
+      "name": "SLOTransit Warehouse",
+      "status": "Active",
+      "start_date": "2022-03-14T00:00:00Z",
+      "end_date": "2040-03-14T00:00:00Z",
+      "url": "https://ishare-demo-slotransit:8081/api",
+      "additional_info": {
+        "description": "Slovenian-based warehouse that stores and manages different types of transportation vehicles, including trucks, airplanes, and forklifts.",
+        "website": "https://www.slotransit.org",
+        "company_email": "slotransit@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2024-02-02T00:00:00Z",
+          "expiry_date": "2025-02-02T00:00:00Z",
+          "hash_file": "6b1b300d2d120s0319f4c0325d61061b",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2024-02-02T00:00:00.000Z",
+          "expiry_date": "2025-02-02T00:00:00.000Z",
+          "hash_file": "491020b243c3w50a402bb5703e29e9s5",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "ServiceProvider",
+          "start_date": "2024-02-02T00:00:00Z",
+          "end_date": "2025-02-02T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000003",
+      "name": "PharmaRide Enterprise",
+      "status": "Active",
+      "start_date": "2020-07-16T00:00:00Z",
+      "end_date": "2033-07-16T00:00:00Z",
+      "url": "https://ishare-demo-pharmaride:8082/api",
+      "additional_info": {
+        "description": "Large pharmaceutical transportation service operating across Europe and located in Slovenia.",
+        "website": "https://www.pharmaride.org",
+        "company_email": "pharmaride@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2024-01-02T00:00:00Z",
+          "expiry_date": "2025-01-02T00:00:00Z",
+          "hash_file": "31w2102z19061f4a0b1b6d3220s0319b",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2024-01-02T00:00:00.000Z",
+          "expiry_date": "2025-01-02T00:00:00.000Z",
+          "hash_file": "a207b910a43c3l13w54s5402b29e0970",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "ServiceConsumer",
+          "start_date": "2024-01-02T00:00:00Z",
+          "end_date": "2025-01-02T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000004",
+      "name": "HealthCargo Enterprise",
+      "status": "Active",
+      "start_date": "2022-04-12T00:00:00Z",
+      "end_date": "2052-04-12T00:00:00Z",
+      "url": "https://ishare-demo-healthcargo:8083/api",
+      "additional_info": {
+        "description": "Large pharmaceutical retailer operating across Europe and located in Slovenia.",
+        "website": "https://www.healthcargo.org",
+        "company_email": "healthcargo@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2023-12-31T00:00:00Z",
+          "expiry_date": "2024-12-31T00:00:00Z",
+          "hash_file": "a9n41f426d3220s0310b19a2z190031b",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2023-12-31T00:00:00Z",
+          "expiry_date": "2024-12-31T00:00:00Z",
+          "hash_file": "lwa202b54s91n45407032991e07b3c39",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "ServiceConsumer",
+          "start_date": "2023-12-31T00:00:00Z",
+          "end_date": "2024-12-31T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000005",
+      "name": "FlyInfo AR",
+      "status": "Active",
+      "start_date": "2018-02-22T00:00:00Z",
+      "end_date": "2058-02-22T00:00:00Z",
+      "url": "https://ishare-demo-flyinfo:8000/api",
+      "certifications": [
+        {
+          "role": "AuthorizationRegistry",
+          "start_date": "2018-02-22T00:00:00Z",
+          "end_date": "2058-02-22T00:00:00Z",
+          "loa": 3
+        }
+      ],
+      "additional_info": {
+        "description": "Authorization Registry used to store access control policies for accessing all kind of airplane and fly transportation authorization",
+        "website": "https://www.flyinfo.org",
+        "company_email": "flyinfo@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2023-12-15T00:00:00Z",
+          "expiry_date": "2024-12-15T00:00:00Z",
+          "hash_file": "b1s09n403a3220d194260101b39a2z1f",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2023-12-15T00:00:00Z",
+          "expiry_date": "2024-12-15T00:00:00Z",
+          "hash_file": "an02b57032e07b3454c3029w4s91l919",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "AuthorizationRegistry",
+          "start_date": "2023-12-31T00:00:00Z",
+          "end_date": "2024-12-31T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000013",
+      "name": "Pharmaceutical Satellite",
+      "status": "Active",
+      "start_date": "2019-05-05T00:00:00Z",
+      "end_date": "2069-05-05T00:00:00Z",
+      "url": "https://ishare-demo-pharmaceutical:3333/api",
+      "certifications": [
+        {
+          "role": "SchemeOwner",
+          "start_date": "2019-05-05T00:00:00Z",
+          "end_date": "2069-05-05T00:00:00Z",
+          "loa": 3
+        }
+      ],
+      "additional_info": {
+        "description": "iSHARE Satellite hosting entities related to pharmaceutical data, i.e. part of the Pharmaceutical Data Space.",
+        "website": "https://www.pharmaceuticalDS.org",
+        "company_email": "pharmaceutical@fiware.org"
+      },
+      "roles": [
+        {
+          "role": "SchemeOwner",
+          "start_date": "2023-12-31T00:00:00Z",
+          "end_date": "2024-12-31T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "3SD2E52-FL9LQF",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:8888/api/capabilities"
+      },
+      {
+        "id": "0M3DL6Q5K-2E5L3E19F",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:8888/api/connect/token"
+      }
+    ],
+    "restricted": [
+      {
+        "id": "2S9FE2QM-F1LDL3A0",
+        "feature": "trusted list",
+        "description": "Retrieves trusted list of CAs in the Satellite",
+        "url": "https://127.0.0.1:8888/api/trusted_list"
+      },
+      {
+        "id": "JA4D3SE2-A1LQ5L9FO",
+        "feature": "party",
+        "description": "Retrieves a chosen party from the Satellite",
+        "url": "https://127.0.0.1:8888/api/parties"
+      }
+    ]
+  },
+  "did_connections": [
+    {
+      "did": "did:key:z6MktZvEGMB8qgLSgqk3ypdQvdccDZ3mA9EjVPMz6hJDqi6R",
+      "eori": "EU.EORI.NL000000003",
+      "status": "Active"
+    },
+    {
+      "did": "did:web:ishare-demo-pharmaride%3A8082:api:did",
+      "eori": "EU.EORI.NL000000003",
+      "status": "Active"
+    }
+  ],
+  "didcomm_messages": [
+    {
+      "received_at": "6/3/2024, 3:01:46 AM",
+      "id": "d7186de10129b21d028f17bafce569be5f6f85b62b3b89e17fe6b745ff0aebbb",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "6/3/2024, 3:03:22 AM",
+      "id": "7fbfa7f7d08fcacc271b5a84ec60c039c8331890805a43a365489ef645a925be",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "6/3/2024, 3:04:33 AM",
+      "id": "cb8c689edc817291c106e287c9f606f2cf0b4df85b260cb36c93c9a416355e8c",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 12:29:27 AM",
+      "id": "99c40e7c2bbf604edb40763bfe7360b3a8c116cbf2d0100bbd46174c2b7f8a3c",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 12:38:41 AM",
+      "id": "b9497b69bbf429d997d3761328b47ba30cd229a0da2637b67ff289003a8421c1",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 12:42:43 AM",
+      "id": "5c46c31e95c131c6b41194b7863893bcb0b3c80cdc68db42ae7e6d0151d09c93",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 12:44:25 AM",
+      "id": "cf0397bb0afd30500fd7e17d6044b5487f2c58c619bfda2ecfbc66db1dadd438",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 12:45:18 AM",
+      "id": "9ab501adf5625a07fba37575364549fd64c865114c5bfa444fc1b95fd8ffd0ba",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 11:57:05 AM",
+      "id": "399a43936a19909315b2f8a1d8e8e51213bce788a9768d2433d6646202e32ab2",
+      "message": "This is a test message"
+    },
+    {
+      "received_at": "11/30/2024, 11:57:45 AM",
+      "id": "10d77e1fa87dfbad893d305e6318739b16df573feec069f41167f9e2b6678e78",
+      "message": "This is a test message"
+    }
+  ],
+  "access_tokens": [
+    {
+      "eori": "EU.EORI.NL000000013",
+      "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsIng1YyI6WyJNSUlHOURDQ0JOeWdBd0lCQWdJVVZrRS9ISHFwL2JRVWVtUnUwV2Ixbk1uemI3Y3dEUVlKS29aSWh2Y05BUUVMQlFBd2FqRUxNQWtHQTFVRUJoTUNVMGt4RWpBUUJnTlZCQWdNQ1V4cWRXSnNhbUZ1WVRFUE1BMEdBMVVFQ2d3R1JrbFhRVkpGTVJZd0ZBWURWUVFEREExR1NWZEJVa1V0UTBGZlZFeFRNUjR3SEFZSktvWklodmNOQVFrQkZnOTBaWE4wUUdacGQyRnlaUzV2Y21jd0hoY05NalF3TWpJMU1USXdNak00V2hjTk1qa3dNakl6TVRJd01qTTRXakNCdHpFTE1Ba0dBMVVFQmhNQ1Uwa3hFakFRQmdOVkJBZ01DVXhxZFdKc2FtRnVZVEVTTUJBR0ExVUVCd3dKVEdwMVlteHFZVzVoTVJZd0ZBWURWUVFLREExR1NWZEJVa1VnVTJWeWRtVnlNU0F3SGdZRFZRUUREQmRHU1ZkQlVrVXRVR2hoY20xaFkyVjFkR2xqWVd4SlV6RW9NQ1lHQ1NxR1NJYjNEUUVKQVJZWmNHaGhjbTFoWTJWMWRHbGpZV3hBWm1sM1lYSmxMbTl5WnpFY01Cb0dBMVVFQlJNVFJWVXVSVTlTU1M1T1REQXdNREF3TURBeE16Q0NBaUl3RFFZSktvWklodmNOQVFFQkJRQURnZ0lQQURDQ0Fnb0NnZ0lCQUwySGFuWVpxdTFUQmtLeWpmUVVZZTB1cFpwUElQTkYyaXVKbmI1aDFmekRjUk9EaTE0eHZoUW9pcjhQK254TnNiVjNHeG5YL3VtMlVjM1UxYVhFczJFdzZ3aEowUTYxNG5FaEQ0Tjh4akxBOUtZRC80d3hTc3pRWHg1MDFtZ2liNXZHRTFhN0liS2ZhbmZqZDkxM0poblk3NzZUbEtwL0hUL0ZWeU93c3VHZ1dQRk9YNkpPNVhUeDVBV2ZEMEh2Z0ZJWmVocEVjL0E0VktNclZUZTlhN2pGQmhwczdJVU5idjhncTZTc0s4S3B3WGJYWnhudjVLZS9tUTBSVGVOa3lsMFJ5RE8yaEUxNGE4c2dwZVFsb3AwS2ZEckVuZnVWNFBybmtrcUd0cTZXWjlkTjVDd2o3RlNuejBac093SVhBcG9ramV4Q2QycWJJTzlhbDNRUEdTYWQrbjNEbmx1ejRQSi9ROUZGVG80MEsxdlN4anpjMmxPTGlwNGVsaW41MFFqNEhXMW9zc2I4S1U2T1FPa080Q3BpeG0yeTR2QUZaYnhGenR5MzU5d2EzQTFCY3JWRVQ1YTcvNXdHYUhLdlVnd3d1aTBJWk1rbmtoeHdUcWs1TDl6Wk1hWmhDZHRuUldlanFlL05tQzF4dUxkMUNZaGl2UGZJZjV4Zk15aUF6T25HcFY0cmd5K1BTTmN6MlRGU2hlamVPK2tLM0MzT2hjZG9tclRwWVM5MmI5WXQyYXErTTNlemhzVVN0cktHTzA3NlZLMVFJcWlOdEdZOFJNU2xCcUx0c3V5enJyaWZTZVhtejd2K1NEakVRMkptQXBZSFFPMUNOOTZFSklrc0doU1VUTE1USVhpZ1RRRjJFWlZockw2bkt1clNKWVFGMTM2VlBCd2F1SDNuQWdNQkFBR2pnZ0ZDTUlJQlBqQUpCZ05WSFJNRUFqQUFNQkVHQ1dDR1NBR0crRUlCQVFRRUF3SUdRREF6QmdsZ2hrZ0JodmhDQVEwRUpoWWtUM0JsYmxOVFRDQkhaVzVsY21GMFpXUWdVMlZ5ZG1WeUlFTmxjblJwWm1sallYUmxNQjBHQTFVZERnUVdCQlFnZWR0OU4xUmNHc0FnUlBVMVU3cDFVL2RjcWpDQnBBWURWUjBqQklHY01JR1pnQlJPZ3NXc2NLSHdCSlB6SHlnYW5sa0o1dE9VQ0tGK3BId3dlakVMTUFrR0ExVUVCaE1DVTBreEVqQVFCZ05WQkFnTUNVeHFkV0pzYW1GdVlURVNNQkFHQTFVRUJ3d0pUR3AxWW14cVlXNWhNUTh3RFFZRFZRUUtEQVpHU1ZkQlVrVXhFakFRQmdOVkJBTU1DVVpKVjBGU1JTMURRVEVlTUJ3R0NTcUdTSWIzRFFFSkFSWVBkR1Z6ZEVCbWFYZGhjbVV1YjNKbmdnRUJNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUtCZ2dyQmdFRkJRY0RBVEFOQmdrcWhraUc5dzBCQVFzRkFBT0NBZ0VBVmF1cUM1SEVKcnF6YUc5S25qZHhTNlRiZHFJMzRXeGg4cHlCbXVHQzRwVjBWMlNjNzJPZlpTZG0zVFk4dXEyWjMrMDdZaEZ2Y1o0dWsxc2hHMzNpbWM5ZCtrQjRwb0NlTG1xT1R1MGlFZUhkaUZZbEN1WlBVZkljNXZJNTkrR1k2L2Z0VnlKT2NsWngzRHFOUHFMdEQ4ZmpBQ2h4ZDNXdFFSN3F3eDNpTXFuNGJ5bFpzdTBFVlNidlVkUStaMG83VUVUSkpxdk5JZSs2ZWVORGlSVm9ldUdjZ2VQdlVyb01zeTdPYSt4cTJzSmVEN29ldk0vNWpSdXlEbW1aQTBSbGFoV0RMajBNR1N0bjZMTWlCMzFJNEVxY2pDSUkvTGVyRmtxeUJQK2FWemg3dm5XMUo0SXpTRzA3ZzdLSXRNUjJNS0xOTkFzZE5XeDBqQU94WWlhK3lhV2p3YnUrMUJkeHd1UG5OdVdCNVpGQmM5Uzl6aUljNWdHR0ZLU3g3MHAwdldYaG15WExNV3pORDNaczF4RlZsV3cvaks1MnRZTHUvcE9LSUdNNjNKZ0luZ25QYXQxaThWeGVPZWV6OG9DbnJieUJ1bWxpbEF2VnJsQndwTE4ydzltUTVnQTduRFZDTmh2WEd3QkRSOVlCL3lyd0hUOXZFS2dKcHVNTytRNHJZWUduVS95dUFMNEVrSTNiSDNPM3VEc2VoUmwvakZ6YjVsNzFpK0NqYUVKK2dQUy81d1pUWGxwcTZNbEtoMjgydlh2OFh0WXRKcGpZN25RS000dDc3ekVFMFRlVTZmUmxpVzVZYUtiN2tPczhqR3h3NGlseU9YVEh2UHR1ZzU4MFIyWGgwbTZTY3FWbGEvUmhkNHZZRi96R0Y1Rkp0UmhOVk1YVWZmZTloblU9Il19.eyJpc3MiOiJFVS5FT1JJLk5MMDAwMDAwMDEzIiwic3ViIjoiRVUuRU9SSS5OTDAwMDAwMDAxMyIsImp0aSI6ImQ5NWMwMTI4YTU5ZjU3Njg1YjA3YjYzYWFjOGI0ZGUxIiwibmJmIjoxNzMyOTI0NjM5LCJleHAiOjE3MzI5MjgyMzksImF1ZCI6IkVVLkVPUkkuTkwwMDAwMDAwMDYifQ.CTKLB-WU5pDtkupMA4FKv9qTeWOR4y5BgaWnLHnfxyFdZ93hvmnKQ6atrqOZe7XsbB9Z-LWhEX0ZnX2LDxg4RGmizYaPdprkdAETRNrd93q4t-v90IFUPhH0f-ixG04cDMMtbpCgXKwOwT1KBZgoPQmGvUwgSgu_l80D4MbnYf0_X7YlbuG13ZTAZmHfBnv1c8hIh8dkCUYYrZtjFs-XRxRB69YjopWYpVmY_n3EGQOZjKjST0t8e5M-GZobapUAIybP2B3BC4T42XQP6YCb9ke5KonjJuBF3sgSyjc6QnEjXf854pQgMTJF0-IbBPwGT3BggUyPiXOr2_nZbosMKazFjkobw1ynYbPDUSJiRSEQB7DYRJMP3lpo-U7uwUMMY-IJN3jCn6DSx1GD4xuvzXvmPPb9qXIFb9GjC0xgaXJJ3EmSeeBjl-YAYOWI6-sPNFj_I3FxrrPIUvGnOYgi7RjcH1__sM91qgPonYDa9nAJORQYosx2xgwhUc4lkLsFP6HndO4Ru1xe7s0_kI1todVdlW6CZL1oY-34JaMqTe6zr0n1DNEcEBKZ9DP5rLoLEdhgILnu2hRIOG2djH8-VteFHc8X_Nu87PYx3CmIAiMWexwnLEzVml-1gX0UZeM8cRESCQUB0ptmtwyOo0z_pRUbr9UqWBQtIm9PlCaU-pg"
+    }
+  ]
+}

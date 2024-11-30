@@ -1,0 +1,211 @@
+{
+  "id": "EU.EORI.NL000000013",
+  "name": "Pharmaceutical Satellite",
+  "certifications": [
+    {
+      "role": "SchemeOwner",
+      "start_date": "2019-05-05T00:00:00Z",
+      "end_date": "2069-05-05T00:00:00Z",
+      "loa": 3
+    }
+  ],
+  "additional_info": {
+    "description": "iSHARE Satellite hosting entities related to pharmaceutical data, i.e. part of the Pharmaceutical Data Space.",
+    "website": "https://www.pharmaceuticalDS.org",
+    "company_email": "pharmaceutical@fiware.org"
+  },
+  "roles": [
+    {
+      "role": "SchemeOwner",
+      "start_date": "2023-12-31T00:00:00Z",
+      "end_date": "2024-12-31T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "trusted_list": [
+    {
+      "name": "iSHARETestCA",
+      "status": "granted",
+      "validity": "valid",
+      "crt": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIF1TCCA72gAwIBAgIUBHP+mv6s+LKLqQA3lYWrWmCFDVswDQYJKoZIhvcNAQEL\nBQAwejELMAkGA1UEBhMCU0kxEjAQBgNVBAgMCUxqdWJsamFuYTESMBAGA1UEBwwJ\nTGp1YmxqYW5hMQ8wDQYDVQQKDAZGSVdBUkUxEjAQBgNVBAMMCUZJV0FSRS1DQTEe\nMBwGCSqGSIb3DQEJARYPdGVzdEBmaXdhcmUub3JnMB4XDTI0MDIyNTExMDIyNVoX\nDTM0MDIyMjExMDIyNVowejELMAkGA1UEBhMCU0kxEjAQBgNVBAgMCUxqdWJsamFu\nYTESMBAGA1UEBwwJTGp1YmxqYW5hMQ8wDQYDVQQKDAZGSVdBUkUxEjAQBgNVBAMM\nCUZJV0FSRS1DQTEeMBwGCSqGSIb3DQEJARYPdGVzdEBmaXdhcmUub3JnMIICIjAN\nBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyzAW9630h6C+x/7cIxeuAw7uP8i/\nACrHbXG11Og0NKSFVFUsDz4DTx3FKYy0l+yjUAOJ1OQCUb7nurJ5q772L7gHB6zu\nYPwgIsCi8q5gUVwiiz5If3PJw3jd02WdZr7AzV13DwlwEci92akIF6HoEaRKJ1XF\ncUTYo57mEBGIhGoDlcKH7GjxJVRiPtumHA92SpC892xRFOsFSR0g7/CuizLZp/VS\ndoHNyctq0Mii7w13rmr+cZAOnvAN6j80b/KMYYaDsoMpIhHQCYa4mm978K3atvRB\nTv1ZY1C28uq3RkAqKYICf6BpWwjGe4qxHbXaK3e3WJ1zvu5rjuVkq1QCRSDI7Fmi\nnJ+fbBCNF6gZvsbR3OMjcaCF/JwBXC5/i1vOyjIWM8LxtSoJ5ieu86roiLb6t8AV\n4vSU5+L5vg6YY0wJjpRyM0oeNXwrIqranT/oXTH1EDY5QgV9dtRqt52zv9BVeRy0\nTcVS0ybNwAciT/jtHp5TNL2pB4mQPaqn8U5cUVsIamKshXK7+qSklK/eLlavy8dy\nBwxvJk0xAjEycoHgdD9KR9kWrfcKXdTIK2B8gQgguCYAnDZnf8JmHm9ZNNBTSRvP\naP2ra20qr6jqBdFh2FD+SWDkhgHDJvnmFF/jz1Y6oBaRkaCKNkVRsVAb1Pim9PjY\nTcq+n5Nk9SdlBIkCAwEAAaNTMFEwHQYDVR0OBBYEFEVtw3Bb/uB/6mAhUy1GEmdj\n70rqMB8GA1UdIwQYMBaAFEVtw3Bb/uB/6mAhUy1GEmdj70rqMA8GA1UdEwEB/wQF\nMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAFxlnC1Zhz6HUAP6nDnpbnFG/44IbK96\n6VwqjE/npTFLKd6s/8hvwLnIomm+koZ3fxYlN7GzixpcMCDxWRIB1yqE5HMRo+8Q\nBOzbH/nCyi/28z20FqNthbbR/mRe3+NLun0ONbAiEOPxmKzLTH/9sbzL6HsFXHn7\npcEQoqh3ehLRCmC2R23nvppM4T/A01r3Sf2jFctPAh3iQOFnayDszDhM5jU57Bim\ny2HCKcdvDeETtCLaVqaYZSwJ5UpBQEk4GH8KMwJGLBUbpK9qwX2rYPTy3727Chat\nraNjiGR6hmwJmNEhZXdMFsG42ZI1Io7N8RewWO6/lWbn4D7aMWNBmWD0Jix1lRwx\nZyFoBFi6k1RkyOKJwKotyyW7If5331pP/4KKQWO18iUn6RT3zUQ+uhl2mfB0yyTz\nb3voyM3O4uKsQbr0SwzhQSuqtOZWuuPVpYt80A9T51vbUa4WUjs7lE1+032z9guu\nfnPba5kjbLv+Z4HOQHxRuWXAWAQtFZpT4kKOA8oM+KA10uYy3aMaqeFoIkpQm3rs\nqEYHgKq1eF/R1HcXP78EKKBVrAPvRKsTP0PCA4+th0HX7KJYqHxPWBKvEXZto974\nUXRf0affpBuRsM1ZXUP7EVQc6/gUsmNtzmfL/dkc09nPYBB2ow9PWPDLQHBuz208\nv8uQTFkbf0y4\n-----END CERTIFICATE-----"
+    },
+    {
+      "name": "FIWARE-CA",
+      "status": "granted",
+      "validity": "valid",
+      "crt": "-----BEGIN CERTIFICATE-----\nMIIFxTCCA62gAwIBAgIBATANBgkqhkiG9w0BAQsFADB6MQswCQYDVQQGEwJTSTES\nMBAGA1UECAwJTGp1YmxqYW5hMRIwEAYDVQQHDAlManVibGphbmExDzANBgNVBAoM\nBkZJV0FSRTESMBAGA1UEAwwJRklXQVJFLUNBMR4wHAYJKoZIhvcNAQkBFg90ZXN0\nQGZpd2FyZS5vcmcwHhcNMjQwMjI1MTExMDUwWhcNMzEwNTI5MTExMDUwWjBqMQsw\nCQYDVQQGEwJTSTESMBAGA1UECAwJTGp1YmxqYW5hMQ8wDQYDVQQKDAZGSVdBUkUx\nFjAUBgNVBAMMDUZJV0FSRS1DQV9UTFMxHjAcBgkqhkiG9w0BCQEWD3Rlc3RAZml3\nYXJlLm9yZzCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALDmqiKu3NVi\nggzajM6BpjDnSqfNexVmBJbisumpsnjM8JLXS54MMefPlG9x1/QyAtPTAQRpi3JD\nWOCXJ/lP1cvSVIWpBGYM7ySQYXWLNABSyMdrcXXbKbi6oP6C7jn9LbGDprfNgjSt\nlmzelXx0pA0y03oRo8Nlj8xidaBdnKHccXnDzNwrUyIgTLoRLS5Mp17EA7+HQWmE\n/OMpuJAYgmdOFEUVwNKJoPhUGjF5k5MvVXuS749/w92GSnccNOaKtu73vJJT09Fr\neHKnBpPzGzKic2R0JNHSFytFA3u1TWQmgZBdhrmrTZnRy+pa017GvLni1tQm0Ekd\nbBrgtCMl8FIbEOCYhPFY4XeO4+p03qnVXYxFGnCz1qh4MLOfVL2VqdMcDAue/8kY\nZ4obt5ylOx6vNh3AvBCpFKzqg1IZlrBsiOvu55gIgZDo4wLeCMdKKLpm0wUoKxug\nYhtcmSipcvhRYoYpP5R2YxDsurXpfn5Wp4QlGnZAxLsDqe7hQ9YqIfpi6EoF+iSU\nxz1XjTWTzCbd7z+Supeg3Ut4R8NfUChg459r/8xbPVj+azwOFDQMK2dSMPqKJwEx\nDhiUPULG+aF9vLggKtQddpMmMzpEpytZDJ5J9IiwJP9+kbVbolv7XmbVP5n96yLL\nvNcmLXgQ/kewmHO78q7TkLFcNBrdlX8VAgMBAAGjZjBkMB0GA1UdDgQWBBROgsWs\ncKHwBJPzHyganlkJ5tOUCDAfBgNVHSMEGDAWgBRFbcNwW/7gf+pgIVMtRhJnY+9K\n6jASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBhjANBgkqhkiG9w0B\nAQsFAAOCAgEAa6QWxBXOSaUjbYiRpRRgbkQ5J17P4BC2FjvQXPzCdjW6g3xG3jMs\n7nufPmwyTdfd8FaYHifWPHIfLvUdcKVOG1vyGqDKNl6LLQGpgcylB9PE71gL886x\nH27NTjIzByga/k6Yw9fdDLh6EPiKlFNDwXB2jCJ2zcGzyYj2QPxfS9B/8uhWYjmm\n8Qbhm6HtcTXlCtn/fbJdBfLsAsrfqPGXtwZraJVMXQ4GBgnV9JPKAblzfWHyj9dh\nxFoi/iIOQFG5OIwbpkalXfD8/t4flWgmOoU2grGnCkPwSS5mgVkAOjj9mPQLlqPG\n7tP4Sqf2cZrp1nQYvcD0ybDeJUEmSQULzbNg2XQmEw5yGih70HYujBMpWCXr2c0c\nJu3veD7OsAYOzv5pszt2tOvizpTCETnuahxQ049pEUhcdnuFDi9JXBoKjhtHCrwD\nMAyHLpOm9uVdlfBzPUMfGZm9AXdR77D0p2EM4B0cbLG1zmiYFRDQLgGM5wm9WLaD\nFrLdxOevsauqYW7zXPr+KjirlIbA1KLv3uUUqcwRsvwIr/PL/T8wFS1/3zbmRwHG\nD/67Dsa+9aJQInhESpE22dSRA8FbuJvUsXLC/1f0dXde+JjbhXflOndaXsc66++R\nlj3/hM2MyhTlOxQeW05+2FRlYQr153fPCVXziC5X65FIaaSnkrWzHvo=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\n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\nv8uQTFkbf0y4\n-----END CERTIFICATE-----"
+    }
+  ],
+  "parties": [
+    {
+      "id": "EU.EORI.NL000000011",
+      "name": "SLOVital Corporation",
+      "status": "Active",
+      "start_date": "2020-02-13T00:00:00Z",
+      "end_date": "2046-02-13T00:00:00Z",
+      "url": "https://ishare-demo-slovital:3030/api",
+      "additional_info": {
+        "description": "Slovenian-based medicine company specializing in critical medications for heart diseases and cancer treatment.",
+        "website": "https://www.slovital.org",
+        "company_email": "slovital@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2024-01-11T00:00:00Z",
+          "expiry_date": "2025-01-11T00:00:00Z",
+          "hash_file": "6b001a3f26121d2d0321ag3b0cd905fb",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2024-01-11T00:00:00.000Z",
+          "expiry_date": "2025-01-11T00:00:00.000Z",
+          "hash_file": "b2432b30f5a29zsb0a0ce9136405e9f5",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "EntitledParty",
+          "start_date": "2024-01-11T00:00:00Z",
+          "end_date": "2025-01-11T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ],
+      "authregistries": [
+        {
+          "authorizationRegistryName": "PharmaGuard AR",
+          "authorizationRegistryID": "EU.EORI.NL000000012",
+          "authorizationRegsitryUrl": "https://ishare-demo-pharmaguard:3000",
+          "dataspaceID": "PharmaDS1",
+          "dataspaceName": "PharmaDS1"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000012",
+      "name": "PharmaGuard AR",
+      "status": "Active",
+      "start_date": "2018-03-03T00:00:00Z",
+      "end_date": "2058-03-03T00:00:00Z",
+      "url": "https://ishare-demo-pharmaguard:3000/api",
+      "certifications": [
+        {
+          "role": "AuthorizationRegistry",
+          "start_date": "2018-04-12T00:00:00Z",
+          "end_date": "2060-04-12T00:00:00Z",
+          "loa": 3
+        }
+      ],
+      "additional_info": {
+        "description": "Authorization Registry used to store access control policies for accessing all kind of medications authorization",
+        "website": "https://www.pharmaguard.org",
+        "company_email": "pharmaguard@fiware.org"
+      },
+      "agreements": [
+        {
+          "type": "TermsOfUse",
+          "title": "TOU",
+          "status": "Accepted",
+          "sign_date": "2023-12-22T00:00:00Z",
+          "expiry_date": "2024-12-22T00:00:00Z",
+          "hash_file": "bd19a322010q1b39s09n4260140a201f",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        },
+        {
+          "type": "AccessionAgreement",
+          "title": "AA",
+          "status": "Accepted",
+          "sign_date": "2023-12-22T00:00:00Z",
+          "expiry_date": "2024-12-22T00:00:00Z",
+          "hash_file": "w2e04c24s7b3b029z570p4591an0l919",
+          "framework": "iSHARE",
+          "compliance_verified": "yes"
+        }
+      ],
+      "roles": [
+        {
+          "role": "AuthorizationRegistry",
+          "start_date": "2023-12-22T00:00:00Z",
+          "end_date": "2024-12-22T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    },
+    {
+      "id": "EU.EORI.NL000000006",
+      "name": "Transportation Satellite",
+      "status": "Active",
+      "start_date": "2017-05-08T00:00:00Z",
+      "end_date": "2067-05-08T00:00:00Z",
+      "url": "https://ishare-demo-transportation:8888/api",
+      "certifications": [
+        {
+          "role": "SchemeOwner",
+          "start_date": "2019-01-20T00:00:00Z",
+          "end_date": "2059-01-20T00:00:00Z",
+          "loa": 3
+        }
+      ],
+      "additional_info": {
+        "description": "iSHARE Satellite hosting entities related to transportation data, i.e. part of the Transportation Data Space.",
+        "website": "https://www.transporationDS.org",
+        "company_email": "transportation@fiware.org"
+      },
+      "roles": [
+        {
+          "role": "SchemeOwner",
+          "start_date": "2023-12-31T00:00:00Z",
+          "end_date": "2024-12-31T00:00:00Z",
+          "loa": "High",
+          "compliance_verified": "yes",
+          "legal_adherence": "yes"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "L9M3DEL3Q6S52-F5D2",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:3333/api/capabilities"
+      },
+      {
+        "id": "0FJK9-2EQ53ELL19F",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:3333/api/connect/token"
+      }
+    ],
+    "restricted": [
+      {
+        "id": "U2S9F4DM-QF5LA1LDA0",
+        "feature": "trusted list",
+        "description": "Retrieves trusted list of CAs in the Satellite",
+        "url": "https://127.0.0.1:3333/api/trusted_list"
+      },
+      {
+        "id": "7JA3L3SE2-K1LQE2Q9FO",
+        "feature": "party",
+        "description": "Retrieves a chosen party from the Satellite",
+        "url": "https://127.0.0.1:3333/api/parties"
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "EU.EORI.NL000000012",
+  "name": "PharmaGuard AR",
+  "certifications": [
+    {
+      "role": "AuthorizationRegistry",
+      "start_date": "2018-04-12T00:00:00Z",
+      "end_date": "2060-04-12T00:00:00Z",
+      "loa": 3
+    }
+  ],
+  "additional_info": {
+    "description": "Authorization Registry used to store access control policies for accessing all kind of medications authorization",
+    "website": "https://www.pharmaguard.org",
+    "company_email": "pharmaguard@fiware.org"
+  },
+  "satellite_id": "EU.EORI.NL000000013",
+  "roles": [
+    {
+      "role": "AuthorizationRegistry",
+      "start_date": "2023-12-22T00:00:00Z",
+      "end_date": "2024-12-22T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "C25EL35L2-FA58D9",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:3000/api/capabilities"
+      },
+      {
+        "id": "6L5A39FE-U1E1KOK5",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:3000/api/connect/token"
+      }
+    ],
+    "restricted": [
+      {
+        "id": "VA1L53ML9E-0ZAQ1DF",
+        "feature": "delegation evidence",
+        "description": "Obtains delegation evidence",
+        "url": "https://127.0.0.1:3000/api/delegation"
+      }
+    ]
+  },
+  "delegations": [
+    {
+      "notBefore": 1642158135,
+      "notOnOrAfter": 2046122093,
+      "policyIssuer": "EU.EORI.NL000000011",
+      "target": {
+        "accessSubject": "EU.EORI.NL000000003"
+      },
+      "policySets": [
+        {
+          "maxDelegationDepth": 0,
+          "target": {
+            "environment": {
+              "licenses": [
+                "ISHARE.0001"
+              ]
+            }
+          },
+          "policies": [
+            {
+              "target": {
+                "resource": {
+                  "type": "SLOVITAL.CANCER",
+                  "identifiers": [
+                    "*"
+                  ],
+                  "attributes": [
+                    "SLOVITAL.CANCER.TEMPERATURE_RANGE",
+                    "SLOVITAL.CANCER.HUMIDITY_RANGE",
+                    "SLOVITAL.CANCER.STORAGE_CONDITIONS",
+                    "SLOVITAL.CANCER.TYPE",
+                    "SLOVITAL.CANCER.DOCUMENTATION_REQUIREMENT",
+                    "SLOVITAL.CANCER.EXPIRATION_DATE",
+                    "SLOVITAL.CANCER.PACKAGING_REQUIREMENT"
+                  ]
+                },
+                "actions": [
+                  "ISHARE.READ",
+                  "ISHARE.UPDATE"
+                ]
+              },
+              "rules": [
+                {
+                  "effect": "Permit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "notBefore": 1642152231,
+      "notOnOrAfter": 2046112426,
+      "policyIssuer": "EU.EORI.NL000000011",
+      "target": {
+        "accessSubject": "EU.EORI.NL000000004"
+      },
+      "policySets": [
+        {
+          "maxDelegationDepth": 0,
+          "target": {
+            "environment": {
+              "licenses": [
+                "ISHARE.0001"
+              ]
+            }
+          },
+          "policies": [
+            {
+              "target": {
+                "resource": {
+                  "type": "SLOVITAL.CANCER",
+                  "identifiers": [
+                    "*"
+                  ],
+                  "attributes": [
+                    "SLOVITAL.CANCER.TEMPERATURE_RANGE",
+                    "SLOVITAL.CANCER.HUMIDITY_RANGE",
+                    "SLOVITAL.CANCER.STORAGE_CONDITIONS",
+                    "SLOVITAL.CANCER.TYPE",
+                    "SLOVITAL.CANCER.DOCUMENTATION_REQUIREMENT",
+                    "SLOVITAL.CANCER.EXPIRATION_DATE",
+                    "SLOVITAL.CANCER.PACKAGING_REQUIREMENT"
+                  ]
+                },
+                "actions": [
+                  "ISHARE.READ",
+                  "ISHARE.UPDATE"
+                ]
+              },
+              "rules": [
+                {
+                  "effect": "Permit"
+                },
+                {
+                  "effect": "Deny",
+                  "target": {
+                    "resource": {
+                      "type": "SLOAIR.AIRPLANES",
+                      "identifiers": [
+                        "55390-571-20",
+                        "220127-57-1",
+                        "L01XC03",
+                        "NCT04215146"
+                      ],
+                      "attributes": [
+                        "*"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

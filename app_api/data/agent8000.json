@@ -1,0 +1,208 @@
+{
+  "id": "EU.EORI.NL000000005",
+  "name": "FlyInfo AR",
+  "certifications": [
+    {
+      "role": "AuthorizationRegistry",
+      "start_date": "2018-02-22T00:00:00Z",
+      "end_date": "2058-02-22T00:00:00Z",
+      "loa": 3
+    }
+  ],
+  "additional_info": {
+    "description": "Authorization Registry used to store access control policies for accessing all kind of airplane and fly transportation authorization",
+    "website": "https://www.flyinfo.org",
+    "company_email": "flyinfo@fiware.org"
+  },
+  "satellite_id": "EU.EORI.NL000000006",
+  "roles": [
+    {
+      "role": "AuthorizationRegistry",
+      "start_date": "2023-12-31T00:00:00Z",
+      "end_date": "2024-12-31T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "D92L2-FF55EL35",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:8000/api/capabilities"
+      },
+      {
+        "id": "LL5K39FE-ML52EDK5",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:8000/api/connect/token"
+      }
+    ],
+    "restricted": [
+      {
+        "id": "LL5K39FE-ML52EDK5",
+        "feature": "delegation evidence",
+        "description": "Obtains delegation evidence",
+        "url": "https://127.0.0.1:8000/api/delegation"
+      }
+    ]
+  },
+  "policies": {
+    "Event": [
+      {
+        "reason": "We are required by law to collect this information",
+        "claimType": "firstName",
+        "essential": true
+      },
+      {
+        "reason": "You can get %30 discount if you are a member of the club",
+        "credentialContext": "https://www.w3.org/2018/credentials/v1",
+        "credentialType": "ClubMembership",
+        "claimType": "status",
+        "claimValue": "member",
+        "issuers": [
+          {
+            "did": "did:ethr:567",
+            "url": "https://join-the-club.partner1.com"
+          },
+          {
+            "did": "did:ethr:659",
+            "url": "https://ecosystem.io"
+          }
+        ]
+      }
+    ]
+  },
+  "delegations": [
+    {
+      "notBefore": 1642158137,
+      "notOnOrAfter": 2046122097,
+      "policyIssuer": "EU.EORI.NL000000001",
+      "target": {
+        "accessSubject": "EU.EORI.NL000000003"
+      },
+      "policySets": [
+        {
+          "maxDelegationDepth": 0,
+          "target": {
+            "environment": {
+              "licenses": [
+                "ISHARE.0001"
+              ]
+            }
+          },
+          "policies": [
+            {
+              "target": {
+                "resource": {
+                  "type": "SLOAIR.AIRPLANES",
+                  "identifiers": [
+                    "*"
+                  ],
+                  "attributes": [
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.DESTINATION",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.ORIGIN",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.FLY_STOPS",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.TIME_AND_DATE",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.STATUS",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.CARGO_TYPE",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.AIRPLANE_TYPE",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.MAX_WEIGHT",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.FLIGHT_DURATION"
+                  ]
+                },
+                "actions": [
+                  "ISHARE.READ",
+                  "ISHARE.UPDATE"
+                ]
+              },
+              "rules": [
+                {
+                  "effect": "Permit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "notBefore": 1642152932,
+      "notOnOrAfter": 2046112666,
+      "policyIssuer": "EU.EORI.NL000000001",
+      "target": {
+        "accessSubject": "EU.EORI.NL000000004"
+      },
+      "policySets": [
+        {
+          "maxDelegationDepth": 0,
+          "target": {
+            "environment": {
+              "licenses": [
+                "ISHARE.0001"
+              ]
+            }
+          },
+          "policies": [
+            {
+              "target": {
+                "resource": {
+                  "type": "SLOAIR.AIRPLANES",
+                  "identifiers": [
+                    "*"
+                  ],
+                  "attributes": [
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.DESTINATION",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.ORIGIN",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.FLY_STOPS",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.TIME_AND_DATE",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.STATUS",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.CARGO_TYPE",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.AIRPLANE_TYPE",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.MAX_WEIGHT",
+                    "SLOAIR.AIRPLANES.ATTRIBUTE.FLIGHT_DURATION"
+                  ]
+                },
+                "actions": [
+                  "ISHARE.READ",
+                  "ISHARE.UPDATE"
+                ]
+              },
+              "rules": [
+                {
+                  "effect": "Permit"
+                },
+                {
+                  "effect": "Deny",
+                  "target": {
+                    "resource": {
+                      "type": "SLOAIR.AIRPLANES",
+                      "identifiers": [
+                        "B747-8F",
+                        "A330-200F",
+                        "MD-11F",
+                        "KC-390"
+                      ],
+                      "attributes": [
+                        "*"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "did_connections": [
+    {
+      "did": "did:web:ishare-demo-pharmaride%3A8082:api:did",
+      "eori": "EU.EORI.NL000000003",
+      "status": "Active"
+    }
+  ]
+}

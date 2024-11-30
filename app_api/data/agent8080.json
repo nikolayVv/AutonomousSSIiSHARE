@@ -1,0 +1,59 @@
+{
+  "id": "EU.EORI.NL000000001",
+  "name": "SLOAir Corporation",
+  "additional_info": {
+    "description": "Slovenian-based airline company operating a fleet of commercial airplanes. Managing cargo transportation, and maintenance records for the aircraft.",
+    "website": "https://www.sloair.org",
+    "company_email": "sloair@fiware.org"
+  },
+  "satellite_id": "EU.EORI.NL000000006",
+  "roles": [
+    {
+      "role": "EntitledParty",
+      "start_date": "2024-01-27T00:00:00Z",
+      "end_date": "2025-01-27T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "authregistries": [
+    {
+      "authorizationRegistryName": "FlyInfo AR",
+      "authorizationRegistryID": "EU.EORI.NL000000005",
+      "authorizationRegsitryUrl": "https://ishare-demo-flyinfo:8000",
+      "dataspaceID": "FlyDS1",
+      "dataspaceName": "FlyDS1"
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "D92L2-FF55EL35",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:8080/api/capabilities"
+      },
+      {
+        "id": "LL5K39FE-ML52EDK5",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:8080/api/connect/token"
+      }
+    ]
+  },
+  "did_connections": [
+    {
+      "did": "did:web:ishare-demo-pharmaride%3A8082:api:did",
+      "eori": "EU.EORI.NL000000003",
+      "status": "Active"
+    }
+  ],
+  "didcomm_messages": [
+    {
+      "received_at": "11/30/2024, 11:57:57 AM",
+      "id": "61bf717479f3a95f5e22cfd005fc6f1edb46d412b68db488c89093257d2d18ba",
+      "message": "This is a test message"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "EU.EORI.NL000000003",
+  "name": "PharmaRide Enterprise",
+  "additional_info": {
+    "description": "Large pharmaceutical transportation service operating across Europe and located in Slovenia.",
+    "website": "https://www.pharmaride.org",
+    "company_email": "pharmaride@fiware.org"
+  },
+  "satellite_id": "EU.EORI.NL000000006",
+  "roles": [
+    {
+      "role": "ServiceConsumer",
+      "start_date": "2024-01-02T00:00:00Z",
+      "end_date": "2025-01-02T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "Z3DSQ0E2-KL0L29F5",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:8082/api/capabilities"
+      },
+      {
+        "id": "5KA1L3DM39E-0AEK5L",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "https://127.0.0.1:8082/api/connect/token"
+      }
+    ]
+  },
+  "did_connections": [
+    {
+      "did": "did:web:ishare-demo-transportation%3A8888:api:did",
+      "eori": "EU.EORI.NL000000006",
+      "status": "Active"
+    },
+    {
+      "did": "did:web:ishare-demo-sloair%3A8080:api:did",
+      "eori": "EU.EORI.NL000000001",
+      "status": "Active"
+    },
+    {
+      "did": "did:web:ishare-demo-flyinfo%3A8000:api:did",
+      "eori": "EU.EORI.NL000000005",
+      "status": "Active"
+    }
+  ],
+  "didcomm_messages": [
+    {
+      "received_at": "11/30/2024, 9:31:06 AM",
+      "id": "65a43b39dba855884672ed5a679da4e4040493e270c780a1f1fa693439d470dc",
+      "message": {
+        "issuer": "did:web:ishare-demo-transportation%3A8888:api:did",
+        "tag": "session-123",
+        "claims": [
+          {
+            "reason": "We are required by law to collect this information",
+            "claimType": "firstName",
+            "essential": true
+          },
+          {
+            "reason": "You can get %30 discount if you are a member of the club",
+            "credentialContext": "https://www.w3.org/2018/credentials/v1",
+            "credentialType": "ClubMembership",
+            "claimType": "status",
+            "claimValue": "member",
+            "issuers": [
+              {
+                "did": "did:ethr:567",
+                "url": "https://join-the-club.partner1.com"
+              },
+              {
+                "did": "did:ethr:659",
+                "url": "https://ecosystem.io"
+              }
+            ]
+          }
+        ],
+        "credentials": [
+          "JWT-public-profile..."
+        ]
+      }
+    },
+    {
+      "received_at": "11/30/2024, 9:32:25 AM",
+      "id": "928cd883dcccce5dd21813ae70e06ec133587baf5b90d4688a7b08a8c1c09fce",
+      "message": {
+        "issuer": "did:web:ishare-demo-transportation%3A8888:api:did",
+        "tag": "session-123",
+        "claims": [
+          {
+            "reason": "We are required by law to collect this information",
+            "claimType": "firstName",
+            "essential": true
+          },
+          {
+            "reason": "You can get %30 discount if you are a member of the club",
+            "credentialContext": "https://www.w3.org/2018/credentials/v1",
+            "credentialType": "ClubMembership",
+            "claimType": "status",
+            "claimValue": "member",
+            "issuers": [
+              {
+                "did": "did:ethr:567",
+                "url": "https://join-the-club.partner1.com"
+              },
+              {
+                "did": "did:ethr:659",
+                "url": "https://ecosystem.io"
+              }
+            ]
+          }
+        ],
+        "credentials": [
+          "JWT-public-profile..."
+        ]
+      }
+    },
+    {
+      "received_at": "11/30/2024, 11:59:37 AM",
+      "id": "c11fe1dce47a74a73ccd09a85cd4e6c90a4f403e738cd513d10cca597324e632",
+      "message": {
+        "issuer": "did:web:ishare-demo-flyinfo%3A8000:api:did",
+        "tag": "SDR for generation of credential of type 'testCredential'",
+        "claims": [
+          {
+            "reason": "We are required by law to collect this information",
+            "claimType": "firstName",
+            "essential": true
+          },
+          {
+            "reason": "You can get %30 discount if you are a member of the club",
+            "credentialContext": "https://www.w3.org/2018/credentials/v1",
+            "credentialType": "ClubMembership",
+            "claimType": "status",
+            "claimValue": "member",
+            "issuers": [
+              {
+                "did": "did:ethr:567",
+                "url": "https://join-the-club.partner1.com"
+              },
+              {
+                "did": "did:ethr:659",
+                "url": "https://ecosystem.io"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

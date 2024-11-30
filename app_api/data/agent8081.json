@@ -1,0 +1,47 @@
+{
+  "id": "EU.EORI.NL000000002",
+  "name": "SLOTransit Warehouse",
+  "additional_info": {
+    "description": "Slovenian-based warehouse that stores and manages different types of transportation vehicles, including trucks, airplanes, and forklifts.",
+    "website": "https://www.slotransit.org",
+    "company_email": "slotransit@fiware.org"
+  },
+  "satellite_id": "EU.EORI.NL000000006",
+  "roles": [
+    {
+      "role": "ServiceProvider",
+      "start_date": "2024-02-02T00:00:00Z",
+      "end_date": "2025-02-02T00:00:00Z",
+      "loa": "High",
+      "compliance_verified": "yes",
+      "legal_adherence": "yes"
+    }
+  ],
+  "capabilities": {
+    "public": [
+      {
+        "id": "DSL5E2L2-F32951",
+        "feature": "capabilities",
+        "description": "Retrieves API capabilities",
+        "url": "https://127.0.0.1:8081/api/capabilities"
+      },
+      {
+        "id": "53ES2W9F-ML10XL5K",
+        "feature": "access token",
+        "description": "Obtains access token",
+        "url": "http://127.0.0.1:8081/api/connect/token"
+      }
+    ],
+    "restricted": [
+      {
+        "id": "T95E21P-2W535",
+        "feature": "data access",
+        "description": "Retrieves Information about a SLOAir airplane",
+        "url": "https://127.0.0.1:8081/api/warehouse/SLOAir"
+      }
+    ]
+  },
+  "warehouse": {
+
+  }
+}
