@@ -48,7 +48,7 @@ The scripts in the `schema_alignment` directory can be used to recreate the expe
 - preprocess `*_preprocess.py`, merge `merge_ontologies.py` and build `build_ontology.py` ontologies into the data format described in the research.
 - generating graph `graph_similarity.py` and context `context_similarity.py` embeddings using different parameters and evaluating the generated embeddings.
 - prompting and evaluating schema property mappings using LLM models `prompt_evaluation.py`.
-- human evaluating generated property mappings based on the scores specified in the research.
+- human evaluating of the generated property mappings based on the scores specified in the research `human_evaluation.py`.
 
 ## Contribution
 
