@@ -114,6 +114,6 @@ This repository implements the components and services needed to achieve the sys
 
 ## Acknowledgements
 
-This solution is developed as part of my master's thesis at the [University of Ljubljana Faculty of Computer and Information Science](https://www.fri.uni-lj.si/en). I would like to extend my deepest gratitude to:
+This solution is developed as part of my [Master's thesis](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=166793) at the [University of Ljubljana Faculty of Computer and Information Science](https://www.fri.uni-lj.si/en). I would like to extend my deepest gratitude to:
 - My mentor, [Assoc. Prof. dr. Dejan Lavbič](https://www.lavbic.net/), who introduced me to the field of data spaces and provided invaluable guidance and support throughout the research and development of this project.
 - The [Veramo](https://github.com/decentralized-identity/veramo) and [iSHARE](https://github.com/iSHAREScheme) communities for their contributions, which significantly optimized the research and development process.
